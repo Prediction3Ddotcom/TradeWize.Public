@@ -234,7 +234,7 @@
       "singleton": true,
       "requiredVersion": "^25.6.3",
       "shareScope": "default",
-      "eager": false,
+      "eager": true,
       "name": "i18next",
       "version": "25.6.3",
       "id": "main:i18next",
@@ -242,7 +242,7 @@
         "js": {
           "async": [],
           "sync": [
-            "vendors-node_modules_i18next_dist_cjs_i18next_js.chunk.bundle"
+            "main.container.js.bundle"
           ]
         },
         "css": {
@@ -278,7 +278,7 @@
       "singleton": true,
       "requiredVersion": "^16.3.5",
       "shareScope": "default",
-      "eager": false,
+      "eager": true,
       "name": "react-i18next",
       "version": "16.3.5",
       "id": "main:react-i18next",
@@ -286,7 +286,7 @@
         "js": {
           "async": [],
           "sync": [
-            "vendors-node_modules_react-i18next_dist_commonjs_index_js.chunk.bundle"
+            "main.container.js.bundle"
           ]
         },
         "css": {
@@ -546,7 +546,7 @@
       "singleton": true,
       "requiredVersion": "^undefined",
       "shareScope": "default",
-      "eager": false,
+      "eager": true,
       "name": "react-native-gesture-handler",
       "version": "2.29.1",
       "id": "main:react-native-gesture-handler",
@@ -554,7 +554,7 @@
         "js": {
           "async": [],
           "sync": [
-            "vendors-node_modules_react-native-gesture-handler_src_index_ts.chunk.bundle"
+            "main.container.js.bundle"
           ]
         },
         "css": {
@@ -616,7 +616,7 @@
       "singleton": true,
       "requiredVersion": "^14.0.0-rc.1",
       "shareScope": "default",
-      "eager": false,
+      "eager": true,
       "name": "react-native-modal",
       "version": "14.0.0-rc.1",
       "id": "main:react-native-modal",
@@ -624,7 +624,7 @@
         "js": {
           "async": [],
           "sync": [
-            "vendors-node_modules_react-native-modal_dist_index_js.chunk.bundle"
+            "main.container.js.bundle"
           ]
         },
         "css": {
@@ -660,7 +660,7 @@
       "singleton": true,
       "requiredVersion": "^5.6.2",
       "shareScope": "default",
-      "eager": false,
+      "eager": true,
       "name": "react-native-safe-area-context",
       "version": "5.6.2",
       "id": "main:react-native-safe-area-context",
@@ -668,7 +668,7 @@
         "js": {
           "async": [],
           "sync": [
-            "node_modules_react-native-safe-area-context_src_index_tsx.chunk.bundle"
+            "main.container.js.bundle"
           ]
         },
         "css": {
@@ -685,7 +685,7 @@
       "singleton": true,
       "requiredVersion": "^4.18.0",
       "shareScope": "default",
-      "eager": false,
+      "eager": true,
       "name": "react-native-screens",
       "version": "4.18.0",
       "id": "main:react-native-screens",
@@ -693,7 +693,7 @@
         "js": {
           "async": [],
           "sync": [
-            "vendors-node_modules_react-native-screens_src_index_tsx.chunk.bundle"
+            "main.container.js.bundle"
           ]
         },
         "css": {
@@ -1261,7 +1261,7 @@
       "singleton": true,
       "requiredVersion": "^9.2.0",
       "shareScope": "default",
-      "eager": false,
+      "eager": true,
       "name": "react-redux",
       "version": "9.2.0",
       "id": "main:react-redux",
@@ -1269,7 +1269,7 @@
         "js": {
           "async": [],
           "sync": [
-            "vendors-node_modules_react-redux_dist_react-redux_legacy-esm_js.chunk.bundle"
+            "main.container.js.bundle"
           ]
         },
         "css": {
