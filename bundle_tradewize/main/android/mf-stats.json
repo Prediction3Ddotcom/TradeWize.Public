@@ -592,7 +592,7 @@
       "singleton": true,
       "requiredVersion": "^1.19.6",
       "shareScope": "default",
-      "eager": false,
+      "eager": true,
       "name": "react-native-keyboard-controller",
       "version": "1.19.6",
       "id": "main:react-native-keyboard-controller",
@@ -600,7 +600,7 @@
         "js": {
           "async": [],
           "sync": [
-            "vendors-node_modules_react-native-keyboard-controller_src_index_ts.chunk.bundle"
+            "main.container.js.bundle"
           ]
         },
         "css": {
@@ -616,7 +616,7 @@
       "singleton": true,
       "requiredVersion": "^14.0.0-rc.1",
       "shareScope": "default",
-      "eager": false,
+      "eager": true,
       "name": "react-native-modal",
       "version": "14.0.0-rc.1",
       "id": "main:react-native-modal",
@@ -624,7 +624,7 @@
         "js": {
           "async": [],
           "sync": [
-            "vendors-node_modules_react-native-modal_dist_index_js.chunk.bundle"
+            "main.container.js.bundle"
           ]
         },
         "css": {
@@ -660,7 +660,7 @@
       "singleton": true,
       "requiredVersion": "^5.6.2",
       "shareScope": "default",
-      "eager": false,
+      "eager": true,
       "name": "react-native-safe-area-context",
       "version": "5.6.2",
       "id": "main:react-native-safe-area-context",
@@ -668,7 +668,7 @@
         "js": {
           "async": [],
           "sync": [
-            "node_modules_react-native-safe-area-context_src_index_tsx.chunk.bundle"
+            "main.container.js.bundle"
           ]
         },
         "css": {
@@ -685,7 +685,7 @@
       "singleton": true,
       "requiredVersion": "^4.18.0",
       "shareScope": "default",
-      "eager": false,
+      "eager": true,
       "name": "react-native-screens",
       "version": "4.18.0",
       "id": "main:react-native-screens",
@@ -693,7 +693,7 @@
         "js": {
           "async": [],
           "sync": [
-            "vendors-node_modules_react-native-screens_src_index_tsx.chunk.bundle"
+            "main.container.js.bundle"
           ]
         },
         "css": {
@@ -1261,7 +1261,7 @@
       "singleton": true,
       "requiredVersion": "^9.2.0",
       "shareScope": "default",
-      "eager": false,
+      "eager": true,
       "name": "react-redux",
       "version": "9.2.0",
       "id": "main:react-redux",
@@ -1269,7 +1269,7 @@
         "js": {
           "async": [],
           "sync": [
-            "vendors-node_modules_react-redux_dist_react-redux_legacy-esm_js.chunk.bundle"
+            "main.container.js.bundle"
           ]
         },
         "css": {
