@@ -546,7 +546,7 @@
       "singleton": true,
       "requiredVersion": "^undefined",
       "shareScope": "default",
-      "eager": false,
+      "eager": true,
       "name": "react-native-gesture-handler",
       "version": "2.29.1",
       "id": "main:react-native-gesture-handler",
@@ -554,7 +554,7 @@
         "js": {
           "async": [],
           "sync": [
-            "vendors-node_modules_react-native-gesture-handler_src_index_ts.chunk.bundle"
+            "main.container.js.bundle"
           ]
         },
         "css": {
@@ -1303,8 +1303,8 @@
         }
       },
       "usedIn": [
-        "./HomeScreen",
-        "./App"
+        "./App",
+        "./HomeScreen"
       ]
     }
   ],
