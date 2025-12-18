@@ -372,7 +372,7 @@
         "js": {
           "async": [],
           "sync": [
-            "vendors-node_modules_react-native-compressor_src_index_tsx.chunk.bundle"
+            "main.container.js.bundle"
           ]
         },
         "css": {

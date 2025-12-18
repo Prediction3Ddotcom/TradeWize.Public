@@ -412,7 +412,7 @@
       "singleton": true,
       "requiredVersion": "^1.12.0",
       "shareScope": "default",
-      "eager": false,
+      "eager": true,
       "name": "react-native-compressor",
       "version": "1.12.0",
       "id": "main:react-native-compressor",
@@ -420,7 +420,7 @@
         "js": {
           "async": [],
           "sync": [
-            "vendors-node_modules_react-native-compressor_src_index_tsx.chunk.bundle"
+            "main.container.js.bundle"
           ]
         },
         "css": {
