@@ -324,7 +324,7 @@
       "singleton": true,
       "requiredVersion": "^2.4.1",
       "shareScope": "default",
-      "eager": false,
+      "eager": true,
       "name": "react-native-background-timer",
       "version": "2.4.1",
       "id": "main:react-native-background-timer",
@@ -332,7 +332,7 @@
         "js": {
           "async": [],
           "sync": [
-            "node_modules_react-native-background-timer_index_js.chunk.bundle"
+            "main.container.js.bundle"
           ]
         },
         "css": {
@@ -677,8 +677,8 @@
         }
       },
       "usedIn": [
-        "./App",
-        "./HomeScreen"
+        "./HomeScreen",
+        "./App"
       ]
     },
     {
@@ -1278,8 +1278,8 @@
         }
       },
       "usedIn": [
-        "./App",
-        "./HomeScreen"
+        "./HomeScreen",
+        "./App"
       ]
     },
     {
@@ -1303,8 +1303,8 @@
         }
       },
       "usedIn": [
-        "./App",
-        "./HomeScreen"
+        "./HomeScreen",
+        "./App"
       ]
     }
   ],

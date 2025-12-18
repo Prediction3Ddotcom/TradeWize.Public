@@ -296,7 +296,7 @@
         "js": {
           "async": [],
           "sync": [
-            "node_modules_react-native-background-timer_index_js.chunk.bundle"
+            "main.container.js.bundle"
           ]
         },
         "css": {
