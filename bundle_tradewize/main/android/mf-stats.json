@@ -1313,16 +1313,6 @@
       "alias": "auth",
       "consumingFederationContainerName": "main",
       "federationContainerName": "auth",
-      "moduleName": "AuthProvider",
-      "usedIn": [
-        "App.tsx"
-      ],
-      "entry": "https://prediction3ddotcom.github.io/TradeWize.Public/bundle_tradewize/auth/android/auth.container.js.bundle"
-    },
-    {
-      "alias": "auth",
-      "consumingFederationContainerName": "main",
-      "federationContainerName": "auth",
       "moduleName": "redux",
       "usedIn": [
         "src/helper/AccountScreen.helper.ts",
