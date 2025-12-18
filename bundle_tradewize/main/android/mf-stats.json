@@ -322,6 +322,28 @@
     },
     {
       "singleton": true,
+      "requiredVersion": "^2.4.1",
+      "shareScope": "default",
+      "eager": true,
+      "name": "react-native-background-timer",
+      "version": "2.4.1",
+      "id": "main:react-native-background-timer",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "main.container.js.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
       "requiredVersion": "^3.0.1",
       "shareScope": "default",
       "eager": true,
@@ -655,8 +677,8 @@
         }
       },
       "usedIn": [
-        "./HomeScreen",
-        "./App"
+        "./App",
+        "./HomeScreen"
       ]
     },
     {
@@ -1309,6 +1331,8 @@
         "src/hooks/useContract.ts",
         "src/hooks/useHome.ts",
         "src/hooks/useNetwork.ts",
+        "src/i18n/languageManager.ts",
+        "src/services/LocationService.ts",
         "src/helper/index.tsx",
         "src/screens/Account/index.tsx",
         "src/screens/ChangePassword/index.tsx",
@@ -1328,6 +1352,7 @@
       "moduleName": "api",
       "usedIn": [
         "src/hooks/useDuevideo.ts",
+        "src/services/LocationService.ts",
         "src/screens/ChangePassword/index.tsx",
         "src/screens/PaymentMethod/index.tsx",
         "src/utils/index.tsx"
