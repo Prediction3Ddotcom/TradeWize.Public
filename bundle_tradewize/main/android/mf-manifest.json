@@ -287,25 +287,6 @@
       }
     },
     {
-      "id": "main:react-native-background-timer",
-      "name": "react-native-background-timer",
-      "version": "2.4.1",
-      "singleton": true,
-      "requiredVersion": "^2.4.1",
-      "assets": {
-        "js": {
-          "async": [],
-          "sync": [
-            "main.container.js.bundle"
-          ]
-        },
-        "css": {
-          "async": [],
-          "sync": []
-        }
-      }
-    },
-    {
       "id": "main:react-native-biometrics",
       "name": "react-native-biometrics",
       "version": "3.0.1",
