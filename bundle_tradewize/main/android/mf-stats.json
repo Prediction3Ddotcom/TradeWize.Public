@@ -480,7 +480,7 @@
       "singleton": true,
       "requiredVersion": "^0.1.1",
       "shareScope": "default",
-      "eager": false,
+      "eager": true,
       "name": "react-native-fast-shadow",
       "version": "0.1.1",
       "id": "main:react-native-fast-shadow",
@@ -488,7 +488,7 @@
         "js": {
           "async": [],
           "sync": [
-            "node_modules_react-native-fast-shadow_src_index_tsx.chunk.bundle"
+            "main.container.js.bundle"
           ]
         },
         "css": {
