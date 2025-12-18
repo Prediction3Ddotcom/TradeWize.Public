@@ -655,8 +655,8 @@
         }
       },
       "usedIn": [
-        "./HomeScreen",
-        "./App"
+        "./App",
+        "./HomeScreen"
       ]
     },
     {
