@@ -35,7 +35,7 @@
         "js": {
           "async": [],
           "sync": [
-            "main.container.js.bundle"
+            "node_modules_cospired_i18n-iso-languages_index_js.chunk.bundle"
           ]
         },
         "css": {
@@ -486,7 +486,7 @@
         "js": {
           "async": [],
           "sync": [
-            "main.container.js.bundle"
+            "vendors-node_modules_react-native-gesture-handler_src_index_ts.chunk.bundle"
           ]
         },
         "css": {
@@ -524,7 +524,7 @@
         "js": {
           "async": [],
           "sync": [
-            "main.container.js.bundle"
+            "vendors-node_modules_react-native-keyboard-controller_src_index_ts.chunk.bundle"
           ]
         },
         "css": {
@@ -543,7 +543,7 @@
         "js": {
           "async": [],
           "sync": [
-            "main.container.js.bundle"
+            "vendors-node_modules_react-native-modal_dist_index_js.chunk.bundle"
           ]
         },
         "css": {
@@ -581,7 +581,7 @@
         "js": {
           "async": [],
           "sync": [
-            "main.container.js.bundle"
+            "node_modules_react-native-safe-area-context_src_index_tsx.chunk.bundle"
           ]
         },
         "css": {
@@ -600,7 +600,7 @@
         "js": {
           "async": [],
           "sync": [
-            "main.container.js.bundle"
+            "vendors-node_modules_react-native-screens_src_index_tsx.chunk.bundle"
           ]
         },
         "css": {
@@ -1129,7 +1129,7 @@
         "js": {
           "async": [],
           "sync": [
-            "main.container.js.bundle"
+            "vendors-node_modules_react-redux_dist_react-redux_legacy-esm_js.chunk.bundle"
           ]
         },
         "css": {
