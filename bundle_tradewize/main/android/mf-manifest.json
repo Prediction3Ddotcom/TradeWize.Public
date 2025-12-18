@@ -54,7 +54,7 @@
         "js": {
           "async": [],
           "sync": [
-            "node_modules_hortau_react-native-wheel-picker-android_index_tsx.chunk.bundle"
+            "main.container.js.bundle"
           ]
         },
         "css": {
@@ -73,7 +73,7 @@
         "js": {
           "async": [],
           "sync": [
-            "vendors-node_modules_react-native-community_datetimepicker_src_index_js.chunk.bundle"
+            "main.container.js.bundle"
           ]
         },
         "css": {
@@ -86,13 +86,13 @@
       "id": "main:@react-native-community/slider",
       "name": "@react-native-community/slider",
       "version": "5.1.1",
-      "singleton": false,
+      "singleton": true,
       "requiredVersion": "^5.1.1",
       "assets": {
         "js": {
           "async": [],
           "sync": [
-            "vendors-node_modules_react-native-community_slider_dist_Slider_js.chunk.bundle"
+            "main.container.js.bundle"
           ]
         },
         "css": {
@@ -201,7 +201,7 @@
         "js": {
           "async": [],
           "sync": [
-            "node_modules_dayjs_dayjs_min_js.chunk.bundle"
+            "main.container.js.bundle"
           ]
         },
         "css": {
@@ -239,7 +239,7 @@
         "js": {
           "async": [],
           "sync": [
-            "vendors-node_modules_mime_dist_src_index_js.chunk.bundle"
+            "main.container.js.bundle"
           ]
         },
         "css": {
@@ -277,7 +277,7 @@
         "js": {
           "async": [],
           "sync": [
-            "node_modules_react-native-auto-skeleton_src_index_tsx.chunk.bundle"
+            "main.container.js.bundle"
           ]
         },
         "css": {
@@ -315,7 +315,7 @@
         "js": {
           "async": [],
           "sync": [
-            "node_modules_react-native-biometrics_build_cjs_index_js.chunk.bundle"
+            "main.container.js.bundle"
           ]
         },
         "css": {
@@ -334,7 +334,7 @@
         "js": {
           "async": [],
           "sync": [
-            "vendors-node_modules_react-native-blob-util_index_js.chunk.bundle"
+            "main.container.js.bundle"
           ]
         },
         "css": {
@@ -353,7 +353,7 @@
         "js": {
           "async": [],
           "sync": [
-            "vendors-node_modules_react-native-chart-kit_dist_index_js.chunk.bundle"
+            "main.container.js.bundle"
           ]
         },
         "css": {
@@ -391,7 +391,7 @@
         "js": {
           "async": [],
           "sync": [
-            "vendors-node_modules_react-native-date-picker_src_index_js.chunk.bundle"
+            "main.container.js.bundle"
           ]
         },
         "css": {
@@ -404,13 +404,13 @@
       "id": "main:react-native-fast-image",
       "name": "react-native-fast-image",
       "version": "8.6.3",
-      "singleton": false,
+      "singleton": true,
       "requiredVersion": "^8.6.3",
       "assets": {
         "js": {
           "async": [],
           "sync": [
-            "node_modules_react-native-fast-image_dist_index_cjs_js.chunk.bundle"
+            "main.container.js.bundle"
           ]
         },
         "css": {
@@ -448,7 +448,7 @@
         "js": {
           "async": [],
           "sync": [
-            "vendors-node_modules_react-native-fs_FS_common_js.chunk.bundle"
+            "main.container.js.bundle"
           ]
         },
         "css": {
@@ -461,7 +461,7 @@
       "id": "main:react-native-geolocation-service",
       "name": "react-native-geolocation-service",
       "version": "5.3.1",
-      "singleton": false,
+      "singleton": true,
       "requiredVersion": "^5.3.1",
       "assets": {
         "js": {
@@ -505,7 +505,7 @@
         "js": {
           "async": [],
           "sync": [
-            "node_modules_react-native-image-crop-picker_index_js.chunk.bundle"
+            "main.container.js.bundle"
           ]
         },
         "css": {
@@ -562,7 +562,7 @@
         "js": {
           "async": [],
           "sync": [
-            "vendors-node_modules_react-native-pdf_index_js.chunk.bundle"
+            "main.container.js.bundle"
           ]
         },
         "css": {
@@ -619,7 +619,7 @@
         "js": {
           "async": [],
           "sync": [
-            "vendors-node_modules_react-native-signature-canvas_index_js.chunk.bundle"
+            "main.container.js.bundle"
           ]
         },
         "css": {
@@ -657,7 +657,7 @@
         "js": {
           "async": [],
           "sync": [
-            "vendors-node_modules_react-native-toast-message_lib_index_js.chunk.bundle"
+            "main.container.js.bundle"
           ]
         },
         "css": {
@@ -676,7 +676,7 @@
         "js": {
           "async": [],
           "sync": [
-            "vendors-node_modules_react-native-video_src_index_ts.chunk.bundle"
+            "main.container.js.bundle"
           ]
         },
         "css": {
@@ -695,7 +695,7 @@
         "js": {
           "async": [],
           "sync": [
-            "vendors-node_modules_react-native-webview_src_index_ts.chunk.bundle"
+            "main.container.js.bundle"
           ]
         },
         "css": {

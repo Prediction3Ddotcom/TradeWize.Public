@@ -51,7 +51,7 @@
       "singleton": true,
       "requiredVersion": "^4.4.0",
       "shareScope": "default",
-      "eager": false,
+      "eager": true,
       "name": "@hortau/react-native-wheel-picker-android",
       "version": "4.4.0",
       "id": "main:@hortau/react-native-wheel-picker-android",
@@ -59,7 +59,7 @@
         "js": {
           "async": [],
           "sync": [
-            "node_modules_hortau_react-native-wheel-picker-android_index_tsx.chunk.bundle"
+            "main.container.js.bundle"
           ]
         },
         "css": {
@@ -73,7 +73,7 @@
       "singleton": true,
       "requiredVersion": "^8.5.0",
       "shareScope": "default",
-      "eager": false,
+      "eager": true,
       "name": "@react-native-community/datetimepicker",
       "version": "8.5.0",
       "id": "main:@react-native-community/datetimepicker",
@@ -81,7 +81,7 @@
         "js": {
           "async": [],
           "sync": [
-            "vendors-node_modules_react-native-community_datetimepicker_src_index_js.chunk.bundle"
+            "main.container.js.bundle"
           ]
         },
         "css": {
@@ -92,10 +92,10 @@
       "usedIn": []
     },
     {
-      "singleton": false,
+      "singleton": true,
       "requiredVersion": "^5.1.1",
       "shareScope": "default",
-      "eager": false,
+      "eager": true,
       "name": "@react-native-community/slider",
       "version": "5.1.1",
       "id": "main:@react-native-community/slider",
@@ -103,7 +103,7 @@
         "js": {
           "async": [],
           "sync": [
-            "vendors-node_modules_react-native-community_slider_dist_Slider_js.chunk.bundle"
+            "main.container.js.bundle"
           ]
         },
         "css": {
@@ -212,7 +212,7 @@
       "singleton": true,
       "requiredVersion": "^1.11.19",
       "shareScope": "default",
-      "eager": false,
+      "eager": true,
       "name": "dayjs",
       "version": "1.11.19",
       "id": "main:dayjs",
@@ -220,7 +220,7 @@
         "js": {
           "async": [],
           "sync": [
-            "node_modules_dayjs_dayjs_min_js.chunk.bundle"
+            "main.container.js.bundle"
           ]
         },
         "css": {
@@ -256,7 +256,7 @@
       "singleton": true,
       "requiredVersion": "^4.1.0",
       "shareScope": "default",
-      "eager": false,
+      "eager": true,
       "name": "mime",
       "version": "4.1.0",
       "id": "main:mime",
@@ -264,7 +264,7 @@
         "js": {
           "async": [],
           "sync": [
-            "vendors-node_modules_mime_dist_src_index_js.chunk.bundle"
+            "main.container.js.bundle"
           ]
         },
         "css": {
@@ -300,7 +300,7 @@
       "singleton": true,
       "requiredVersion": "^undefined",
       "shareScope": "default",
-      "eager": false,
+      "eager": true,
       "name": "react-native-auto-skeleton",
       "version": "0.1.30",
       "id": "main:react-native-auto-skeleton",
@@ -308,7 +308,7 @@
         "js": {
           "async": [],
           "sync": [
-            "node_modules_react-native-auto-skeleton_src_index_tsx.chunk.bundle"
+            "main.container.js.bundle"
           ]
         },
         "css": {
@@ -346,7 +346,7 @@
       "singleton": true,
       "requiredVersion": "^3.0.1",
       "shareScope": "default",
-      "eager": false,
+      "eager": true,
       "name": "react-native-biometrics",
       "version": "3.0.1",
       "id": "main:react-native-biometrics",
@@ -354,7 +354,7 @@
         "js": {
           "async": [],
           "sync": [
-            "node_modules_react-native-biometrics_build_cjs_index_js.chunk.bundle"
+            "main.container.js.bundle"
           ]
         },
         "css": {
@@ -368,7 +368,7 @@
       "singleton": true,
       "requiredVersion": "^0.24.5",
       "shareScope": "default",
-      "eager": false,
+      "eager": true,
       "name": "react-native-blob-util",
       "version": "0.24.5",
       "id": "main:react-native-blob-util",
@@ -376,7 +376,7 @@
         "js": {
           "async": [],
           "sync": [
-            "vendors-node_modules_react-native-blob-util_index_js.chunk.bundle"
+            "main.container.js.bundle"
           ]
         },
         "css": {
@@ -390,7 +390,7 @@
       "singleton": true,
       "requiredVersion": "^6.12.0",
       "shareScope": "default",
-      "eager": false,
+      "eager": true,
       "name": "react-native-chart-kit",
       "version": "6.12.0",
       "id": "main:react-native-chart-kit",
@@ -398,7 +398,7 @@
         "js": {
           "async": [],
           "sync": [
-            "vendors-node_modules_react-native-chart-kit_dist_index_js.chunk.bundle"
+            "main.container.js.bundle"
           ]
         },
         "css": {
@@ -434,7 +434,7 @@
       "singleton": true,
       "requiredVersion": "^5.0.12",
       "shareScope": "default",
-      "eager": false,
+      "eager": true,
       "name": "react-native-date-picker",
       "version": "5.0.12",
       "id": "main:react-native-date-picker",
@@ -442,7 +442,7 @@
         "js": {
           "async": [],
           "sync": [
-            "vendors-node_modules_react-native-date-picker_src_index_js.chunk.bundle"
+            "main.container.js.bundle"
           ]
         },
         "css": {
@@ -453,10 +453,10 @@
       "usedIn": []
     },
     {
-      "singleton": false,
+      "singleton": true,
       "requiredVersion": "^8.6.3",
       "shareScope": "default",
-      "eager": false,
+      "eager": true,
       "name": "react-native-fast-image",
       "version": "8.6.3",
       "id": "main:react-native-fast-image",
@@ -464,7 +464,7 @@
         "js": {
           "async": [],
           "sync": [
-            "node_modules_react-native-fast-image_dist_index_cjs_js.chunk.bundle"
+            "main.container.js.bundle"
           ]
         },
         "css": {
@@ -502,7 +502,7 @@
       "singleton": true,
       "requiredVersion": "^2.20.0",
       "shareScope": "default",
-      "eager": false,
+      "eager": true,
       "name": "react-native-fs",
       "version": "2.20.0",
       "id": "main:react-native-fs",
@@ -510,7 +510,7 @@
         "js": {
           "async": [],
           "sync": [
-            "vendors-node_modules_react-native-fs_FS_common_js.chunk.bundle"
+            "main.container.js.bundle"
           ]
         },
         "css": {
@@ -521,7 +521,7 @@
       "usedIn": []
     },
     {
-      "singleton": false,
+      "singleton": true,
       "requiredVersion": "^5.3.1",
       "shareScope": "default",
       "eager": true,
@@ -570,7 +570,7 @@
       "singleton": true,
       "requiredVersion": "^0.51.1",
       "shareScope": "default",
-      "eager": false,
+      "eager": true,
       "name": "react-native-image-crop-picker",
       "version": "0.51.1",
       "id": "main:react-native-image-crop-picker",
@@ -578,7 +578,7 @@
         "js": {
           "async": [],
           "sync": [
-            "node_modules_react-native-image-crop-picker_index_js.chunk.bundle"
+            "main.container.js.bundle"
           ]
         },
         "css": {
@@ -638,7 +638,7 @@
       "singleton": true,
       "requiredVersion": "^7.0.3",
       "shareScope": "default",
-      "eager": false,
+      "eager": true,
       "name": "react-native-pdf",
       "version": "7.0.3",
       "id": "main:react-native-pdf",
@@ -646,7 +646,7 @@
         "js": {
           "async": [],
           "sync": [
-            "vendors-node_modules_react-native-pdf_index_js.chunk.bundle"
+            "main.container.js.bundle"
           ]
         },
         "css": {
@@ -677,8 +677,8 @@
         }
       },
       "usedIn": [
-        "./App",
-        "./HomeScreen"
+        "./HomeScreen",
+        "./App"
       ]
     },
     {
@@ -707,7 +707,7 @@
       "singleton": true,
       "requiredVersion": "^5.0.1",
       "shareScope": "default",
-      "eager": false,
+      "eager": true,
       "name": "react-native-signature-canvas",
       "version": "5.0.1",
       "id": "main:react-native-signature-canvas",
@@ -715,7 +715,7 @@
         "js": {
           "async": [],
           "sync": [
-            "vendors-node_modules_react-native-signature-canvas_index_js.chunk.bundle"
+            "main.container.js.bundle"
           ]
         },
         "css": {
@@ -753,7 +753,7 @@
       "singleton": true,
       "requiredVersion": "^2.3.3",
       "shareScope": "default",
-      "eager": false,
+      "eager": true,
       "name": "react-native-toast-message",
       "version": "2.3.3",
       "id": "main:react-native-toast-message",
@@ -761,7 +761,7 @@
         "js": {
           "async": [],
           "sync": [
-            "vendors-node_modules_react-native-toast-message_lib_index_js.chunk.bundle"
+            "main.container.js.bundle"
           ]
         },
         "css": {
@@ -775,7 +775,7 @@
       "singleton": true,
       "requiredVersion": "^6.18.0",
       "shareScope": "default",
-      "eager": false,
+      "eager": true,
       "name": "react-native-video",
       "version": "6.18.0",
       "id": "main:react-native-video",
@@ -783,7 +783,7 @@
         "js": {
           "async": [],
           "sync": [
-            "vendors-node_modules_react-native-video_src_index_ts.chunk.bundle"
+            "main.container.js.bundle"
           ]
         },
         "css": {
@@ -797,7 +797,7 @@
       "singleton": true,
       "requiredVersion": "^13.16.0",
       "shareScope": "default",
-      "eager": false,
+      "eager": true,
       "name": "react-native-webview",
       "version": "13.16.0",
       "id": "main:react-native-webview",
@@ -805,7 +805,7 @@
         "js": {
           "async": [],
           "sync": [
-            "vendors-node_modules_react-native-webview_src_index_ts.chunk.bundle"
+            "main.container.js.bundle"
           ]
         },
         "css": {
@@ -1278,8 +1278,8 @@
         }
       },
       "usedIn": [
-        "./App",
-        "./HomeScreen"
+        "./HomeScreen",
+        "./App"
       ]
     },
     {
@@ -1303,8 +1303,8 @@
         }
       },
       "usedIn": [
-        "./App",
-        "./HomeScreen"
+        "./HomeScreen",
+        "./App"
       ]
     }
   ],
