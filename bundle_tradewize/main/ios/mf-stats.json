@@ -22,7 +22,7 @@
     "globalName": "main",
     "pluginVersion": "0.19.1",
     "prefetchInterface": false,
-    "publicPath": "noop:///"
+    "publicPath": "https://prediction3ddotcom.github.io/TradeWize.Public/bundle_tradewize/main/ios/"
   },
   "shared": [
     {
@@ -1240,8 +1240,8 @@
         }
       },
       "usedIn": [
-        "./HomeScreen",
-        "./App"
+        "./App",
+        "./HomeScreen"
       ]
     },
     {
@@ -1265,8 +1265,8 @@
         }
       },
       "usedIn": [
-        "./HomeScreen",
-        "./App"
+        "./App",
+        "./HomeScreen"
       ]
     }
   ],
