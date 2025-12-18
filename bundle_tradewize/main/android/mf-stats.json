@@ -524,7 +524,7 @@
       "singleton": false,
       "requiredVersion": "^5.3.1",
       "shareScope": "default",
-      "eager": false,
+      "eager": true,
       "name": "react-native-geolocation-service",
       "version": "5.3.1",
       "id": "main:react-native-geolocation-service",
@@ -532,7 +532,7 @@
         "js": {
           "async": [],
           "sync": [
-            "node_modules_react-native-geolocation-service_js_index_js.chunk.bundle"
+            "main.container.js.bundle"
           ]
         },
         "css": {
