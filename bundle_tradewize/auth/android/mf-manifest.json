@@ -1251,7 +1251,8 @@
           "sync": [
             "vendors-node_modules_moment_locale_af_js-node_modules_moment_locale_ar-dz_js-node_modules_mom-e6626f.chunk.bundle",
             "vendors-node_modules_react-native-async-storage_async-storage_src_index_ts-node_modules_react-a7b29a.chunk.bundle",
-            "src_assets_svg_index_ts-src_hooks_useAppTranslation_ts-src_redux_features_app_actions_ts-node-5bae16.chunk.bundle",
+            "src_assets_svg_index_ts-src_redux_features_app_actions_ts-node_modules_moment_locale_sync_rec-fdd578.chunk.bundle",
+            "src_hooks_useAppTranslation_ts.chunk.bundle",
             "__federation_expose_redux.chunk.bundle",
             "__federation_expose_AuthProvider.chunk.bundle"
           ],
@@ -1272,7 +1273,8 @@
           "sync": [
             "vendors-node_modules_moment_locale_af_js-node_modules_moment_locale_ar-dz_js-node_modules_mom-e6626f.chunk.bundle",
             "vendors-node_modules_react-native-async-storage_async-storage_src_index_ts-node_modules_react-a7b29a.chunk.bundle",
-            "src_assets_svg_index_ts-src_hooks_useAppTranslation_ts-src_redux_features_app_actions_ts-node-5bae16.chunk.bundle",
+            "src_assets_svg_index_ts-src_redux_features_app_actions_ts-node_modules_moment_locale_sync_rec-fdd578.chunk.bundle",
+            "src_hooks_useAppTranslation_ts.chunk.bundle",
             "__federation_expose_redux.chunk.bundle",
             "__federation_expose_api.chunk.bundle"
           ],
@@ -1308,7 +1310,8 @@
           "sync": [
             "vendors-node_modules_moment_locale_af_js-node_modules_moment_locale_ar-dz_js-node_modules_mom-e6626f.chunk.bundle",
             "vendors-node_modules_react-native-async-storage_async-storage_src_index_ts-node_modules_react-a7b29a.chunk.bundle",
-            "src_assets_svg_index_ts-src_hooks_useAppTranslation_ts-src_redux_features_app_actions_ts-node-5bae16.chunk.bundle",
+            "src_assets_svg_index_ts-src_redux_features_app_actions_ts-node_modules_moment_locale_sync_rec-fdd578.chunk.bundle",
+            "src_hooks_useAppTranslation_ts.chunk.bundle",
             "__federation_expose_redux.chunk.bundle",
             "__federation_expose_AuthProvider.chunk.bundle",
             "__federation_expose_api.chunk.bundle",
@@ -1340,7 +1343,8 @@
           "sync": [
             "vendors-node_modules_moment_locale_af_js-node_modules_moment_locale_ar-dz_js-node_modules_mom-e6626f.chunk.bundle",
             "vendors-node_modules_react-native-async-storage_async-storage_src_index_ts-node_modules_react-a7b29a.chunk.bundle",
-            "src_assets_svg_index_ts-src_hooks_useAppTranslation_ts-src_redux_features_app_actions_ts-node-5bae16.chunk.bundle",
+            "src_assets_svg_index_ts-src_redux_features_app_actions_ts-node_modules_moment_locale_sync_rec-fdd578.chunk.bundle",
+            "src_hooks_useAppTranslation_ts.chunk.bundle",
             "__federation_expose_redux.chunk.bundle",
             "__federation_expose_languageManager.chunk.bundle"
           ],
@@ -1361,7 +1365,8 @@
           "sync": [
             "vendors-node_modules_moment_locale_af_js-node_modules_moment_locale_ar-dz_js-node_modules_mom-e6626f.chunk.bundle",
             "vendors-node_modules_react-native-async-storage_async-storage_src_index_ts-node_modules_react-a7b29a.chunk.bundle",
-            "src_assets_svg_index_ts-src_hooks_useAppTranslation_ts-src_redux_features_app_actions_ts-node-5bae16.chunk.bundle",
+            "src_assets_svg_index_ts-src_redux_features_app_actions_ts-node_modules_moment_locale_sync_rec-fdd578.chunk.bundle",
+            "src_hooks_useAppTranslation_ts.chunk.bundle",
             "__federation_expose_redux.chunk.bundle",
             "src_assets_images_index_ts.chunk.bundle",
             "src_screens_Login_index_tsx.chunk.bundle",
@@ -1385,7 +1390,8 @@
             "vendors-node_modules_moment_locale_af_js-node_modules_moment_locale_ar-dz_js-node_modules_mom-e6626f.chunk.bundle",
             "vendors-node_modules_react-native-async-storage_async-storage_src_index_ts-node_modules_react-a7b29a.chunk.bundle",
             "vendors-node_modules_react-navigation_material-top-tabs_lib_module_index_js.chunk.bundle",
-            "src_assets_svg_index_ts-src_hooks_useAppTranslation_ts-src_redux_features_app_actions_ts-node-5bae16.chunk.bundle",
+            "src_assets_svg_index_ts-src_redux_features_app_actions_ts-node_modules_moment_locale_sync_rec-fdd578.chunk.bundle",
+            "src_hooks_useAppTranslation_ts.chunk.bundle",
             "__federation_expose_redux.chunk.bundle",
             "src_assets_images_index_ts.chunk.bundle",
             "__federation_expose_RegisterScreen.chunk.bundle",
@@ -1409,7 +1415,8 @@
         "js": {
           "sync": [
             "vendors-node_modules_moment_locale_af_js-node_modules_moment_locale_ar-dz_js-node_modules_mom-e6626f.chunk.bundle",
-            "src_assets_svg_index_ts-src_hooks_useAppTranslation_ts-src_redux_features_app_actions_ts-node-5bae16.chunk.bundle",
+            "src_assets_svg_index_ts-src_redux_features_app_actions_ts-node_modules_moment_locale_sync_rec-fdd578.chunk.bundle",
+            "src_hooks_useAppTranslation_ts.chunk.bundle",
             "__federation_expose_AlertModal.chunk.bundle"
           ],
           "async": []
@@ -1427,6 +1434,7 @@
       "assets": {
         "js": {
           "sync": [
+            "vendors-node_modules_moment_locale_af_js-node_modules_moment_locale_ar-dz_js-node_modules_mom-e6626f.chunk.bundle",
             "__federation_expose_LoadingOverlay.chunk.bundle"
           ],
           "async": []
@@ -1448,7 +1456,8 @@
             "vendors-node_modules_react-native-async-storage_async-storage_src_index_ts-node_modules_react-a7b29a.chunk.bundle",
             "vendors-node_modules_react-navigation_material-top-tabs_lib_module_index_js.chunk.bundle",
             "vendors-node_modules_react-native-permissions_src_index_ts-node_modules_react-navigation_nati-78ccf9.chunk.bundle",
-            "src_assets_svg_index_ts-src_hooks_useAppTranslation_ts-src_redux_features_app_actions_ts-node-5bae16.chunk.bundle",
+            "src_assets_svg_index_ts-src_redux_features_app_actions_ts-node_modules_moment_locale_sync_rec-fdd578.chunk.bundle",
+            "src_hooks_useAppTranslation_ts.chunk.bundle",
             "__federation_expose_redux.chunk.bundle",
             "src_assets_images_index_ts.chunk.bundle",
             "__federation_expose_RegisterScreen.chunk.bundle",
@@ -1472,7 +1481,8 @@
           "sync": [
             "vendors-node_modules_moment_locale_af_js-node_modules_moment_locale_ar-dz_js-node_modules_mom-e6626f.chunk.bundle",
             "vendors-node_modules_react-native-async-storage_async-storage_src_index_ts-node_modules_react-a7b29a.chunk.bundle",
-            "src_assets_svg_index_ts-src_hooks_useAppTranslation_ts-src_redux_features_app_actions_ts-node-5bae16.chunk.bundle",
+            "src_assets_svg_index_ts-src_redux_features_app_actions_ts-node_modules_moment_locale_sync_rec-fdd578.chunk.bundle",
+            "src_hooks_useAppTranslation_ts.chunk.bundle",
             "__federation_expose_redux.chunk.bundle",
             "__federation_expose_SelectedLangue.chunk.bundle"
           ],
@@ -1529,7 +1539,8 @@
           "sync": [
             "vendors-node_modules_moment_locale_af_js-node_modules_moment_locale_ar-dz_js-node_modules_mom-e6626f.chunk.bundle",
             "vendors-node_modules_react-native-async-storage_async-storage_src_index_ts-node_modules_react-a7b29a.chunk.bundle",
-            "src_assets_svg_index_ts-src_hooks_useAppTranslation_ts-src_redux_features_app_actions_ts-node-5bae16.chunk.bundle",
+            "src_assets_svg_index_ts-src_redux_features_app_actions_ts-node_modules_moment_locale_sync_rec-fdd578.chunk.bundle",
+            "src_hooks_useAppTranslation_ts.chunk.bundle",
             "__federation_expose_redux.chunk.bundle",
             "src_assets_images_index_ts.chunk.bundle",
             "__federation_expose_WellComeScreen.chunk.bundle"
@@ -1542,6 +1553,25 @@
         }
       },
       "path": "./WellComeScreen"
+    },
+    {
+      "id": "auth:SelectBottomModal",
+      "name": "SelectBottomModal",
+      "assets": {
+        "js": {
+          "sync": [
+            "vendors-node_modules_moment_locale_af_js-node_modules_moment_locale_ar-dz_js-node_modules_mom-e6626f.chunk.bundle",
+            "src_assets_svg_index_ts-src_redux_features_app_actions_ts-node_modules_moment_locale_sync_rec-fdd578.chunk.bundle",
+            "__federation_expose_SelectBottomModal.chunk.bundle"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./SelectBottomModal"
     }
   ]
 }
