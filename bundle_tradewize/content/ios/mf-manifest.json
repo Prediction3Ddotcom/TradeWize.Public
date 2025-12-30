@@ -1286,19 +1286,19 @@
       "federationContainerName": "auth",
       "moduleName": "AuthProvider",
       "alias": "auth",
-      "entry": "http://localhost:9003/ios/mf-manifest.json"
+      "entry": "https://prediction3ddotcom.github.io/TradeWize.Public/bundle_tradewize/auth/ios/auth.container.js.bundle"
     },
     {
       "federationContainerName": "auth",
       "moduleName": "api",
       "alias": "auth",
-      "entry": "http://localhost:9003/ios/mf-manifest.json"
+      "entry": "https://prediction3ddotcom.github.io/TradeWize.Public/bundle_tradewize/auth/ios/auth.container.js.bundle"
     },
     {
       "federationContainerName": "auth",
       "moduleName": "redux",
       "alias": "auth",
-      "entry": "http://localhost:9003/ios/mf-manifest.json"
+      "entry": "https://prediction3ddotcom.github.io/TradeWize.Public/bundle_tradewize/auth/ios/auth.container.js.bundle"
     }
   ],
   "exposes": [
