@@ -501,6 +501,26 @@
       }
     },
     {
+      "id": "auth:react-native-geolocation-service",
+      "name": "react-native-geolocation-service",
+      "version": "5.3.1",
+      "singleton": true,
+      "requiredVersion": "^5.3.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "auth.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
       "id": "auth:react-native-gesture-handler",
       "name": "react-native-gesture-handler",
       "version": "2.29.1",
@@ -646,6 +666,26 @@
       "version": "7.0.3",
       "singleton": true,
       "requiredVersion": "^7.0.3",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "auth.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "auth:react-native-reanimated",
+      "name": "react-native-reanimated",
+      "version": "4.2.1",
+      "singleton": true,
+      "requiredVersion": "^4.2.1",
       "assets": {
         "js": {
           "async": [],
@@ -1250,7 +1290,7 @@
         "js": {
           "sync": [
             "vendors-node_modules_moment_locale_af_js-node_modules_moment_locale_ar-dz_js-node_modules_mom-e6626f.chunk.bundle",
-            "vendors-node_modules_react-native-async-storage_async-storage_src_index_ts-node_modules_react-a7b29a.chunk.bundle",
+            "vendors-node_modules_react-native-async-storage_async-storage_src_index_ts-node_modules_react-fd3b0c.chunk.bundle",
             "src_assets_svg_index_ts-src_redux_features_app_actions_ts-node_modules_moment_locale_sync_rec-fdd578.chunk.bundle",
             "src_hooks_useAppTranslation_ts.chunk.bundle",
             "__federation_expose_redux.chunk.bundle",
@@ -1272,7 +1312,7 @@
         "js": {
           "sync": [
             "vendors-node_modules_moment_locale_af_js-node_modules_moment_locale_ar-dz_js-node_modules_mom-e6626f.chunk.bundle",
-            "vendors-node_modules_react-native-async-storage_async-storage_src_index_ts-node_modules_react-a7b29a.chunk.bundle",
+            "vendors-node_modules_react-native-async-storage_async-storage_src_index_ts-node_modules_react-fd3b0c.chunk.bundle",
             "src_assets_svg_index_ts-src_redux_features_app_actions_ts-node_modules_moment_locale_sync_rec-fdd578.chunk.bundle",
             "src_hooks_useAppTranslation_ts.chunk.bundle",
             "__federation_expose_redux.chunk.bundle",
@@ -1309,7 +1349,7 @@
         "js": {
           "sync": [
             "vendors-node_modules_moment_locale_af_js-node_modules_moment_locale_ar-dz_js-node_modules_mom-e6626f.chunk.bundle",
-            "vendors-node_modules_react-native-async-storage_async-storage_src_index_ts-node_modules_react-a7b29a.chunk.bundle",
+            "vendors-node_modules_react-native-async-storage_async-storage_src_index_ts-node_modules_react-fd3b0c.chunk.bundle",
             "src_assets_svg_index_ts-src_redux_features_app_actions_ts-node_modules_moment_locale_sync_rec-fdd578.chunk.bundle",
             "src_hooks_useAppTranslation_ts.chunk.bundle",
             "__federation_expose_redux.chunk.bundle",
@@ -1317,11 +1357,10 @@
             "__federation_expose_api.chunk.bundle",
             "__federation_expose_languageManager.chunk.bundle",
             "src_assets_images_index_ts.chunk.bundle",
-            "src_screens_Login_index_tsx.chunk.bundle",
             "__federation_expose_LoginScreen.chunk.bundle",
             "vendors-node_modules_react-navigation_material-top-tabs_lib_module_index_js.chunk.bundle",
             "__federation_expose_RegisterScreen.chunk.bundle",
-            "vendors-node_modules_react-native-permissions_src_index_ts-node_modules_react-navigation_nati-78ccf9.chunk.bundle",
+            "vendors-node_modules_react-navigation_native-stack_lib_module_index_js.chunk.bundle",
             "__federation_expose_App.chunk.bundle",
             "__federation_expose_SelectedLangue.chunk.bundle",
             "__federation_expose_WellComeScreen.chunk.bundle"
@@ -1342,7 +1381,7 @@
         "js": {
           "sync": [
             "vendors-node_modules_moment_locale_af_js-node_modules_moment_locale_ar-dz_js-node_modules_mom-e6626f.chunk.bundle",
-            "vendors-node_modules_react-native-async-storage_async-storage_src_index_ts-node_modules_react-a7b29a.chunk.bundle",
+            "vendors-node_modules_react-native-async-storage_async-storage_src_index_ts-node_modules_react-fd3b0c.chunk.bundle",
             "src_assets_svg_index_ts-src_redux_features_app_actions_ts-node_modules_moment_locale_sync_rec-fdd578.chunk.bundle",
             "src_hooks_useAppTranslation_ts.chunk.bundle",
             "__federation_expose_redux.chunk.bundle",
@@ -1364,13 +1403,16 @@
         "js": {
           "sync": [
             "vendors-node_modules_moment_locale_af_js-node_modules_moment_locale_ar-dz_js-node_modules_mom-e6626f.chunk.bundle",
-            "vendors-node_modules_react-native-async-storage_async-storage_src_index_ts-node_modules_react-a7b29a.chunk.bundle",
+            "vendors-node_modules_react-native-async-storage_async-storage_src_index_ts-node_modules_react-fd3b0c.chunk.bundle",
             "src_assets_svg_index_ts-src_redux_features_app_actions_ts-node_modules_moment_locale_sync_rec-fdd578.chunk.bundle",
             "src_hooks_useAppTranslation_ts.chunk.bundle",
             "__federation_expose_redux.chunk.bundle",
             "src_assets_images_index_ts.chunk.bundle",
-            "src_screens_Login_index_tsx.chunk.bundle",
-            "__federation_expose_LoginScreen.chunk.bundle"
+            "__federation_expose_LoginScreen.chunk.bundle",
+            "vendors-node_modules_react-navigation_material-top-tabs_lib_module_index_js.chunk.bundle",
+            "vendors-node_modules_react-navigation_native-stack_lib_module_index_js.chunk.bundle",
+            "__federation_expose_RegisterScreen.chunk.bundle",
+            "__federation_expose_App.chunk.bundle"
           ],
           "async": []
         },
@@ -1388,15 +1430,15 @@
         "js": {
           "sync": [
             "vendors-node_modules_moment_locale_af_js-node_modules_moment_locale_ar-dz_js-node_modules_mom-e6626f.chunk.bundle",
-            "vendors-node_modules_react-native-async-storage_async-storage_src_index_ts-node_modules_react-a7b29a.chunk.bundle",
+            "vendors-node_modules_react-native-async-storage_async-storage_src_index_ts-node_modules_react-fd3b0c.chunk.bundle",
             "vendors-node_modules_react-navigation_material-top-tabs_lib_module_index_js.chunk.bundle",
             "src_assets_svg_index_ts-src_redux_features_app_actions_ts-node_modules_moment_locale_sync_rec-fdd578.chunk.bundle",
             "src_hooks_useAppTranslation_ts.chunk.bundle",
             "__federation_expose_redux.chunk.bundle",
             "src_assets_images_index_ts.chunk.bundle",
             "__federation_expose_RegisterScreen.chunk.bundle",
-            "vendors-node_modules_react-native-permissions_src_index_ts-node_modules_react-navigation_nati-78ccf9.chunk.bundle",
-            "src_screens_Login_index_tsx.chunk.bundle",
+            "vendors-node_modules_react-navigation_native-stack_lib_module_index_js.chunk.bundle",
+            "__federation_expose_LoginScreen.chunk.bundle",
             "__federation_expose_App.chunk.bundle"
           ],
           "async": []
@@ -1453,15 +1495,15 @@
         "js": {
           "sync": [
             "vendors-node_modules_moment_locale_af_js-node_modules_moment_locale_ar-dz_js-node_modules_mom-e6626f.chunk.bundle",
-            "vendors-node_modules_react-native-async-storage_async-storage_src_index_ts-node_modules_react-a7b29a.chunk.bundle",
+            "vendors-node_modules_react-native-async-storage_async-storage_src_index_ts-node_modules_react-fd3b0c.chunk.bundle",
             "vendors-node_modules_react-navigation_material-top-tabs_lib_module_index_js.chunk.bundle",
-            "vendors-node_modules_react-native-permissions_src_index_ts-node_modules_react-navigation_nati-78ccf9.chunk.bundle",
+            "vendors-node_modules_react-navigation_native-stack_lib_module_index_js.chunk.bundle",
             "src_assets_svg_index_ts-src_redux_features_app_actions_ts-node_modules_moment_locale_sync_rec-fdd578.chunk.bundle",
             "src_hooks_useAppTranslation_ts.chunk.bundle",
             "__federation_expose_redux.chunk.bundle",
             "src_assets_images_index_ts.chunk.bundle",
             "__federation_expose_RegisterScreen.chunk.bundle",
-            "src_screens_Login_index_tsx.chunk.bundle",
+            "__federation_expose_LoginScreen.chunk.bundle",
             "__federation_expose_App.chunk.bundle"
           ],
           "async": []
@@ -1480,7 +1522,7 @@
         "js": {
           "sync": [
             "vendors-node_modules_moment_locale_af_js-node_modules_moment_locale_ar-dz_js-node_modules_mom-e6626f.chunk.bundle",
-            "vendors-node_modules_react-native-async-storage_async-storage_src_index_ts-node_modules_react-a7b29a.chunk.bundle",
+            "vendors-node_modules_react-native-async-storage_async-storage_src_index_ts-node_modules_react-fd3b0c.chunk.bundle",
             "src_assets_svg_index_ts-src_redux_features_app_actions_ts-node_modules_moment_locale_sync_rec-fdd578.chunk.bundle",
             "src_hooks_useAppTranslation_ts.chunk.bundle",
             "__federation_expose_redux.chunk.bundle",
@@ -1538,7 +1580,7 @@
         "js": {
           "sync": [
             "vendors-node_modules_moment_locale_af_js-node_modules_moment_locale_ar-dz_js-node_modules_mom-e6626f.chunk.bundle",
-            "vendors-node_modules_react-native-async-storage_async-storage_src_index_ts-node_modules_react-a7b29a.chunk.bundle",
+            "vendors-node_modules_react-native-async-storage_async-storage_src_index_ts-node_modules_react-fd3b0c.chunk.bundle",
             "src_assets_svg_index_ts-src_redux_features_app_actions_ts-node_modules_moment_locale_sync_rec-fdd578.chunk.bundle",
             "src_hooks_useAppTranslation_ts.chunk.bundle",
             "__federation_expose_redux.chunk.bundle",

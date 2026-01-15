@@ -46,6 +46,26 @@
       }
     },
     {
+      "id": "content:@gorhom/bottom-sheet",
+      "name": "@gorhom/bottom-sheet",
+      "version": "5.2.8",
+      "singleton": true,
+      "requiredVersion": "^undefined",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "content.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
       "id": "content:@hortau/react-native-wheel-picker-android",
       "name": "@hortau/react-native-wheel-picker-android",
       "version": "4.4.0",
@@ -201,11 +221,11 @@
       }
     },
     {
-      "id": "content:dayjs",
-      "name": "dayjs",
-      "version": "1.11.19",
+      "id": "content:@shopify/flash-list",
+      "name": "@shopify/flash-list",
+      "version": "2.2.0",
       "singleton": true,
-      "requiredVersion": "^1.11.19",
+      "requiredVersion": "^2.2.0",
       "assets": {
         "js": {
           "async": [],
@@ -221,11 +241,11 @@
       }
     },
     {
-      "id": "content:formik",
-      "name": "formik",
-      "version": "2.4.9",
+      "id": "content:dayjs",
+      "name": "dayjs",
+      "version": "1.11.19",
       "singleton": true,
-      "requiredVersion": "^2.4.9",
+      "requiredVersion": "^1.11.19",
       "assets": {
         "js": {
           "async": [],
@@ -441,6 +461,26 @@
       }
     },
     {
+      "id": "content:react-native-element-dropdown",
+      "name": "react-native-element-dropdown",
+      "version": "2.12.4",
+      "singleton": true,
+      "requiredVersion": "^2.12.4",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "content.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
       "id": "content:react-native-fast-image",
       "name": "react-native-fast-image",
       "version": "8.6.3",
@@ -541,6 +581,26 @@
       }
     },
     {
+      "id": "content:react-native-google-places-autocomplete",
+      "name": "react-native-google-places-autocomplete",
+      "version": "2.6.3",
+      "singleton": true,
+      "requiredVersion": "^2.6.3",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "content.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
       "id": "content:react-native-image-crop-picker",
       "name": "react-native-image-crop-picker",
       "version": "0.51.1",
@@ -566,6 +626,46 @@
       "version": "1.20.2",
       "singleton": true,
       "requiredVersion": "^1.20.2",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "content.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "content:react-native-map-clustering",
+      "name": "react-native-map-clustering",
+      "version": "4.0.0",
+      "singleton": true,
+      "requiredVersion": "^4.0.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "content.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "content:react-native-maps",
+      "name": "react-native-maps",
+      "version": "1.26.20",
+      "singleton": true,
+      "requiredVersion": "^1.26.20",
       "assets": {
         "js": {
           "async": [],
@@ -646,6 +746,26 @@
       "version": "7.0.3",
       "singleton": true,
       "requiredVersion": "^7.0.3",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "content.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "content:react-native-reanimated",
+      "name": "react-native-reanimated",
+      "version": "4.2.1",
+      "singleton": true,
+      "requiredVersion": "^4.2.1",
       "assets": {
         "js": {
           "async": [],
@@ -1259,26 +1379,6 @@
           "sync": []
         }
       }
-    },
-    {
-      "id": "content:yup",
-      "name": "yup",
-      "version": "1.7.1",
-      "singleton": true,
-      "requiredVersion": "^1.7.1",
-      "assets": {
-        "js": {
-          "async": [],
-          "sync": [
-            "content.container.js.bundle",
-            "index.bundle"
-          ]
-        },
-        "css": {
-          "async": [],
-          "sync": []
-        }
-      }
     }
   ],
   "remotes": [
@@ -1286,19 +1386,19 @@
       "federationContainerName": "auth",
       "moduleName": "AuthProvider",
       "alias": "auth",
-      "entry": "https://prediction3ddotcom.github.io/TradeWize.Public/bundle_tradewize/auth/ios/auth.container.js.bundle"
+      "entry": "http://localhost:9003/ios/mf-manifest.json"
     },
     {
       "federationContainerName": "auth",
       "moduleName": "api",
       "alias": "auth",
-      "entry": "https://prediction3ddotcom.github.io/TradeWize.Public/bundle_tradewize/auth/ios/auth.container.js.bundle"
+      "entry": "http://localhost:9003/ios/mf-manifest.json"
     },
     {
       "federationContainerName": "auth",
       "moduleName": "redux",
       "alias": "auth",
-      "entry": "https://prediction3ddotcom.github.io/TradeWize.Public/bundle_tradewize/auth/ios/auth.container.js.bundle"
+      "entry": "http://localhost:9003/ios/mf-manifest.json"
     }
   ],
   "exposes": [
@@ -1308,7 +1408,7 @@
       "assets": {
         "js": {
           "sync": [
-            "vendors-node_modules_react-native-async-storage_async-storage_src_index_ts-node_modules_react-ad3e57.chunk.bundle",
+            "vendors-node_modules_react-native-async-storage_async-storage_src_index_ts-node_modules_react-d92e4e.chunk.bundle",
             "__federation_expose_App.chunk.bundle"
           ],
           "async": []

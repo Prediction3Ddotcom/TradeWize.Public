@@ -50,6 +50,29 @@
     },
     {
       "singleton": true,
+      "requiredVersion": "^undefined",
+      "shareScope": "default",
+      "eager": true,
+      "name": "@gorhom/bottom-sheet",
+      "version": "5.2.8",
+      "id": "content:@gorhom/bottom-sheet",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "content.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
       "requiredVersion": "^4.4.0",
       "shareScope": "default",
       "eager": true,
@@ -219,12 +242,12 @@
     },
     {
       "singleton": true,
-      "requiredVersion": "^1.11.19",
+      "requiredVersion": "^2.2.0",
       "shareScope": "default",
       "eager": true,
-      "name": "dayjs",
-      "version": "1.11.19",
-      "id": "content:dayjs",
+      "name": "@shopify/flash-list",
+      "version": "2.2.0",
+      "id": "content:@shopify/flash-list",
       "assets": {
         "js": {
           "async": [],
@@ -242,12 +265,12 @@
     },
     {
       "singleton": true,
-      "requiredVersion": "^2.4.9",
+      "requiredVersion": "^1.11.19",
       "shareScope": "default",
       "eager": true,
-      "name": "formik",
-      "version": "2.4.9",
-      "id": "content:formik",
+      "name": "dayjs",
+      "version": "1.11.19",
+      "id": "content:dayjs",
       "assets": {
         "js": {
           "async": [],
@@ -495,6 +518,29 @@
     },
     {
       "singleton": true,
+      "requiredVersion": "^2.12.4",
+      "shareScope": "default",
+      "eager": true,
+      "name": "react-native-element-dropdown",
+      "version": "2.12.4",
+      "id": "content:react-native-element-dropdown",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "content.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
       "requiredVersion": "^8.6.3",
       "shareScope": "default",
       "eager": true,
@@ -612,6 +658,29 @@
     },
     {
       "singleton": true,
+      "requiredVersion": "^2.6.3",
+      "shareScope": "default",
+      "eager": true,
+      "name": "react-native-google-places-autocomplete",
+      "version": "2.6.3",
+      "id": "content:react-native-google-places-autocomplete",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "content.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
       "requiredVersion": "^0.51.1",
       "shareScope": "default",
       "eager": true,
@@ -657,6 +726,52 @@
       "usedIn": [
         "./App"
       ]
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^4.0.0",
+      "shareScope": "default",
+      "eager": true,
+      "name": "react-native-map-clustering",
+      "version": "4.0.0",
+      "id": "content:react-native-map-clustering",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "content.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.26.20",
+      "shareScope": "default",
+      "eager": true,
+      "name": "react-native-maps",
+      "version": "1.26.20",
+      "id": "content:react-native-maps",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "content.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
     },
     {
       "singleton": true,
@@ -735,6 +850,29 @@
       "name": "react-native-pdf",
       "version": "7.0.3",
       "id": "content:react-native-pdf",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "content.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^4.2.1",
+      "shareScope": "default",
+      "eager": true,
+      "name": "react-native-reanimated",
+      "version": "4.2.1",
+      "id": "content:react-native-reanimated",
       "assets": {
         "js": {
           "async": [],
@@ -1408,29 +1546,6 @@
       "usedIn": [
         "./App"
       ]
-    },
-    {
-      "singleton": true,
-      "requiredVersion": "^1.7.1",
-      "shareScope": "default",
-      "eager": true,
-      "name": "yup",
-      "version": "1.7.1",
-      "id": "content:yup",
-      "assets": {
-        "js": {
-          "async": [],
-          "sync": [
-            "content.container.js.bundle",
-            "index.bundle"
-          ]
-        },
-        "css": {
-          "async": [],
-          "sync": []
-        }
-      },
-      "usedIn": []
     }
   ],
   "remotes": [
@@ -1442,7 +1557,7 @@
       "usedIn": [
         "App.tsx"
       ],
-      "entry": "https://prediction3ddotcom.github.io/TradeWize.Public/bundle_tradewize/auth/ios/auth.container.js.bundle"
+      "entry": "http://localhost:9003/ios/mf-manifest.json"
     },
     {
       "alias": "auth",
@@ -1454,10 +1569,13 @@
         "src/hooks/useDuevideo.ts",
         "src/services/LocationService.ts",
         "src/screens/ChangePassword/index.tsx",
+        "src/screens/LeaderBoard/Components/ListItem.tsx",
+        "src/screens/LeaderBoard/Components/MyScore.tsx",
+        "src/screens/LeaderBoard/index.tsx",
         "src/screens/PaymentMethod/index.tsx",
         "src/utils/index.tsx"
       ],
-      "entry": "https://prediction3ddotcom.github.io/TradeWize.Public/bundle_tradewize/auth/ios/auth.container.js.bundle"
+      "entry": "http://localhost:9003/ios/mf-manifest.json"
     },
     {
       "alias": "auth",
@@ -1466,15 +1584,20 @@
       "moduleName": "redux",
       "usedIn": [
         "src/helper/AccountScreen.helper.ts",
+        "src/helper/JobsBoard.ts",
         "src/helper/RoleTypeScreen.helper.ts",
         "src/helper/registerTest.ts",
         "src/hooks/referFriend.ts",
         "src/hooks/useAccount.ts",
+        "src/hooks/useBankInfo.ts",
         "src/hooks/useCompany.ts",
         "src/hooks/useHome.ts",
+        "src/hooks/useJobBoard.ts",
         "src/hooks/useNetwork.ts",
         "src/hooks/useRegisterCompanyTestScreen.ts",
         "src/hooks/useRoleType.ts",
+        "src/hooks/useTheTest.ts",
+        "src/hooks/useTraining.ts",
         "src/i18n/languageManager.ts",
         "src/services/LocationService.ts",
         "src/components/RoleTypeItem/index.tsx",
@@ -1486,15 +1609,24 @@
         "src/screens/Contract/index.tsx",
         "src/screens/Home/components/DueVideo/index.tsx",
         "src/screens/Home/components/ImportantThings/index.tsx",
-        "src/screens/Home/index.tsx",
+        "src/screens/JobBoard/components/Filter/index.tsx",
+        "src/screens/JobBoard/components/Header/index.tsx",
+        "src/screens/JobBoard/components/JobItemCard/index.tsx",
+        "src/screens/JobBoard/index.tsx",
         "src/screens/PaymentInfoW9/components/ssn/index.tsx",
         "src/screens/PaymentInfoW9/index.tsx",
         "src/screens/RegisterCompanyTestScreen/components/NecessaryTools.tsx",
         "src/screens/RegisterCompanyTestScreen/components/Question.tsx",
+        "src/screens/SystemQualityGuide/components/CardItemVideo.tsx",
+        "src/screens/SystemQualityGuide/components/Quanlity/index.tsx",
+        "src/screens/SystemQualityGuide/components/System/index.tsx",
+        "src/screens/SystemQualityGuide/index.tsx",
+        "src/screens/TakeTheTest/components/Item.tsx",
+        "src/screens/TakeTheTest/index.tsx",
         "src/screens/UserProfile/components/ModalChangeAvatar/index.tsx",
         "src/screens/UserProfile/index.tsx"
       ],
-      "entry": "https://prediction3ddotcom.github.io/TradeWize.Public/bundle_tradewize/auth/ios/auth.container.js.bundle"
+      "entry": "http://localhost:9003/ios/mf-manifest.json"
     }
   ],
   "exposes": [
@@ -1513,7 +1645,7 @@
       "assets": {
         "js": {
           "sync": [
-            "vendors-node_modules_react-native-async-storage_async-storage_src_index_ts-node_modules_react-ad3e57.chunk.bundle",
+            "vendors-node_modules_react-native-async-storage_async-storage_src_index_ts-node_modules_react-d92e4e.chunk.bundle",
             "__federation_expose_App.chunk.bundle"
           ],
           "async": []
