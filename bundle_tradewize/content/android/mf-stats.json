@@ -1597,7 +1597,7 @@
       "usedIn": [
         "App.tsx"
       ],
-      "entry": "http://localhost:9003/android/mf-manifest.json"
+      "entry": "https://prediction3ddotcom.github.io/TradeWize.Public/bundle_tradewize/auth/android/auth.container.js.bundle"
     },
     {
       "alias": "auth",
@@ -1615,7 +1615,7 @@
         "src/screens/PaymentMethod/index.tsx",
         "src/utils/index.tsx"
       ],
-      "entry": "http://localhost:9003/android/mf-manifest.json"
+      "entry": "https://prediction3ddotcom.github.io/TradeWize.Public/bundle_tradewize/auth/android/auth.container.js.bundle"
     },
     {
       "alias": "auth",
@@ -1666,7 +1666,7 @@
         "src/screens/UserProfile/components/ModalChangeAvatar/index.tsx",
         "src/screens/UserProfile/index.tsx"
       ],
-      "entry": "http://localhost:9003/android/mf-manifest.json"
+      "entry": "https://prediction3ddotcom.github.io/TradeWize.Public/bundle_tradewize/auth/android/auth.container.js.bundle"
     }
   ],
   "exposes": [
