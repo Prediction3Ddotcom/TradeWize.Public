@@ -261,6 +261,26 @@
       }
     },
     {
+      "id": "content:formik",
+      "name": "formik",
+      "version": "2.4.9",
+      "singleton": true,
+      "requiredVersion": "^2.4.9",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "content.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
       "id": "content:i18next",
       "name": "i18next",
       "version": "25.7.3",
@@ -1404,6 +1424,26 @@
       "version": "19.1.0",
       "singleton": true,
       "requiredVersion": "^19.1.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "content.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "content:yup",
+      "name": "yup",
+      "version": "1.7.1",
+      "singleton": true,
+      "requiredVersion": "^1.7.1",
       "assets": {
         "js": {
           "async": [],

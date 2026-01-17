@@ -288,6 +288,29 @@
     },
     {
       "singleton": true,
+      "requiredVersion": "^2.4.9",
+      "shareScope": "default",
+      "eager": true,
+      "name": "formik",
+      "version": "2.4.9",
+      "id": "content:formik",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "content.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
       "requiredVersion": "^25.7.3",
       "shareScope": "default",
       "eager": true,
@@ -1546,6 +1569,29 @@
       "usedIn": [
         "./App"
       ]
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.7.1",
+      "shareScope": "default",
+      "eager": true,
+      "name": "yup",
+      "version": "1.7.1",
+      "id": "content:yup",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "content.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
     }
   ],
   "remotes": [
@@ -1572,6 +1618,7 @@
         "src/screens/LeaderBoard/Components/ListItem.tsx",
         "src/screens/LeaderBoard/Components/MyScore.tsx",
         "src/screens/LeaderBoard/index.tsx",
+        "src/screens/MyBudget/index.tsx",
         "src/screens/PaymentMethod/index.tsx",
         "src/utils/index.tsx"
       ],
@@ -1599,6 +1646,7 @@
         "src/hooks/useTheTest.ts",
         "src/hooks/useTraining.ts",
         "src/i18n/languageManager.ts",
+        "src/screens/Account/model.ts",
         "src/services/LocationService.ts",
         "src/components/RoleTypeItem/index.tsx",
         "src/helper/index.tsx",
@@ -1613,6 +1661,7 @@
         "src/screens/JobBoard/components/Header/index.tsx",
         "src/screens/JobBoard/components/JobItemCard/index.tsx",
         "src/screens/JobBoard/index.tsx",
+        "src/screens/MyBudget/index.tsx",
         "src/screens/PaymentInfoW9/components/ssn/index.tsx",
         "src/screens/PaymentInfoW9/index.tsx",
         "src/screens/RegisterCompanyTestScreen/components/NecessaryTools.tsx",
