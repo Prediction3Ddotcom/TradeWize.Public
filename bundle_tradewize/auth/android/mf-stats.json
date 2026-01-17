@@ -574,8 +574,8 @@
         }
       },
       "usedIn": [
-        "./ConfirmModal",
-        "./SelectBottomModal"
+        "./SelectBottomModal",
+        "./ConfirmModal"
       ]
     },
     {
@@ -720,10 +720,10 @@
         }
       },
       "usedIn": [
+        "./SelectBottomModal",
         "./LoadingOverlay",
         "./AlertModal",
         "./ConfirmModal",
-        "./SelectBottomModal",
         "./SelectedLangue",
         "./CustomModal"
       ]
@@ -1365,10 +1365,10 @@
         }
       },
       "usedIn": [
+        "./SelectBottomModal",
         "./LoadingOverlay",
         "./AlertModal",
         "./ConfirmModal",
-        "./SelectBottomModal",
         "./SelectedLangue",
         "./CustomModal",
         "./LoginScreen",
@@ -1397,7 +1397,6 @@
         }
       },
       "usedIn": [
-        "./RegisterScreen",
         "./LoadingOverlay",
         "./ConfirmModal",
         "./SelectBottomModal",
@@ -1405,6 +1404,7 @@
         "./CustomModal",
         "./AuthProvider",
         "./LoginScreen",
+        "./RegisterScreen",
         "./WellComeScreen"
       ]
     },
@@ -1430,7 +1430,6 @@
         }
       },
       "usedIn": [
-        "./RegisterScreen",
         "./App",
         "./LoadingOverlay",
         "./AlertModal",
@@ -1440,6 +1439,7 @@
         "./CustomModal",
         "./AuthProvider",
         "./LoginScreen",
+        "./RegisterScreen",
         "./WellComeScreen"
       ]
     },

@@ -574,8 +574,8 @@
         }
       },
       "usedIn": [
-        "./ConfirmModal",
-        "./SelectBottomModal"
+        "./SelectBottomModal",
+        "./ConfirmModal"
       ]
     },
     {
@@ -669,8 +669,8 @@
         }
       },
       "usedIn": [
-        "./LoginScreen",
-        "./SelectBottomModal"
+        "./SelectBottomModal",
+        "./LoginScreen"
       ]
     },
     {
@@ -720,8 +720,8 @@
         }
       },
       "usedIn": [
-        "./AlertModal",
         "./LoadingOverlay",
+        "./AlertModal",
         "./ConfirmModal",
         "./SelectBottomModal",
         "./SelectedLangue",
@@ -842,8 +842,8 @@
         }
       },
       "usedIn": [
-        "./LoginScreen",
         "./SelectBottomModal",
+        "./LoginScreen",
         "./WellComeScreen"
       ]
     },
@@ -892,8 +892,8 @@
         }
       },
       "usedIn": [
-        "./AlertModal",
         "./SelectBottomModal",
+        "./AlertModal",
         "./LoginScreen"
       ]
     },
