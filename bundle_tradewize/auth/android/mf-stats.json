@@ -47,6 +47,7 @@
         }
       },
       "usedIn": [
+        "./RegisterScreen",
         "./LoginScreen"
       ]
     },
@@ -720,10 +721,10 @@
         }
       },
       "usedIn": [
-        "./SelectBottomModal",
-        "./LoadingOverlay",
         "./AlertModal",
+        "./LoadingOverlay",
         "./ConfirmModal",
+        "./SelectBottomModal",
         "./SelectedLangue",
         "./CustomModal"
       ]
@@ -892,8 +893,8 @@
         }
       },
       "usedIn": [
-        "./SelectBottomModal",
         "./AlertModal",
+        "./SelectBottomModal",
         "./LoginScreen"
       ]
     },
@@ -1365,13 +1366,14 @@
         }
       },
       "usedIn": [
-        "./SelectBottomModal",
+        "./CustomModal",
         "./LoadingOverlay",
         "./AlertModal",
         "./ConfirmModal",
+        "./SelectBottomModal",
         "./SelectedLangue",
-        "./CustomModal",
         "./LoginScreen",
+        "./RegisterScreen",
         "./WellComeScreen"
       ]
     },
@@ -1397,11 +1399,11 @@
         }
       },
       "usedIn": [
+        "./CustomModal",
         "./LoadingOverlay",
         "./ConfirmModal",
         "./SelectBottomModal",
         "./SelectedLangue",
-        "./CustomModal",
         "./AuthProvider",
         "./LoginScreen",
         "./RegisterScreen",
@@ -1430,13 +1432,13 @@
         }
       },
       "usedIn": [
+        "./CustomModal",
         "./App",
         "./LoadingOverlay",
         "./AlertModal",
         "./ConfirmModal",
         "./SelectBottomModal",
         "./SelectedLangue",
-        "./CustomModal",
         "./AuthProvider",
         "./LoginScreen",
         "./RegisterScreen",
@@ -1668,7 +1670,9 @@
       "id": "auth:RegisterScreen",
       "name": "RegisterScreen",
       "requires": [
+        "react-native",
         "react",
+        "@cospired/i18n-iso-languages",
         "react-redux"
       ],
       "file": "src/screens/Register/index.tsx",

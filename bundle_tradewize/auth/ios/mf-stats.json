@@ -47,6 +47,7 @@
         }
       },
       "usedIn": [
+        "./RegisterScreen",
         "./LoginScreen"
       ]
     },
@@ -720,12 +721,12 @@
         }
       },
       "usedIn": [
+        "./CustomModal",
         "./LoadingOverlay",
         "./AlertModal",
         "./ConfirmModal",
         "./SelectBottomModal",
-        "./SelectedLangue",
-        "./CustomModal"
+        "./SelectedLangue"
       ]
     },
     {
@@ -842,9 +843,9 @@
         }
       },
       "usedIn": [
+        "./WellComeScreen",
         "./SelectBottomModal",
-        "./LoginScreen",
-        "./WellComeScreen"
+        "./LoginScreen"
       ]
     },
     {
@@ -1365,6 +1366,7 @@
         }
       },
       "usedIn": [
+        "./RegisterScreen",
         "./LoadingOverlay",
         "./AlertModal",
         "./ConfirmModal",
@@ -1397,6 +1399,7 @@
         }
       },
       "usedIn": [
+        "./RegisterScreen",
         "./LoadingOverlay",
         "./ConfirmModal",
         "./SelectBottomModal",
@@ -1404,7 +1407,6 @@
         "./CustomModal",
         "./AuthProvider",
         "./LoginScreen",
-        "./RegisterScreen",
         "./WellComeScreen"
       ]
     },
@@ -1668,7 +1670,9 @@
       "id": "auth:RegisterScreen",
       "name": "RegisterScreen",
       "requires": [
+        "react-native",
         "react",
+        "@cospired/i18n-iso-languages",
         "react-redux"
       ],
       "file": "src/screens/Register/index.tsx",
