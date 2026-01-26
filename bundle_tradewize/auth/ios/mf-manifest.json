@@ -46,6 +46,26 @@
       }
     },
     {
+      "id": "auth:@expo/react-native-action-sheet",
+      "name": "@expo/react-native-action-sheet",
+      "version": "4.1.1",
+      "singleton": true,
+      "requiredVersion": "^4.1.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "auth.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
       "id": "auth:@freakycoder/react-native-bounceable",
       "name": "@freakycoder/react-native-bounceable",
       "version": "0.2.4",
@@ -71,6 +91,26 @@
       "version": "4.4.0",
       "singleton": true,
       "requiredVersion": "^4.4.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "auth.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "auth:@react-native-community/blur",
+      "name": "@react-native-community/blur",
+      "version": "4.4.1",
+      "singleton": true,
+      "requiredVersion": "^4.4.1",
       "assets": {
         "js": {
           "async": [],
@@ -321,11 +361,51 @@
       }
     },
     {
+      "id": "auth:lodash",
+      "name": "lodash",
+      "version": "4.17.21",
+      "singleton": true,
+      "requiredVersion": "^4.17.23",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "auth.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
       "id": "auth:mime",
       "name": "mime",
       "version": "4.1.0",
       "singleton": true,
       "requiredVersion": "^4.1.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "auth.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "auth:prop-types",
+      "name": "prop-types",
+      "version": "15.8.1",
+      "singleton": true,
+      "requiredVersion": "^15.8.1",
       "assets": {
         "js": {
           "async": [],
@@ -441,6 +521,46 @@
       }
     },
     {
+      "id": "auth:react-native-circular-progress",
+      "name": "react-native-circular-progress",
+      "version": "1.4.1",
+      "singleton": true,
+      "requiredVersion": "^1.4.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "auth.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "auth:react-native-create-thumbnail",
+      "name": "react-native-create-thumbnail",
+      "version": "2.2.0",
+      "singleton": true,
+      "requiredVersion": "^2.2.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "auth.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
       "id": "auth:react-native-date-picker",
       "name": "react-native-date-picker",
       "version": "5.0.12",
@@ -481,11 +601,51 @@
       }
     },
     {
+      "id": "auth:react-native-fast-image",
+      "name": "react-native-fast-image",
+      "version": "8.6.3",
+      "singleton": true,
+      "requiredVersion": "^8.6.3",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "auth.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
       "id": "auth:react-native-fast-shadow",
       "name": "react-native-fast-shadow",
       "version": "0.1.1",
       "singleton": true,
       "requiredVersion": "^0.1.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "auth.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "auth:react-native-fs",
+      "name": "react-native-fs",
+      "version": "2.20.0",
+      "singleton": true,
+      "requiredVersion": "^2.20.0",
       "assets": {
         "js": {
           "async": [],
@@ -546,6 +706,26 @@
       "version": "0.51.1",
       "singleton": true,
       "requiredVersion": "^0.51.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "auth.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "auth:react-native-image-viewing",
+      "name": "react-native-image-viewing",
+      "version": "0.2.2",
+      "singleton": true,
+      "requiredVersion": "^0.2.2",
       "assets": {
         "js": {
           "async": [],
@@ -646,6 +826,26 @@
       "version": "6.9.1",
       "singleton": true,
       "requiredVersion": "^undefined",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "auth.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "auth:react-native-parsed-text",
+      "name": "react-native-parsed-text",
+      "version": "0.0.22",
+      "singleton": true,
+      "requiredVersion": "^0.0.22",
       "assets": {
         "js": {
           "async": [],
@@ -786,6 +986,26 @@
       "version": "6.18.0",
       "singleton": true,
       "requiredVersion": "^6.18.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "auth.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "auth:react-native-vision-camera",
+      "name": "react-native-vision-camera",
+      "version": "4.7.3",
+      "singleton": true,
+      "requiredVersion": "^4.7.3",
       "assets": {
         "js": {
           "async": [],

@@ -1,15 +1,15 @@
 {
-  "id": "auth",
-  "name": "auth",
+  "id": "content",
+  "name": "content",
   "metaData": {
-    "name": "auth",
+    "name": "content",
     "type": "app",
     "buildInfo": {
       "buildVersion": "0.0.1",
-      "buildName": "Authen"
+      "buildName": "Content"
     },
     "remoteEntry": {
-      "name": "auth.container.js.bundle",
+      "name": "content.container.js.bundle",
       "path": "",
       "type": "global"
     },
@@ -19,7 +19,7 @@
       "zip": "",
       "api": ""
     },
-    "globalName": "auth",
+    "globalName": "content",
     "pluginVersion": "0.19.1",
     "prefetchInterface": false,
     "publicPath": "noop:///"
@@ -32,12 +32,12 @@
       "eager": true,
       "name": "@cospired/i18n-iso-languages",
       "version": "4.2.0",
-      "id": "auth:@cospired/i18n-iso-languages",
+      "id": "content:@cospired/i18n-iso-languages",
       "assets": {
         "js": {
           "async": [],
           "sync": [
-            "auth.container.js.bundle",
+            "content.container.js.bundle",
             "index.bundle"
           ]
         },
@@ -46,24 +46,44 @@
           "sync": []
         }
       },
-      "usedIn": [
-        "./LoginScreen",
-        "./RegisterScreen"
-      ]
+      "usedIn": []
     },
     {
       "singleton": true,
-      "requiredVersion": "^2.0.0",
+      "requiredVersion": "^4.1.1",
       "shareScope": "default",
       "eager": true,
-      "name": "@freakycoder/react-native-bounceable",
-      "version": "0.2.4",
-      "id": "auth:@freakycoder/react-native-bounceable",
+      "name": "@expo/react-native-action-sheet",
+      "version": "4.1.1",
+      "id": "content:@expo/react-native-action-sheet",
       "assets": {
         "js": {
           "async": [],
           "sync": [
-            "auth.container.js.bundle",
+            "content.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^undefined",
+      "shareScope": "default",
+      "eager": true,
+      "name": "@gorhom/bottom-sheet",
+      "version": "5.2.8",
+      "id": "content:@gorhom/bottom-sheet",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "content.container.js.bundle",
             "index.bundle"
           ]
         },
@@ -81,12 +101,12 @@
       "eager": true,
       "name": "@hortau/react-native-wheel-picker-android",
       "version": "4.4.0",
-      "id": "auth:@hortau/react-native-wheel-picker-android",
+      "id": "content:@hortau/react-native-wheel-picker-android",
       "assets": {
         "js": {
           "async": [],
           "sync": [
-            "auth.container.js.bundle",
+            "content.container.js.bundle",
             "index.bundle"
           ]
         },
@@ -99,17 +119,40 @@
     },
     {
       "singleton": true,
-      "requiredVersion": "^8.5.0",
+      "requiredVersion": "^4.4.1",
       "shareScope": "default",
       "eager": true,
-      "name": "@react-native-community/datetimepicker",
-      "version": "8.5.0",
-      "id": "auth:@react-native-community/datetimepicker",
+      "name": "@react-native-community/blur",
+      "version": "4.4.1",
+      "id": "content:@react-native-community/blur",
       "assets": {
         "js": {
           "async": [],
           "sync": [
-            "auth.container.js.bundle",
+            "content.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^8.5.1",
+      "shareScope": "default",
+      "eager": true,
+      "name": "@react-native-community/datetimepicker",
+      "version": "8.5.1",
+      "id": "content:@react-native-community/datetimepicker",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "content.container.js.bundle",
             "index.bundle"
           ]
         },
@@ -127,12 +170,12 @@
       "eager": true,
       "name": "@react-native-community/slider",
       "version": "5.1.1",
-      "id": "auth:@react-native-community/slider",
+      "id": "content:@react-native-community/slider",
       "assets": {
         "js": {
           "async": [],
           "sync": [
-            "auth.container.js.bundle",
+            "content.container.js.bundle",
             "index.bundle"
           ]
         },
@@ -144,7 +187,7 @@
       "usedIn": []
     },
     {
-      "id": "auth:@react-native/assets-registry/path-support",
+      "id": "content:@react-native/assets-registry/path-support",
       "requiredVersion": "^0.81.4",
       "name": "@react-native/assets-registry/path-support",
       "version": "0.81.4",
@@ -152,7 +195,7 @@
         "js": {
           "async": [],
           "sync": [
-            "auth.container.js.bundle",
+            "content.container.js.bundle",
             "index.bundle"
           ]
         },
@@ -164,7 +207,7 @@
       "usedIn": []
     },
     {
-      "id": "auth:@react-native/assets-registry/registry",
+      "id": "content:@react-native/assets-registry/registry",
       "requiredVersion": "^0.81.4",
       "name": "@react-native/assets-registry/registry",
       "version": "0.81.4",
@@ -172,7 +215,7 @@
         "js": {
           "async": [],
           "sync": [
-            "auth.container.js.bundle",
+            "content.container.js.bundle",
             "index.bundle"
           ]
         },
@@ -184,7 +227,7 @@
       "usedIn": []
     },
     {
-      "id": "auth:@react-native/normalize-color",
+      "id": "content:@react-native/normalize-color",
       "requiredVersion": "^2.1.0",
       "name": "@react-native/normalize-color",
       "version": "2.1.0",
@@ -192,7 +235,7 @@
         "js": {
           "async": [],
           "sync": [
-            "auth.container.js.bundle",
+            "content.container.js.bundle",
             "index.bundle"
           ]
         },
@@ -204,7 +247,7 @@
       "usedIn": []
     },
     {
-      "id": "auth:@react-native/normalize-colors",
+      "id": "content:@react-native/normalize-colors",
       "requiredVersion": "^0.81.4",
       "name": "@react-native/normalize-colors",
       "version": "0.81.4",
@@ -212,7 +255,7 @@
         "js": {
           "async": [],
           "sync": [
-            "auth.container.js.bundle",
+            "content.container.js.bundle",
             "index.bundle"
           ]
         },
@@ -224,7 +267,7 @@
       "usedIn": []
     },
     {
-      "id": "auth:@react-native/virtualized-lists",
+      "id": "content:@react-native/virtualized-lists",
       "requiredVersion": "^0.81.4",
       "name": "@react-native/virtualized-lists",
       "version": "0.81.4",
@@ -232,7 +275,7 @@
         "js": {
           "async": [],
           "sync": [
-            "auth.container.js.bundle",
+            "content.container.js.bundle",
             "index.bundle"
           ]
         },
@@ -245,42 +288,17 @@
     },
     {
       "singleton": true,
-      "requiredVersion": "^3.3.0",
+      "requiredVersion": "^2.2.0",
       "shareScope": "default",
       "eager": true,
-      "name": "@redux-devtools/extension",
-      "version": "3.3.0",
-      "id": "auth:@redux-devtools/extension",
+      "name": "@shopify/flash-list",
+      "version": "2.2.0",
+      "id": "content:@shopify/flash-list",
       "assets": {
         "js": {
           "async": [],
           "sync": [
-            "auth.container.js.bundle",
-            "index.bundle"
-          ]
-        },
-        "css": {
-          "async": [],
-          "sync": []
-        }
-      },
-      "usedIn": [
-        "./store"
-      ]
-    },
-    {
-      "singleton": true,
-      "requiredVersion": "^1.13.2",
-      "shareScope": "default",
-      "eager": true,
-      "name": "axios",
-      "version": "1.13.2",
-      "id": "auth:axios",
-      "assets": {
-        "js": {
-          "async": [],
-          "sync": [
-            "auth.container.js.bundle",
+            "content.container.js.bundle",
             "index.bundle"
           ]
         },
@@ -298,12 +316,12 @@
       "eager": true,
       "name": "dayjs",
       "version": "1.11.19",
-      "id": "auth:dayjs",
+      "id": "content:dayjs",
       "assets": {
         "js": {
           "async": [],
           "sync": [
-            "auth.container.js.bundle",
+            "content.container.js.bundle",
             "index.bundle"
           ]
         },
@@ -312,10 +330,7 @@
           "sync": []
         }
       },
-      "usedIn": [
-        "./AuthProvider",
-        "./WellComeScreen"
-      ]
+      "usedIn": []
     },
     {
       "singleton": true,
@@ -324,12 +339,12 @@
       "eager": true,
       "name": "formik",
       "version": "2.4.9",
-      "id": "auth:formik",
+      "id": "content:formik",
       "assets": {
         "js": {
           "async": [],
           "sync": [
-            "auth.container.js.bundle",
+            "content.container.js.bundle",
             "index.bundle"
           ]
         },
@@ -338,23 +353,44 @@
           "sync": []
         }
       },
-      "usedIn": [
-        "./LoginScreen"
-      ]
+      "usedIn": []
     },
     {
       "singleton": true,
-      "requiredVersion": "^25.6.3",
+      "requiredVersion": "^25.7.3",
       "shareScope": "default",
       "eager": true,
       "name": "i18next",
-      "version": "25.6.3",
-      "id": "auth:i18next",
+      "version": "25.7.3",
+      "id": "content:i18next",
       "assets": {
         "js": {
           "async": [],
           "sync": [
-            "auth.container.js.bundle",
+            "content.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^4.17.23",
+      "shareScope": "default",
+      "eager": true,
+      "name": "lodash",
+      "version": "4.17.21",
+      "id": "content:lodash",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "content.container.js.bundle",
             "index.bundle"
           ]
         },
@@ -372,12 +408,12 @@
       "eager": true,
       "name": "mime",
       "version": "4.1.0",
-      "id": "auth:mime",
+      "id": "content:mime",
       "assets": {
         "js": {
           "async": [],
           "sync": [
-            "auth.container.js.bundle",
+            "content.container.js.bundle",
             "index.bundle"
           ]
         },
@@ -390,17 +426,40 @@
     },
     {
       "singleton": true,
-      "requiredVersion": "^16.3.4",
+      "requiredVersion": "^15.8.1",
+      "shareScope": "default",
+      "eager": true,
+      "name": "prop-types",
+      "version": "15.8.1",
+      "id": "content:prop-types",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "content.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^16.5.0",
       "shareScope": "default",
       "eager": true,
       "name": "react-i18next",
-      "version": "16.3.4",
-      "id": "auth:react-i18next",
+      "version": "16.5.0",
+      "id": "content:react-i18next",
       "assets": {
         "js": {
           "async": [],
           "sync": [
-            "auth.container.js.bundle",
+            "content.container.js.bundle",
             "index.bundle"
           ]
         },
@@ -413,17 +472,17 @@
     },
     {
       "singleton": true,
-      "requiredVersion": "^2.0.5",
+      "requiredVersion": "^undefined",
       "shareScope": "default",
       "eager": true,
-      "name": "react-native-animated-radio-button",
-      "version": "2.0.5",
-      "id": "auth:react-native-animated-radio-button",
+      "name": "react-native-auto-skeleton",
+      "version": "0.1.30",
+      "id": "content:react-native-auto-skeleton",
       "assets": {
         "js": {
           "async": [],
           "sync": [
-            "auth.container.js.bundle",
+            "content.container.js.bundle",
             "index.bundle"
           ]
         },
@@ -432,9 +491,7 @@
           "sync": []
         }
       },
-      "usedIn": [
-        "./SelectedLangue"
-      ]
+      "usedIn": []
     },
     {
       "singleton": true,
@@ -443,12 +500,12 @@
       "eager": true,
       "name": "react-native-background-timer",
       "version": "2.4.1",
-      "id": "auth:react-native-background-timer",
+      "id": "content:react-native-background-timer",
       "assets": {
         "js": {
           "async": [],
           "sync": [
-            "auth.container.js.bundle",
+            "content.container.js.bundle",
             "index.bundle"
           ]
         },
@@ -466,12 +523,12 @@
       "eager": true,
       "name": "react-native-biometrics",
       "version": "3.0.1",
-      "id": "auth:react-native-biometrics",
+      "id": "content:react-native-biometrics",
       "assets": {
         "js": {
           "async": [],
           "sync": [
-            "auth.container.js.bundle",
+            "content.container.js.bundle",
             "index.bundle"
           ]
         },
@@ -489,12 +546,104 @@
       "eager": true,
       "name": "react-native-blob-util",
       "version": "0.24.5",
-      "id": "auth:react-native-blob-util",
+      "id": "content:react-native-blob-util",
       "assets": {
         "js": {
           "async": [],
           "sync": [
-            "auth.container.js.bundle",
+            "content.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^6.12.0",
+      "shareScope": "default",
+      "eager": true,
+      "name": "react-native-chart-kit",
+      "version": "6.12.0",
+      "id": "content:react-native-chart-kit",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "content.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.4.1",
+      "shareScope": "default",
+      "eager": true,
+      "name": "react-native-circular-progress",
+      "version": "1.4.1",
+      "id": "content:react-native-circular-progress",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "content.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.12.0",
+      "shareScope": "default",
+      "eager": true,
+      "name": "react-native-compressor",
+      "version": "1.12.0",
+      "id": "content:react-native-compressor",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "content.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^2.2.0",
+      "shareScope": "default",
+      "eager": true,
+      "name": "react-native-create-thumbnail",
+      "version": "2.2.0",
+      "id": "content:react-native-create-thumbnail",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "content.container.js.bundle",
             "index.bundle"
           ]
         },
@@ -512,12 +661,12 @@
       "eager": true,
       "name": "react-native-date-picker",
       "version": "5.0.12",
-      "id": "auth:react-native-date-picker",
+      "id": "content:react-native-date-picker",
       "assets": {
         "js": {
           "async": [],
           "sync": [
-            "auth.container.js.bundle",
+            "content.container.js.bundle",
             "index.bundle"
           ]
         },
@@ -530,17 +679,17 @@
     },
     {
       "singleton": true,
-      "requiredVersion": "^14.1.1",
+      "requiredVersion": "^2.12.4",
       "shareScope": "default",
       "eager": true,
-      "name": "react-native-device-info",
-      "version": "14.1.1",
-      "id": "auth:react-native-device-info",
+      "name": "react-native-element-dropdown",
+      "version": "2.12.4",
+      "id": "content:react-native-element-dropdown",
       "assets": {
         "js": {
           "async": [],
           "sync": [
-            "auth.container.js.bundle",
+            "content.container.js.bundle",
             "index.bundle"
           ]
         },
@@ -549,9 +698,30 @@
           "sync": []
         }
       },
-      "usedIn": [
-        "./LoginScreen"
-      ]
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^8.6.3",
+      "shareScope": "default",
+      "eager": true,
+      "name": "react-native-fast-image",
+      "version": "8.6.3",
+      "id": "content:react-native-fast-image",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "content.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
     },
     {
       "singleton": true,
@@ -560,12 +730,12 @@
       "eager": true,
       "name": "react-native-fast-shadow",
       "version": "0.1.1",
-      "id": "auth:react-native-fast-shadow",
+      "id": "content:react-native-fast-shadow",
       "assets": {
         "js": {
           "async": [],
           "sync": [
-            "auth.container.js.bundle",
+            "content.container.js.bundle",
             "index.bundle"
           ]
         },
@@ -574,10 +744,30 @@
           "sync": []
         }
       },
-      "usedIn": [
-        "./ConfirmModal",
-        "./SelectBottomModal"
-      ]
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^2.20.0",
+      "shareScope": "default",
+      "eager": true,
+      "name": "react-native-fs",
+      "version": "2.20.0",
+      "id": "content:react-native-fs",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "content.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
     },
     {
       "singleton": true,
@@ -586,12 +776,12 @@
       "eager": true,
       "name": "react-native-geolocation-service",
       "version": "5.3.1",
-      "id": "auth:react-native-geolocation-service",
+      "id": "content:react-native-geolocation-service",
       "assets": {
         "js": {
           "async": [],
           "sync": [
-            "auth.container.js.bundle",
+            "content.container.js.bundle",
             "index.bundle"
           ]
         },
@@ -609,12 +799,37 @@
       "eager": true,
       "name": "react-native-gesture-handler",
       "version": "2.29.1",
-      "id": "auth:react-native-gesture-handler",
+      "id": "content:react-native-gesture-handler",
       "assets": {
         "js": {
           "async": [],
           "sync": [
-            "auth.container.js.bundle",
+            "content.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [
+        "./App"
+      ]
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^2.6.3",
+      "shareScope": "default",
+      "eager": true,
+      "name": "react-native-google-places-autocomplete",
+      "version": "2.6.3",
+      "id": "content:react-native-google-places-autocomplete",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "content.container.js.bundle",
             "index.bundle"
           ]
         },
@@ -632,12 +847,12 @@
       "eager": true,
       "name": "react-native-image-crop-picker",
       "version": "0.51.1",
-      "id": "auth:react-native-image-crop-picker",
+      "id": "content:react-native-image-crop-picker",
       "assets": {
         "js": {
           "async": [],
           "sync": [
-            "auth.container.js.bundle",
+            "content.container.js.bundle",
             "index.bundle"
           ]
         },
@@ -650,17 +865,40 @@
     },
     {
       "singleton": true,
-      "requiredVersion": "^1.19.5",
+      "requiredVersion": "^0.2.2",
       "shareScope": "default",
       "eager": true,
-      "name": "react-native-keyboard-controller",
-      "version": "1.19.5",
-      "id": "auth:react-native-keyboard-controller",
+      "name": "react-native-image-viewing",
+      "version": "0.2.2",
+      "id": "content:react-native-image-viewing",
       "assets": {
         "js": {
           "async": [],
           "sync": [
-            "auth.container.js.bundle",
+            "content.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.20.2",
+      "shareScope": "default",
+      "eager": true,
+      "name": "react-native-keyboard-controller",
+      "version": "1.20.2",
+      "id": "content:react-native-keyboard-controller",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "content.container.js.bundle",
             "index.bundle"
           ]
         },
@@ -670,23 +908,22 @@
         }
       },
       "usedIn": [
-        "./LoginScreen",
-        "./SelectBottomModal"
+        "./App"
       ]
     },
     {
       "singleton": true,
-      "requiredVersion": "^2.8.3",
+      "requiredVersion": "^4.0.0",
       "shareScope": "default",
       "eager": true,
-      "name": "react-native-linear-gradient",
-      "version": "2.8.3",
-      "id": "auth:react-native-linear-gradient",
+      "name": "react-native-map-clustering",
+      "version": "4.0.0",
+      "id": "content:react-native-map-clustering",
       "assets": {
         "js": {
           "async": [],
           "sync": [
-            "auth.container.js.bundle",
+            "content.container.js.bundle",
             "index.bundle"
           ]
         },
@@ -695,9 +932,30 @@
           "sync": []
         }
       },
-      "usedIn": [
-        "./WellComeScreen"
-      ]
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.26.20",
+      "shareScope": "default",
+      "eager": true,
+      "name": "react-native-maps",
+      "version": "1.26.20",
+      "id": "content:react-native-maps",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "content.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
     },
     {
       "singleton": true,
@@ -706,12 +964,12 @@
       "eager": true,
       "name": "react-native-modal",
       "version": "14.0.0-rc.1",
-      "id": "auth:react-native-modal",
+      "id": "content:react-native-modal",
       "assets": {
         "js": {
           "async": [],
           "sync": [
-            "auth.container.js.bundle",
+            "content.container.js.bundle",
             "index.bundle"
           ]
         },
@@ -720,13 +978,7 @@
           "sync": []
         }
       },
-      "usedIn": [
-        "./ConfirmModal",
-        "./AlertModal",
-        "./SelectBottomModal",
-        "./SelectedLangue",
-        "./CustomModal"
-      ]
+      "usedIn": []
     },
     {
       "singleton": true,
@@ -735,12 +987,12 @@
       "eager": true,
       "name": "react-native-otp-entry",
       "version": "1.8.5",
-      "id": "auth:react-native-otp-entry",
+      "id": "content:react-native-otp-entry",
       "assets": {
         "js": {
           "async": [],
           "sync": [
-            "auth.container.js.bundle",
+            "content.container.js.bundle",
             "index.bundle"
           ]
         },
@@ -758,12 +1010,35 @@
       "eager": true,
       "name": "react-native-pager-view",
       "version": "6.9.1",
-      "id": "auth:react-native-pager-view",
+      "id": "content:react-native-pager-view",
       "assets": {
         "js": {
           "async": [],
           "sync": [
-            "auth.container.js.bundle",
+            "content.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^0.0.22",
+      "shareScope": "default",
+      "eager": true,
+      "name": "react-native-parsed-text",
+      "version": "0.0.22",
+      "id": "content:react-native-parsed-text",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "content.container.js.bundle",
             "index.bundle"
           ]
         },
@@ -781,12 +1056,12 @@
       "eager": true,
       "name": "react-native-pdf",
       "version": "7.0.3",
-      "id": "auth:react-native-pdf",
+      "id": "content:react-native-pdf",
       "assets": {
         "js": {
           "async": [],
           "sync": [
-            "auth.container.js.bundle",
+            "content.container.js.bundle",
             "index.bundle"
           ]
         },
@@ -804,12 +1079,12 @@
       "eager": true,
       "name": "react-native-reanimated",
       "version": "4.2.1",
-      "id": "auth:react-native-reanimated",
+      "id": "content:react-native-reanimated",
       "assets": {
         "js": {
           "async": [],
           "sync": [
-            "auth.container.js.bundle",
+            "content.container.js.bundle",
             "index.bundle"
           ]
         },
@@ -827,12 +1102,12 @@
       "eager": true,
       "name": "react-native-safe-area-context",
       "version": "5.6.2",
-      "id": "auth:react-native-safe-area-context",
+      "id": "content:react-native-safe-area-context",
       "assets": {
         "js": {
           "async": [],
           "sync": [
-            "auth.container.js.bundle",
+            "content.container.js.bundle",
             "index.bundle"
           ]
         },
@@ -842,24 +1117,22 @@
         }
       },
       "usedIn": [
-        "./LoginScreen",
-        "./SelectBottomModal",
-        "./WellComeScreen"
+        "./App"
       ]
     },
     {
       "singleton": true,
-      "requiredVersion": "^4.18.0",
+      "requiredVersion": "^4.19.0",
       "shareScope": "default",
       "eager": true,
       "name": "react-native-screens",
-      "version": "4.18.0",
-      "id": "auth:react-native-screens",
+      "version": "4.19.0",
+      "id": "content:react-native-screens",
       "assets": {
         "js": {
           "async": [],
           "sync": [
-            "auth.container.js.bundle",
+            "content.container.js.bundle",
             "index.bundle"
           ]
         },
@@ -872,17 +1145,17 @@
     },
     {
       "singleton": true,
-      "requiredVersion": "^15.15.0",
+      "requiredVersion": "^12.2.1",
       "shareScope": "default",
       "eager": true,
-      "name": "react-native-svg",
-      "version": "15.15.0",
-      "id": "auth:react-native-svg",
+      "name": "react-native-share",
+      "version": "12.2.1",
+      "id": "content:react-native-share",
       "assets": {
         "js": {
           "async": [],
           "sync": [
-            "auth.container.js.bundle",
+            "content.container.js.bundle",
             "index.bundle"
           ]
         },
@@ -891,11 +1164,53 @@
           "sync": []
         }
       },
-      "usedIn": [
-        "./LoginScreen",
-        "./AlertModal",
-        "./SelectBottomModal"
-      ]
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^5.0.1",
+      "shareScope": "default",
+      "eager": true,
+      "name": "react-native-signature-canvas",
+      "version": "5.0.1",
+      "id": "content:react-native-signature-canvas",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "content.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^15.15.1",
+      "shareScope": "default",
+      "eager": true,
+      "name": "react-native-svg",
+      "version": "15.15.1",
+      "id": "content:react-native-svg",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "content.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
     },
     {
       "singleton": true,
@@ -904,12 +1219,12 @@
       "eager": true,
       "name": "react-native-toast-message",
       "version": "2.3.3",
-      "id": "auth:react-native-toast-message",
+      "id": "content:react-native-toast-message",
       "assets": {
         "js": {
           "async": [],
           "sync": [
-            "auth.container.js.bundle",
+            "content.container.js.bundle",
             "index.bundle"
           ]
         },
@@ -927,12 +1242,12 @@
       "eager": true,
       "name": "react-native-video",
       "version": "6.18.0",
-      "id": "auth:react-native-video",
+      "id": "content:react-native-video",
       "assets": {
         "js": {
           "async": [],
           "sync": [
-            "auth.container.js.bundle",
+            "content.container.js.bundle",
             "index.bundle"
           ]
         },
@@ -944,7 +1259,53 @@
       "usedIn": []
     },
     {
-      "id": "auth:react-native/Libraries/Components/View/ReactNativeStyleAttributes",
+      "singleton": true,
+      "requiredVersion": "^4.7.3",
+      "shareScope": "default",
+      "eager": true,
+      "name": "react-native-vision-camera",
+      "version": "4.7.3",
+      "id": "content:react-native-vision-camera",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "content.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^13.16.0",
+      "shareScope": "default",
+      "eager": true,
+      "name": "react-native-webview",
+      "version": "13.16.0",
+      "id": "content:react-native-webview",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "content.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "id": "content:react-native/Libraries/Components/View/ReactNativeStyleAttributes",
       "requiredVersion": "^0.81.4",
       "name": "react-native/Libraries/Components/View/ReactNativeStyleAttributes",
       "version": "0.81.4",
@@ -952,7 +1313,7 @@
         "js": {
           "async": [],
           "sync": [
-            "auth.container.js.bundle",
+            "content.container.js.bundle",
             "index.bundle"
           ]
         },
@@ -964,7 +1325,7 @@
       "usedIn": []
     },
     {
-      "id": "auth:react-native/Libraries/Image/AssetRegistry",
+      "id": "content:react-native/Libraries/Image/AssetRegistry",
       "requiredVersion": "^0.81.4",
       "name": "react-native/Libraries/Image/AssetRegistry",
       "version": "0.81.4",
@@ -972,7 +1333,7 @@
         "js": {
           "async": [],
           "sync": [
-            "auth.container.js.bundle",
+            "content.container.js.bundle",
             "index.bundle"
           ]
         },
@@ -984,7 +1345,7 @@
       "usedIn": []
     },
     {
-      "id": "auth:react-native/Libraries/Image/AssetSourceResolver",
+      "id": "content:react-native/Libraries/Image/AssetSourceResolver",
       "requiredVersion": "^0.81.4",
       "name": "react-native/Libraries/Image/AssetSourceResolver",
       "version": "0.81.4",
@@ -992,7 +1353,7 @@
         "js": {
           "async": [],
           "sync": [
-            "auth.container.js.bundle",
+            "content.container.js.bundle",
             "index.bundle"
           ]
         },
@@ -1004,7 +1365,7 @@
       "usedIn": []
     },
     {
-      "id": "auth:react-native/Libraries/Image/resolveAssetSource",
+      "id": "content:react-native/Libraries/Image/resolveAssetSource",
       "requiredVersion": "^0.81.4",
       "name": "react-native/Libraries/Image/resolveAssetSource",
       "version": "0.81.4",
@@ -1012,7 +1373,7 @@
         "js": {
           "async": [],
           "sync": [
-            "auth.container.js.bundle",
+            "content.container.js.bundle",
             "index.bundle"
           ]
         },
@@ -1024,7 +1385,7 @@
       "usedIn": []
     },
     {
-      "id": "auth:react-native/Libraries/NativeComponent/NativeComponentRegistry",
+      "id": "content:react-native/Libraries/NativeComponent/NativeComponentRegistry",
       "requiredVersion": "^0.81.4",
       "name": "react-native/Libraries/NativeComponent/NativeComponentRegistry",
       "version": "0.81.4",
@@ -1032,7 +1393,7 @@
         "js": {
           "async": [],
           "sync": [
-            "auth.container.js.bundle",
+            "content.container.js.bundle",
             "index.bundle"
           ]
         },
@@ -1044,7 +1405,7 @@
       "usedIn": []
     },
     {
-      "id": "auth:react-native/Libraries/NativeComponent/ViewConfigIgnore",
+      "id": "content:react-native/Libraries/NativeComponent/ViewConfigIgnore",
       "requiredVersion": "^0.81.4",
       "name": "react-native/Libraries/NativeComponent/ViewConfigIgnore",
       "version": "0.81.4",
@@ -1052,7 +1413,7 @@
         "js": {
           "async": [],
           "sync": [
-            "auth.container.js.bundle",
+            "content.container.js.bundle",
             "index.bundle"
           ]
         },
@@ -1064,7 +1425,7 @@
       "usedIn": []
     },
     {
-      "id": "auth:react-native/Libraries/Pressability/PressabilityDebug",
+      "id": "content:react-native/Libraries/Pressability/PressabilityDebug",
       "requiredVersion": "^0.81.4",
       "name": "react-native/Libraries/Pressability/PressabilityDebug",
       "version": "0.81.4",
@@ -1072,7 +1433,7 @@
         "js": {
           "async": [],
           "sync": [
-            "auth.container.js.bundle",
+            "content.container.js.bundle",
             "index.bundle"
           ]
         },
@@ -1084,7 +1445,7 @@
       "usedIn": []
     },
     {
-      "id": "auth:react-native/Libraries/ReactNative/AppContainer",
+      "id": "content:react-native/Libraries/ReactNative/AppContainer",
       "requiredVersion": "^0.81.4",
       "name": "react-native/Libraries/ReactNative/AppContainer",
       "version": "0.81.4",
@@ -1092,7 +1453,7 @@
         "js": {
           "async": [],
           "sync": [
-            "auth.container.js.bundle",
+            "content.container.js.bundle",
             "index.bundle"
           ]
         },
@@ -1104,7 +1465,7 @@
       "usedIn": []
     },
     {
-      "id": "auth:react-native/Libraries/ReactNative/ReactFabricPublicInstance/ReactFabricPublicInstance",
+      "id": "content:react-native/Libraries/ReactNative/ReactFabricPublicInstance/ReactFabricPublicInstance",
       "requiredVersion": "^0.81.4",
       "name": "react-native/Libraries/ReactNative/ReactFabricPublicInstance/ReactFabricPublicInstance",
       "version": "0.81.4",
@@ -1112,7 +1473,7 @@
         "js": {
           "async": [],
           "sync": [
-            "auth.container.js.bundle",
+            "content.container.js.bundle",
             "index.bundle"
           ]
         },
@@ -1124,7 +1485,7 @@
       "usedIn": []
     },
     {
-      "id": "auth:react-native/Libraries/ReactNative/RendererProxy",
+      "id": "content:react-native/Libraries/ReactNative/RendererProxy",
       "requiredVersion": "^0.81.4",
       "name": "react-native/Libraries/ReactNative/RendererProxy",
       "version": "0.81.4",
@@ -1132,7 +1493,7 @@
         "js": {
           "async": [],
           "sync": [
-            "auth.container.js.bundle",
+            "content.container.js.bundle",
             "index.bundle"
           ]
         },
@@ -1144,7 +1505,7 @@
       "usedIn": []
     },
     {
-      "id": "auth:react-native/Libraries/ReactPrivate/ReactNativePrivateInitializeCore",
+      "id": "content:react-native/Libraries/ReactPrivate/ReactNativePrivateInitializeCore",
       "requiredVersion": "^0.81.4",
       "name": "react-native/Libraries/ReactPrivate/ReactNativePrivateInitializeCore",
       "version": "0.81.4",
@@ -1152,7 +1513,7 @@
         "js": {
           "async": [],
           "sync": [
-            "auth.container.js.bundle",
+            "content.container.js.bundle",
             "index.bundle"
           ]
         },
@@ -1164,7 +1525,7 @@
       "usedIn": []
     },
     {
-      "id": "auth:react-native/Libraries/ReactPrivate/ReactNativePrivateInterface",
+      "id": "content:react-native/Libraries/ReactPrivate/ReactNativePrivateInterface",
       "requiredVersion": "^0.81.4",
       "name": "react-native/Libraries/ReactPrivate/ReactNativePrivateInterface",
       "version": "0.81.4",
@@ -1172,7 +1533,7 @@
         "js": {
           "async": [],
           "sync": [
-            "auth.container.js.bundle",
+            "content.container.js.bundle",
             "index.bundle"
           ]
         },
@@ -1184,7 +1545,7 @@
       "usedIn": []
     },
     {
-      "id": "auth:react-native/Libraries/Renderer/shims/ReactFabric",
+      "id": "content:react-native/Libraries/Renderer/shims/ReactFabric",
       "requiredVersion": "^0.81.4",
       "name": "react-native/Libraries/Renderer/shims/ReactFabric",
       "version": "0.81.4",
@@ -1192,7 +1553,7 @@
         "js": {
           "async": [],
           "sync": [
-            "auth.container.js.bundle",
+            "content.container.js.bundle",
             "index.bundle"
           ]
         },
@@ -1204,7 +1565,7 @@
       "usedIn": []
     },
     {
-      "id": "auth:react-native/Libraries/Renderer/shims/ReactNative",
+      "id": "content:react-native/Libraries/Renderer/shims/ReactNative",
       "requiredVersion": "^0.81.4",
       "name": "react-native/Libraries/Renderer/shims/ReactNative",
       "version": "0.81.4",
@@ -1212,7 +1573,7 @@
         "js": {
           "async": [],
           "sync": [
-            "auth.container.js.bundle",
+            "content.container.js.bundle",
             "index.bundle"
           ]
         },
@@ -1224,7 +1585,7 @@
       "usedIn": []
     },
     {
-      "id": "auth:react-native/Libraries/Renderer/shims/ReactNativeViewConfigRegistry",
+      "id": "content:react-native/Libraries/Renderer/shims/ReactNativeViewConfigRegistry",
       "requiredVersion": "^0.81.4",
       "name": "react-native/Libraries/Renderer/shims/ReactNativeViewConfigRegistry",
       "version": "0.81.4",
@@ -1232,7 +1593,7 @@
         "js": {
           "async": [],
           "sync": [
-            "auth.container.js.bundle",
+            "content.container.js.bundle",
             "index.bundle"
           ]
         },
@@ -1244,7 +1605,7 @@
       "usedIn": []
     },
     {
-      "id": "auth:react-native/Libraries/StyleSheet/processColor",
+      "id": "content:react-native/Libraries/StyleSheet/processColor",
       "requiredVersion": "^0.81.4",
       "name": "react-native/Libraries/StyleSheet/processColor",
       "version": "0.81.4",
@@ -1252,7 +1613,7 @@
         "js": {
           "async": [],
           "sync": [
-            "auth.container.js.bundle",
+            "content.container.js.bundle",
             "index.bundle"
           ]
         },
@@ -1264,7 +1625,7 @@
       "usedIn": []
     },
     {
-      "id": "auth:react-native/Libraries/StyleSheet/processColorArray",
+      "id": "content:react-native/Libraries/StyleSheet/processColorArray",
       "requiredVersion": "^0.81.4",
       "name": "react-native/Libraries/StyleSheet/processColorArray",
       "version": "0.81.4",
@@ -1272,7 +1633,7 @@
         "js": {
           "async": [],
           "sync": [
-            "auth.container.js.bundle",
+            "content.container.js.bundle",
             "index.bundle"
           ]
         },
@@ -1284,7 +1645,7 @@
       "usedIn": []
     },
     {
-      "id": "auth:react-native/Libraries/Utilities/codegenNativeCommands",
+      "id": "content:react-native/Libraries/Utilities/codegenNativeCommands",
       "requiredVersion": "^0.81.4",
       "name": "react-native/Libraries/Utilities/codegenNativeCommands",
       "version": "0.81.4",
@@ -1292,7 +1653,7 @@
         "js": {
           "async": [],
           "sync": [
-            "auth.container.js.bundle",
+            "content.container.js.bundle",
             "index.bundle"
           ]
         },
@@ -1304,7 +1665,7 @@
       "usedIn": []
     },
     {
-      "id": "auth:react-native/Libraries/Utilities/codegenNativeComponent",
+      "id": "content:react-native/Libraries/Utilities/codegenNativeComponent",
       "requiredVersion": "^0.81.4",
       "name": "react-native/Libraries/Utilities/codegenNativeComponent",
       "version": "0.81.4",
@@ -1312,7 +1673,7 @@
         "js": {
           "async": [],
           "sync": [
-            "auth.container.js.bundle",
+            "content.container.js.bundle",
             "index.bundle"
           ]
         },
@@ -1324,7 +1685,27 @@
       "usedIn": []
     },
     {
-      "id": "auth:react-native/src/private/featureflags/ReactNativeFeatureFlags",
+      "id": "content:react-native/Libraries/vendor/emitter/EventEmitter",
+      "requiredVersion": "^0.81.4",
+      "name": "react-native/Libraries/vendor/emitter/EventEmitter",
+      "version": "0.81.4",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "content.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "id": "content:react-native/src/private/featureflags/ReactNativeFeatureFlags",
       "requiredVersion": "^0.81.4",
       "name": "react-native/src/private/featureflags/ReactNativeFeatureFlags",
       "version": "0.81.4",
@@ -1332,7 +1713,7 @@
         "js": {
           "async": [],
           "sync": [
-            "auth.container.js.bundle",
+            "content.container.js.bundle",
             "index.bundle"
           ]
         },
@@ -1350,12 +1731,12 @@
       "eager": true,
       "name": "react-native",
       "version": "0.81.4",
-      "id": "auth:react-native",
+      "id": "content:react-native",
       "assets": {
         "js": {
           "async": [],
           "sync": [
-            "auth.container.js.bundle",
+            "content.container.js.bundle",
             "index.bundle"
           ]
         },
@@ -1364,17 +1745,7 @@
           "sync": []
         }
       },
-      "usedIn": [
-        "./ConfirmModal",
-        "./LoadingOverlay",
-        "./AlertModal",
-        "./SelectBottomModal",
-        "./SelectedLangue",
-        "./CustomModal",
-        "./LoginScreen",
-        "./RegisterScreen",
-        "./WellComeScreen"
-      ]
+      "usedIn": []
     },
     {
       "singleton": true,
@@ -1383,12 +1754,12 @@
       "eager": true,
       "name": "react-redux",
       "version": "9.2.0",
-      "id": "auth:react-redux",
+      "id": "content:react-redux",
       "assets": {
         "js": {
           "async": [],
           "sync": [
-            "auth.container.js.bundle",
+            "content.container.js.bundle",
             "index.bundle"
           ]
         },
@@ -1398,15 +1769,7 @@
         }
       },
       "usedIn": [
-        "./AuthProvider",
-        "./LoadingOverlay",
-        "./ConfirmModal",
-        "./SelectBottomModal",
-        "./SelectedLangue",
-        "./CustomModal",
-        "./LoginScreen",
-        "./RegisterScreen",
-        "./WellComeScreen"
+        "./App"
       ]
     },
     {
@@ -1416,12 +1779,12 @@
       "eager": true,
       "name": "react",
       "version": "19.1.0",
-      "id": "auth:react",
+      "id": "content:react",
       "assets": {
         "js": {
           "async": [],
           "sync": [
-            "auth.container.js.bundle",
+            "content.container.js.bundle",
             "index.bundle"
           ]
         },
@@ -1431,42 +1794,7 @@
         }
       },
       "usedIn": [
-        "./AuthProvider",
-        "./App",
-        "./LoadingOverlay",
-        "./AlertModal",
-        "./ConfirmModal",
-        "./SelectBottomModal",
-        "./SelectedLangue",
-        "./CustomModal",
-        "./LoginScreen",
-        "./RegisterScreen",
-        "./WellComeScreen"
-      ]
-    },
-    {
-      "singleton": true,
-      "requiredVersion": "^1.4.2",
-      "shareScope": "default",
-      "eager": true,
-      "name": "redux-saga",
-      "version": "1.4.2",
-      "id": "auth:redux-saga",
-      "assets": {
-        "js": {
-          "async": [],
-          "sync": [
-            "auth.container.js.bundle",
-            "index.bundle"
-          ]
-        },
-        "css": {
-          "async": [],
-          "sync": []
-        }
-      },
-      "usedIn": [
-        "./store"
+        "./App"
       ]
     },
     {
@@ -1476,12 +1804,12 @@
       "eager": true,
       "name": "yup",
       "version": "1.7.1",
-      "id": "auth:yup",
+      "id": "content:yup",
       "assets": {
         "js": {
           "async": [],
           "sync": [
-            "auth.container.js.bundle",
+            "content.container.js.bundle",
             "index.bundle"
           ]
         },
@@ -1493,427 +1821,117 @@
       "usedIn": []
     }
   ],
-  "remotes": [],
+  "remotes": [
+    {
+      "alias": "auth",
+      "consumingFederationContainerName": "content",
+      "federationContainerName": "auth",
+      "moduleName": "AuthProvider",
+      "usedIn": [
+        "App.tsx"
+      ],
+      "entry": "https://prediction3ddotcom.github.io/TradeWize.Public/bundle_tradewize/auth/ios/auth.container.js.bundle"
+    },
+    {
+      "alias": "auth",
+      "consumingFederationContainerName": "content",
+      "federationContainerName": "auth",
+      "moduleName": "api",
+      "usedIn": [
+        "src/helper/AccountScreen.helper.ts",
+        "src/helper/Message.helper.ts",
+        "src/hooks/useDuevideo.ts",
+        "src/services/LocationService.ts",
+        "src/components/ChatContainer/index.tsx",
+        "src/screens/ChangePassword/index.tsx",
+        "src/screens/LeaderBoard/Components/ListItem.tsx",
+        "src/screens/LeaderBoard/Components/MyScore.tsx",
+        "src/screens/LeaderBoard/index.tsx",
+        "src/screens/MyBudget/index.tsx",
+        "src/screens/PaymentMethod/index.tsx",
+        "src/utils/index.tsx"
+      ],
+      "entry": "https://prediction3ddotcom.github.io/TradeWize.Public/bundle_tradewize/auth/ios/auth.container.js.bundle"
+    },
+    {
+      "alias": "auth",
+      "consumingFederationContainerName": "content",
+      "federationContainerName": "auth",
+      "moduleName": "redux",
+      "usedIn": [
+        "src/helper/AccountScreen.helper.ts",
+        "src/helper/JobsBoard.ts",
+        "src/helper/Message.helper.ts",
+        "src/helper/RoleTypeScreen.helper.ts",
+        "src/helper/registerTest.ts",
+        "src/hooks/referFriend.ts",
+        "src/hooks/useAccount.ts",
+        "src/hooks/useBankInfo.ts",
+        "src/hooks/useCompany.ts",
+        "src/hooks/useHome.ts",
+        "src/hooks/useJobBoard.ts",
+        "src/hooks/useMessage.ts",
+        "src/hooks/useNetwork.ts",
+        "src/hooks/useRegisterCompanyTestScreen.ts",
+        "src/hooks/useRoleType.ts",
+        "src/hooks/useTheTest.ts",
+        "src/hooks/useTraining.ts",
+        "src/i18n/languageManager.ts",
+        "src/screens/Account/model.ts",
+        "src/services/ChatSocketService.ts",
+        "src/services/LocationService.ts",
+        "src/components/RoleTypeItem/index.tsx",
+        "src/helper/index.tsx",
+        "src/navigation/BottomTabNavigator.tsx",
+        "src/screens/Account/Components/SestionCard.tsx",
+        "src/screens/Account/index.tsx",
+        "src/screens/ChangePassword/index.tsx",
+        "src/screens/Contract/components/Canvas/index.tsx",
+        "src/screens/Contract/components/ContractsToSign/index.tsx",
+        "src/screens/Contract/index.tsx",
+        "src/screens/Home/components/DueVideo/index.tsx",
+        "src/screens/Home/components/ImportantThings/index.tsx",
+        "src/screens/JobBoard/components/Filter/index.tsx",
+        "src/screens/JobBoard/components/Header/index.tsx",
+        "src/screens/JobBoard/components/JobItemCard/index.tsx",
+        "src/screens/JobBoard/index.tsx",
+        "src/screens/MyBudget/index.tsx",
+        "src/screens/PaymentInfoW9/components/ssn/index.tsx",
+        "src/screens/PaymentInfoW9/index.tsx",
+        "src/screens/PaymentMethod/index.tsx",
+        "src/screens/ReferFriend/index.tsx",
+        "src/screens/RegisterCompanyTestScreen/components/NecessaryTools.tsx",
+        "src/screens/RegisterCompanyTestScreen/components/Question.tsx",
+        "src/screens/SystemQualityGuide/components/CardItemVideo.tsx",
+        "src/screens/SystemQualityGuide/components/Quanlity/index.tsx",
+        "src/screens/SystemQualityGuide/components/System/index.tsx",
+        "src/screens/SystemQualityGuide/index.tsx",
+        "src/screens/TakeTheTest/components/Item.tsx",
+        "src/screens/TakeTheTest/index.tsx",
+        "src/screens/UserProfile/components/ModalChangeAvatar/index.tsx",
+        "src/screens/UserProfile/index.tsx"
+      ],
+      "entry": "https://prediction3ddotcom.github.io/TradeWize.Public/bundle_tradewize/auth/ios/auth.container.js.bundle"
+    }
+  ],
   "exposes": [
     {
-      "path": "./AuthProvider",
-      "id": "auth:AuthProvider",
-      "name": "AuthProvider",
-      "requires": [
-        "react",
-        "dayjs",
-        "react-redux"
-      ],
-      "file": "src/providers/AuthProvider",
-      "assets": {
-        "js": {
-          "sync": [
-            "vendors-node_modules_moment_locale_af_js-node_modules_moment_locale_ar-dz_js-node_modules_mom-e6626f.chunk.bundle",
-            "vendors-node_modules_react-native-async-storage_async-storage_src_index_ts-node_modules_react-fd3b0c.chunk.bundle",
-            "src_assets_svg_index_ts-src_redux_features_app_actions_ts-node_modules_moment_locale_sync_rec-fdd578.chunk.bundle",
-            "src_hooks_useAppTranslation_ts.chunk.bundle",
-            "__federation_expose_redux.chunk.bundle",
-            "__federation_expose_AuthProvider.chunk.bundle"
-          ],
-          "async": []
-        },
-        "css": {
-          "sync": [],
-          "async": []
-        }
-      }
-    },
-    {
-      "path": "./api",
-      "id": "auth:api",
-      "name": "api",
-      "requires": [],
-      "file": "src/shared/request.ts",
-      "assets": {
-        "js": {
-          "sync": [
-            "vendors-node_modules_moment_locale_af_js-node_modules_moment_locale_ar-dz_js-node_modules_mom-e6626f.chunk.bundle",
-            "vendors-node_modules_react-native-async-storage_async-storage_src_index_ts-node_modules_react-fd3b0c.chunk.bundle",
-            "src_assets_svg_index_ts-src_redux_features_app_actions_ts-node_modules_moment_locale_sync_rec-fdd578.chunk.bundle",
-            "src_hooks_useAppTranslation_ts.chunk.bundle",
-            "__federation_expose_redux.chunk.bundle",
-            "__federation_expose_api.chunk.bundle"
-          ],
-          "async": []
-        },
-        "css": {
-          "sync": [],
-          "async": []
-        }
-      }
-    },
-    {
-      "path": "./store",
-      "id": "auth:store",
-      "name": "store",
-      "requires": [
-        "redux-saga",
-        "@redux-devtools/extension"
-      ],
-      "file": "src/redux/store/index.ts",
-      "assets": {
-        "js": {
-          "sync": [],
-          "async": []
-        },
-        "css": {
-          "sync": [],
-          "async": []
-        }
-      }
-    },
-    {
-      "path": "./redux",
-      "id": "auth:redux",
-      "name": "redux",
-      "requires": [],
-      "file": "src/redux/index.ts",
-      "assets": {
-        "js": {
-          "sync": [
-            "vendors-node_modules_moment_locale_af_js-node_modules_moment_locale_ar-dz_js-node_modules_mom-e6626f.chunk.bundle",
-            "vendors-node_modules_react-native-async-storage_async-storage_src_index_ts-node_modules_react-fd3b0c.chunk.bundle",
-            "src_assets_svg_index_ts-src_redux_features_app_actions_ts-node_modules_moment_locale_sync_rec-fdd578.chunk.bundle",
-            "src_hooks_useAppTranslation_ts.chunk.bundle",
-            "__federation_expose_redux.chunk.bundle",
-            "__federation_expose_AuthProvider.chunk.bundle",
-            "__federation_expose_api.chunk.bundle",
-            "__federation_expose_languageManager.chunk.bundle",
-            "src_assets_images_index_ts.chunk.bundle",
-            "__federation_expose_LoginScreen.chunk.bundle",
-            "vendors-node_modules_react-navigation_material-top-tabs_lib_module_index_js.chunk.bundle",
-            "__federation_expose_RegisterScreen.chunk.bundle",
-            "vendors-node_modules_react-navigation_native-stack_lib_module_index_js.chunk.bundle",
-            "__federation_expose_App.chunk.bundle",
-            "__federation_expose_SelectedLangue.chunk.bundle",
-            "__federation_expose_WellComeScreen.chunk.bundle"
-          ],
-          "async": []
-        },
-        "css": {
-          "sync": [],
-          "async": []
-        }
-      }
-    },
-    {
-      "path": "./languageManager",
-      "id": "auth:languageManager",
-      "name": "languageManager",
-      "requires": [],
-      "file": "src/i18n/languageManager.ts",
-      "assets": {
-        "js": {
-          "sync": [
-            "vendors-node_modules_moment_locale_af_js-node_modules_moment_locale_ar-dz_js-node_modules_mom-e6626f.chunk.bundle",
-            "vendors-node_modules_react-native-async-storage_async-storage_src_index_ts-node_modules_react-fd3b0c.chunk.bundle",
-            "src_assets_svg_index_ts-src_redux_features_app_actions_ts-node_modules_moment_locale_sync_rec-fdd578.chunk.bundle",
-            "src_hooks_useAppTranslation_ts.chunk.bundle",
-            "__federation_expose_redux.chunk.bundle",
-            "__federation_expose_languageManager.chunk.bundle"
-          ],
-          "async": []
-        },
-        "css": {
-          "sync": [],
-          "async": []
-        }
-      }
-    },
-    {
-      "path": "./LoginScreen",
-      "id": "auth:LoginScreen",
-      "name": "LoginScreen",
-      "requires": [
-        "react-native",
-        "react",
-        "react-native-keyboard-controller",
-        "formik",
-        "react-native-svg",
-        "react-native-safe-area-context",
-        "@cospired/i18n-iso-languages",
-        "react-native-device-info",
-        "react-redux"
-      ],
-      "file": "src/screens/Login/index.tsx",
-      "assets": {
-        "js": {
-          "sync": [
-            "vendors-node_modules_moment_locale_af_js-node_modules_moment_locale_ar-dz_js-node_modules_mom-e6626f.chunk.bundle",
-            "vendors-node_modules_react-native-async-storage_async-storage_src_index_ts-node_modules_react-fd3b0c.chunk.bundle",
-            "src_assets_svg_index_ts-src_redux_features_app_actions_ts-node_modules_moment_locale_sync_rec-fdd578.chunk.bundle",
-            "src_hooks_useAppTranslation_ts.chunk.bundle",
-            "__federation_expose_redux.chunk.bundle",
-            "src_assets_images_index_ts.chunk.bundle",
-            "__federation_expose_LoginScreen.chunk.bundle",
-            "vendors-node_modules_react-navigation_material-top-tabs_lib_module_index_js.chunk.bundle",
-            "vendors-node_modules_react-navigation_native-stack_lib_module_index_js.chunk.bundle",
-            "__federation_expose_RegisterScreen.chunk.bundle",
-            "__federation_expose_App.chunk.bundle"
-          ],
-          "async": []
-        },
-        "css": {
-          "sync": [],
-          "async": []
-        }
-      }
-    },
-    {
-      "path": "./RegisterScreen",
-      "id": "auth:RegisterScreen",
-      "name": "RegisterScreen",
-      "requires": [
-        "react-native",
-        "react",
-        "@cospired/i18n-iso-languages",
-        "react-redux"
-      ],
-      "file": "src/screens/Register/index.tsx",
-      "assets": {
-        "js": {
-          "sync": [
-            "vendors-node_modules_moment_locale_af_js-node_modules_moment_locale_ar-dz_js-node_modules_mom-e6626f.chunk.bundle",
-            "vendors-node_modules_react-native-async-storage_async-storage_src_index_ts-node_modules_react-fd3b0c.chunk.bundle",
-            "vendors-node_modules_react-navigation_material-top-tabs_lib_module_index_js.chunk.bundle",
-            "src_assets_svg_index_ts-src_redux_features_app_actions_ts-node_modules_moment_locale_sync_rec-fdd578.chunk.bundle",
-            "src_hooks_useAppTranslation_ts.chunk.bundle",
-            "__federation_expose_redux.chunk.bundle",
-            "src_assets_images_index_ts.chunk.bundle",
-            "__federation_expose_RegisterScreen.chunk.bundle",
-            "vendors-node_modules_react-navigation_native-stack_lib_module_index_js.chunk.bundle",
-            "__federation_expose_LoginScreen.chunk.bundle",
-            "__federation_expose_App.chunk.bundle"
-          ],
-          "async": []
-        },
-        "css": {
-          "sync": [],
-          "async": []
-        }
-      }
-    },
-    {
-      "path": "./AlertModal",
-      "id": "auth:AlertModal",
-      "name": "AlertModal",
-      "requires": [
-        "react-native",
-        "react",
-        "react-native-modal",
-        "react-native-svg"
-      ],
-      "file": "src/components/Modal/AlertModal/index.tsx",
-      "assets": {
-        "js": {
-          "sync": [
-            "vendors-node_modules_moment_locale_af_js-node_modules_moment_locale_ar-dz_js-node_modules_mom-e6626f.chunk.bundle",
-            "src_assets_svg_index_ts-src_redux_features_app_actions_ts-node_modules_moment_locale_sync_rec-fdd578.chunk.bundle",
-            "src_hooks_useAppTranslation_ts.chunk.bundle",
-            "__federation_expose_AlertModal.chunk.bundle"
-          ],
-          "async": []
-        },
-        "css": {
-          "sync": [],
-          "async": []
-        }
-      }
-    },
-    {
-      "path": "./LoadingOverlay",
-      "id": "auth:LoadingOverlay",
-      "name": "LoadingOverlay",
-      "requires": [
-        "react-native",
-        "react",
-        "react-redux"
-      ],
-      "file": "src/components/LoadingOverlay/index.tsx",
-      "assets": {
-        "js": {
-          "sync": [
-            "vendors-node_modules_moment_locale_af_js-node_modules_moment_locale_ar-dz_js-node_modules_mom-e6626f.chunk.bundle",
-            "__federation_expose_LoadingOverlay.chunk.bundle"
-          ],
-          "async": []
-        },
-        "css": {
-          "sync": [],
-          "async": []
-        }
-      }
-    },
-    {
       "path": "./App",
-      "id": "auth:App",
+      "id": "content:App",
       "name": "App",
       "requires": [
-        "react"
+        "react",
+        "react-native-keyboard-controller",
+        "react-redux",
+        "react-native-safe-area-context",
+        "react-native-gesture-handler"
       ],
       "file": "App.tsx",
       "assets": {
         "js": {
           "sync": [
-            "vendors-node_modules_moment_locale_af_js-node_modules_moment_locale_ar-dz_js-node_modules_mom-e6626f.chunk.bundle",
-            "vendors-node_modules_react-native-async-storage_async-storage_src_index_ts-node_modules_react-fd3b0c.chunk.bundle",
-            "vendors-node_modules_react-navigation_material-top-tabs_lib_module_index_js.chunk.bundle",
-            "vendors-node_modules_react-navigation_native-stack_lib_module_index_js.chunk.bundle",
-            "src_assets_svg_index_ts-src_redux_features_app_actions_ts-node_modules_moment_locale_sync_rec-fdd578.chunk.bundle",
-            "src_hooks_useAppTranslation_ts.chunk.bundle",
-            "__federation_expose_redux.chunk.bundle",
-            "src_assets_images_index_ts.chunk.bundle",
-            "__federation_expose_RegisterScreen.chunk.bundle",
-            "__federation_expose_LoginScreen.chunk.bundle",
+            "vendors-node_modules_react-native-async-storage_async-storage_src_index_ts-node_modules_react-4a0548.chunk.bundle",
             "__federation_expose_App.chunk.bundle"
-          ],
-          "async": []
-        },
-        "css": {
-          "sync": [],
-          "async": []
-        }
-      }
-    },
-    {
-      "path": "./SelectedLangue",
-      "id": "auth:SelectedLangue",
-      "name": "SelectedLangue",
-      "requires": [
-        "react-native",
-        "react",
-        "react-native-modal",
-        "react-redux",
-        "react-native-animated-radio-button"
-      ],
-      "file": "src/components/Modal/SelectedLangue/index.tsx",
-      "assets": {
-        "js": {
-          "sync": [
-            "vendors-node_modules_moment_locale_af_js-node_modules_moment_locale_ar-dz_js-node_modules_mom-e6626f.chunk.bundle",
-            "vendors-node_modules_react-native-async-storage_async-storage_src_index_ts-node_modules_react-fd3b0c.chunk.bundle",
-            "src_assets_svg_index_ts-src_redux_features_app_actions_ts-node_modules_moment_locale_sync_rec-fdd578.chunk.bundle",
-            "src_hooks_useAppTranslation_ts.chunk.bundle",
-            "__federation_expose_redux.chunk.bundle",
-            "__federation_expose_SelectedLangue.chunk.bundle"
-          ],
-          "async": []
-        },
-        "css": {
-          "sync": [],
-          "async": []
-        }
-      }
-    },
-    {
-      "path": "./ConfirmModal",
-      "id": "auth:ConfirmModal",
-      "name": "ConfirmModal",
-      "requires": [
-        "react-native",
-        "react",
-        "react-native-modal",
-        "react-native-fast-shadow",
-        "react-redux"
-      ],
-      "file": "src/components/Modal/ConfirmModal/index.tsx",
-      "assets": {
-        "js": {
-          "sync": [
-            "vendors-node_modules_moment_locale_af_js-node_modules_moment_locale_ar-dz_js-node_modules_mom-e6626f.chunk.bundle",
-            "src_assets_images_index_ts.chunk.bundle",
-            "__federation_expose_ConfirmModal.chunk.bundle"
-          ],
-          "async": []
-        },
-        "css": {
-          "sync": [],
-          "async": []
-        }
-      }
-    },
-    {
-      "path": "./CustomModal",
-      "id": "auth:CustomModal",
-      "name": "CustomModal",
-      "requires": [
-        "react-native",
-        "react",
-        "react-native-modal",
-        "react-redux"
-      ],
-      "file": "src/components/Modal/index.tsx",
-      "assets": {
-        "js": {
-          "sync": [
-            "__federation_expose_CustomModal.chunk.bundle"
-          ],
-          "async": []
-        },
-        "css": {
-          "sync": [],
-          "async": []
-        }
-      }
-    },
-    {
-      "path": "./WellComeScreen",
-      "id": "auth:WellComeScreen",
-      "name": "WellComeScreen",
-      "requires": [
-        "react-native",
-        "react",
-        "react-native-safe-area-context",
-        "dayjs",
-        "react-redux",
-        "react-native-linear-gradient"
-      ],
-      "file": "src/screens/WellComeScreen/index.tsx",
-      "assets": {
-        "js": {
-          "sync": [
-            "vendors-node_modules_moment_locale_af_js-node_modules_moment_locale_ar-dz_js-node_modules_mom-e6626f.chunk.bundle",
-            "vendors-node_modules_react-native-async-storage_async-storage_src_index_ts-node_modules_react-fd3b0c.chunk.bundle",
-            "src_assets_svg_index_ts-src_redux_features_app_actions_ts-node_modules_moment_locale_sync_rec-fdd578.chunk.bundle",
-            "src_hooks_useAppTranslation_ts.chunk.bundle",
-            "__federation_expose_redux.chunk.bundle",
-            "src_assets_images_index_ts.chunk.bundle",
-            "__federation_expose_WellComeScreen.chunk.bundle"
-          ],
-          "async": []
-        },
-        "css": {
-          "sync": [],
-          "async": []
-        }
-      }
-    },
-    {
-      "path": "./SelectBottomModal",
-      "id": "auth:SelectBottomModal",
-      "name": "SelectBottomModal",
-      "requires": [
-        "react-native",
-        "react",
-        "react-native-modal",
-        "react-native-fast-shadow",
-        "react-native-keyboard-controller",
-        "react-native-svg",
-        "react-native-safe-area-context",
-        "react-redux"
-      ],
-      "file": "src/components/Modal/SelectBottomModal/index.tsx",
-      "assets": {
-        "js": {
-          "sync": [
-            "vendors-node_modules_moment_locale_af_js-node_modules_moment_locale_ar-dz_js-node_modules_mom-e6626f.chunk.bundle",
-            "src_assets_svg_index_ts-src_redux_features_app_actions_ts-node_modules_moment_locale_sync_rec-fdd578.chunk.bundle",
-            "__federation_expose_SelectBottomModal.chunk.bundle"
           ],
           "async": []
         },
