@@ -359,8 +359,8 @@
         }
       },
       "usedIn": [
-        "./WellComeScreen",
-        "./AuthProvider"
+        "./AuthProvider",
+        "./WellComeScreen"
       ]
     },
     {
@@ -736,8 +736,8 @@
         }
       },
       "usedIn": [
-        "./ConfirmModal",
-        "./SelectBottomModal"
+        "./SelectBottomModal",
+        "./ConfirmModal"
       ]
     },
     {
@@ -877,8 +877,8 @@
         }
       },
       "usedIn": [
-        "./LoginScreen",
-        "./SelectBottomModal"
+        "./SelectBottomModal",
+        "./LoginScreen"
       ]
     },
     {
@@ -928,11 +928,11 @@
         }
       },
       "usedIn": [
-        "./CustomModal",
+        "./SelectedLangue",
         "./AlertModal",
         "./ConfirmModal",
         "./SelectBottomModal",
-        "./SelectedLangue"
+        "./CustomModal"
       ]
     },
     {
@@ -1072,9 +1072,9 @@
         }
       },
       "usedIn": [
-        "./WellComeScreen",
         "./SelectBottomModal",
-        "./LoginScreen"
+        "./LoginScreen",
+        "./WellComeScreen"
       ]
     },
     {
@@ -1122,8 +1122,8 @@
         }
       },
       "usedIn": [
-        "./AlertModal",
         "./SelectBottomModal",
+        "./AlertModal",
         "./LoginScreen"
       ]
     },
@@ -1618,12 +1618,12 @@
         }
       },
       "usedIn": [
-        "./CustomModal",
+        "./SelectedLangue",
         "./LoadingOverlay",
         "./AlertModal",
         "./ConfirmModal",
         "./SelectBottomModal",
-        "./SelectedLangue",
+        "./CustomModal",
         "./LoginScreen",
         "./RegisterScreen",
         "./WellComeScreen"
@@ -1651,11 +1651,11 @@
         }
       },
       "usedIn": [
-        "./CustomModal",
+        "./SelectedLangue",
         "./LoadingOverlay",
         "./ConfirmModal",
         "./SelectBottomModal",
-        "./SelectedLangue",
+        "./CustomModal",
         "./AuthProvider",
         "./LoginScreen",
         "./RegisterScreen",
@@ -1684,13 +1684,13 @@
         }
       },
       "usedIn": [
-        "./CustomModal",
         "./App",
         "./LoadingOverlay",
         "./AlertModal",
         "./ConfirmModal",
         "./SelectBottomModal",
         "./SelectedLangue",
+        "./CustomModal",
         "./AuthProvider",
         "./LoginScreen",
         "./RegisterScreen",

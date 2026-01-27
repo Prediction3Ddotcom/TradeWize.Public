@@ -2010,6 +2010,7 @@
         "src/screens/JobBoard/components/JobItemCard/index.tsx",
         "src/screens/JobBoard/index.tsx",
         "src/screens/JobDetailScreen/components/materials/index.tsx",
+        "src/screens/ListMemberJobsBoard/index.tsx",
         "src/screens/MyBudget/index.tsx",
         "src/screens/MyJobScreen/components/CardItem/components/ActionButtons.tsx",
         "src/screens/MyJobScreen/index.tsx",
