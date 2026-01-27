@@ -146,7 +146,7 @@
       "shareScope": "default",
       "eager": true,
       "name": "@react-native-community/datetimepicker",
-      "version": "8.5.1",
+      "version": "8.4.4",
       "id": "content:@react-native-community/datetimepicker",
       "assets": {
         "js": {
@@ -288,12 +288,58 @@
     },
     {
       "singleton": true,
+      "requiredVersion": "^3.3.0",
+      "shareScope": "default",
+      "eager": true,
+      "name": "@redux-devtools/extension",
+      "version": "3.3.0",
+      "id": "content:@redux-devtools/extension",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "content.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
       "requiredVersion": "^2.2.0",
       "shareScope": "default",
       "eager": true,
       "name": "@shopify/flash-list",
       "version": "2.2.0",
       "id": "content:@shopify/flash-list",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "content.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.13.2",
+      "shareScope": "default",
+      "eager": true,
+      "name": "axios",
+      "version": "1.13.2",
+      "id": "content:axios",
       "assets": {
         "js": {
           "async": [],
@@ -361,7 +407,7 @@
       "shareScope": "default",
       "eager": true,
       "name": "i18next",
-      "version": "25.7.3",
+      "version": "25.6.3",
       "id": "content:i18next",
       "assets": {
         "js": {
@@ -453,7 +499,7 @@
       "shareScope": "default",
       "eager": true,
       "name": "react-i18next",
-      "version": "16.5.0",
+      "version": "16.3.4",
       "id": "content:react-i18next",
       "assets": {
         "js": {
@@ -656,12 +702,35 @@
     },
     {
       "singleton": true,
-      "requiredVersion": "^5.0.12",
+      "requiredVersion": "^5.0.13",
       "shareScope": "default",
       "eager": true,
       "name": "react-native-date-picker",
-      "version": "5.0.12",
+      "version": "5.0.13",
       "id": "content:react-native-date-picker",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "content.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^14.1.1",
+      "shareScope": "default",
+      "eager": true,
+      "name": "react-native-device-info",
+      "version": "14.1.1",
+      "id": "content:react-native-device-info",
       "assets": {
         "js": {
           "async": [],
@@ -892,7 +961,7 @@
       "shareScope": "default",
       "eager": true,
       "name": "react-native-keyboard-controller",
-      "version": "1.20.2",
+      "version": "1.19.5",
       "id": "content:react-native-keyboard-controller",
       "assets": {
         "js": {
@@ -1011,6 +1080,29 @@
       "name": "react-native-pager-view",
       "version": "6.9.1",
       "id": "content:react-native-pager-view",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "content.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^5.14.5",
+      "shareScope": "default",
+      "eager": true,
+      "name": "react-native-paper",
+      "version": "5.14.5",
+      "id": "content:react-native-paper",
       "assets": {
         "js": {
           "async": [],
@@ -1195,7 +1287,7 @@
       "shareScope": "default",
       "eager": true,
       "name": "react-native-svg",
-      "version": "15.15.1",
+      "version": "15.15.0",
       "id": "content:react-native-svg",
       "assets": {
         "js": {
@@ -1819,6 +1911,29 @@
     },
     {
       "singleton": true,
+      "requiredVersion": "^1.4.2",
+      "shareScope": "default",
+      "eager": true,
+      "name": "redux-saga",
+      "version": "1.4.2",
+      "id": "content:redux-saga",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "content.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
       "requiredVersion": "^1.7.1",
       "shareScope": "default",
       "eager": true,
@@ -1849,27 +1964,6 @@
       "moduleName": "AuthProvider",
       "usedIn": [
         "App.tsx"
-      ],
-      "entry": "https://prediction3ddotcom.github.io/TradeWize.Public/bundle_tradewize/auth/android/auth.container.js.bundle"
-    },
-    {
-      "alias": "auth",
-      "consumingFederationContainerName": "content",
-      "federationContainerName": "auth",
-      "moduleName": "api",
-      "usedIn": [
-        "src/helper/AccountScreen.helper.ts",
-        "src/helper/Message.helper.ts",
-        "src/hooks/useDuevideo.ts",
-        "src/services/LocationService.ts",
-        "src/components/ChatContainer/index.tsx",
-        "src/screens/ChangePassword/index.tsx",
-        "src/screens/LeaderBoard/Components/ListItem.tsx",
-        "src/screens/LeaderBoard/Components/MyScore.tsx",
-        "src/screens/LeaderBoard/index.tsx",
-        "src/screens/MyBudget/index.tsx",
-        "src/screens/PaymentMethod/index.tsx",
-        "src/utils/index.tsx"
       ],
       "entry": "https://prediction3ddotcom.github.io/TradeWize.Public/bundle_tradewize/auth/android/auth.container.js.bundle"
     },
@@ -1915,7 +2009,10 @@
         "src/screens/JobBoard/components/Header/index.tsx",
         "src/screens/JobBoard/components/JobItemCard/index.tsx",
         "src/screens/JobBoard/index.tsx",
+        "src/screens/JobDetailScreen/components/materials/index.tsx",
         "src/screens/MyBudget/index.tsx",
+        "src/screens/MyJobScreen/components/CardItem/components/ActionButtons.tsx",
+        "src/screens/MyJobScreen/index.tsx",
         "src/screens/PaymentInfoW9/components/ssn/index.tsx",
         "src/screens/PaymentInfoW9/index.tsx",
         "src/screens/PaymentMethod/index.tsx",
@@ -1930,6 +2027,27 @@
         "src/screens/TakeTheTest/index.tsx",
         "src/screens/UserProfile/components/ModalChangeAvatar/index.tsx",
         "src/screens/UserProfile/index.tsx"
+      ],
+      "entry": "https://prediction3ddotcom.github.io/TradeWize.Public/bundle_tradewize/auth/android/auth.container.js.bundle"
+    },
+    {
+      "alias": "auth",
+      "consumingFederationContainerName": "content",
+      "federationContainerName": "auth",
+      "moduleName": "api",
+      "usedIn": [
+        "src/helper/AccountScreen.helper.ts",
+        "src/helper/Message.helper.ts",
+        "src/hooks/useDuevideo.ts",
+        "src/services/LocationService.ts",
+        "src/components/ChatContainer/index.tsx",
+        "src/screens/ChangePassword/index.tsx",
+        "src/screens/LeaderBoard/Components/ListItem.tsx",
+        "src/screens/LeaderBoard/Components/MyScore.tsx",
+        "src/screens/LeaderBoard/index.tsx",
+        "src/screens/MyBudget/index.tsx",
+        "src/screens/PaymentMethod/index.tsx",
+        "src/utils/index.tsx"
       ],
       "entry": "https://prediction3ddotcom.github.io/TradeWize.Public/bundle_tradewize/auth/android/auth.container.js.bundle"
     }
@@ -1950,7 +2068,7 @@
       "assets": {
         "js": {
           "sync": [
-            "vendors-node_modules_react-native-async-storage_async-storage_src_index_ts-node_modules_react-4a0548.chunk.bundle",
+            "vendors-Auth_node_modules_react-native-async-storage_async-storage_src_index_ts-Auth_node_mod-613147.chunk.bundle",
             "__federation_expose_App.chunk.bundle"
           ],
           "async": []

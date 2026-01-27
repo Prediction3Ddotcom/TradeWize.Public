@@ -149,7 +149,7 @@
       "shareScope": "default",
       "eager": true,
       "name": "@react-native-community/datetimepicker",
-      "version": "8.5.0",
+      "version": "8.4.4",
       "id": "auth:@react-native-community/datetimepicker",
       "assets": {
         "js": {
@@ -359,8 +359,8 @@
         }
       },
       "usedIn": [
-        "./AuthProvider",
-        "./WellComeScreen"
+        "./WellComeScreen",
+        "./AuthProvider"
       ]
     },
     {
@@ -645,11 +645,11 @@
     },
     {
       "singleton": true,
-      "requiredVersion": "^5.0.12",
+      "requiredVersion": "^5.0.13",
       "shareScope": "default",
       "eager": true,
       "name": "react-native-date-picker",
-      "version": "5.0.12",
+      "version": "5.0.13",
       "id": "auth:react-native-date-picker",
       "assets": {
         "js": {
@@ -877,8 +877,8 @@
         }
       },
       "usedIn": [
-        "./SelectBottomModal",
-        "./LoginScreen"
+        "./LoginScreen",
+        "./SelectBottomModal"
       ]
     },
     {
@@ -928,11 +928,11 @@
         }
       },
       "usedIn": [
-        "./ConfirmModal",
+        "./CustomModal",
         "./AlertModal",
+        "./ConfirmModal",
         "./SelectBottomModal",
-        "./SelectedLangue",
-        "./CustomModal"
+        "./SelectedLangue"
       ]
     },
     {
@@ -1618,12 +1618,12 @@
         }
       },
       "usedIn": [
+        "./CustomModal",
         "./LoadingOverlay",
         "./AlertModal",
         "./ConfirmModal",
         "./SelectBottomModal",
         "./SelectedLangue",
-        "./CustomModal",
         "./LoginScreen",
         "./RegisterScreen",
         "./WellComeScreen"
@@ -1651,15 +1651,15 @@
         }
       },
       "usedIn": [
-        "./WellComeScreen",
+        "./CustomModal",
         "./LoadingOverlay",
         "./ConfirmModal",
         "./SelectBottomModal",
         "./SelectedLangue",
-        "./CustomModal",
         "./AuthProvider",
         "./LoginScreen",
-        "./RegisterScreen"
+        "./RegisterScreen",
+        "./WellComeScreen"
       ]
     },
     {
@@ -1684,14 +1684,14 @@
         }
       },
       "usedIn": [
-        "./AuthProvider",
+        "./CustomModal",
         "./App",
         "./LoadingOverlay",
         "./AlertModal",
         "./ConfirmModal",
         "./SelectBottomModal",
         "./SelectedLangue",
-        "./CustomModal",
+        "./AuthProvider",
         "./LoginScreen",
         "./RegisterScreen",
         "./WellComeScreen"

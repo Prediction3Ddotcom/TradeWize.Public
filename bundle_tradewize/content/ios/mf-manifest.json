@@ -128,7 +128,7 @@
     {
       "id": "content:@react-native-community/datetimepicker",
       "name": "@react-native-community/datetimepicker",
-      "version": "8.5.1",
+      "version": "8.4.4",
       "singleton": true,
       "requiredVersion": "^8.5.1",
       "assets": {
@@ -261,11 +261,51 @@
       }
     },
     {
+      "id": "content:@redux-devtools/extension",
+      "name": "@redux-devtools/extension",
+      "version": "3.3.0",
+      "singleton": true,
+      "requiredVersion": "^3.3.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "content.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
       "id": "content:@shopify/flash-list",
       "name": "@shopify/flash-list",
       "version": "2.2.0",
       "singleton": true,
       "requiredVersion": "^2.2.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "content.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "content:axios",
+      "name": "axios",
+      "version": "1.13.2",
+      "singleton": true,
+      "requiredVersion": "^1.13.2",
       "assets": {
         "js": {
           "async": [],
@@ -323,7 +363,7 @@
     {
       "id": "content:i18next",
       "name": "i18next",
-      "version": "25.7.3",
+      "version": "25.6.3",
       "singleton": true,
       "requiredVersion": "^25.7.3",
       "assets": {
@@ -403,7 +443,7 @@
     {
       "id": "content:react-i18next",
       "name": "react-i18next",
-      "version": "16.5.0",
+      "version": "16.3.4",
       "singleton": true,
       "requiredVersion": "^16.5.0",
       "assets": {
@@ -583,9 +623,29 @@
     {
       "id": "content:react-native-date-picker",
       "name": "react-native-date-picker",
-      "version": "5.0.12",
+      "version": "5.0.13",
       "singleton": true,
-      "requiredVersion": "^5.0.12",
+      "requiredVersion": "^5.0.13",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "content.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "content:react-native-device-info",
+      "name": "react-native-device-info",
+      "version": "14.1.1",
+      "singleton": true,
+      "requiredVersion": "^14.1.1",
       "assets": {
         "js": {
           "async": [],
@@ -783,7 +843,7 @@
     {
       "id": "content:react-native-keyboard-controller",
       "name": "react-native-keyboard-controller",
-      "version": "1.20.2",
+      "version": "1.19.5",
       "singleton": true,
       "requiredVersion": "^1.20.2",
       "assets": {
@@ -886,6 +946,26 @@
       "version": "6.9.1",
       "singleton": true,
       "requiredVersion": "^undefined",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "content.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "content:react-native-paper",
+      "name": "react-native-paper",
+      "version": "5.14.5",
+      "singleton": true,
+      "requiredVersion": "^5.14.5",
       "assets": {
         "js": {
           "async": [],
@@ -1043,7 +1123,7 @@
     {
       "id": "content:react-native-svg",
       "name": "react-native-svg",
-      "version": "15.15.1",
+      "version": "15.15.0",
       "singleton": true,
       "requiredVersion": "^15.15.1",
       "assets": {
@@ -1600,6 +1680,26 @@
       }
     },
     {
+      "id": "content:redux-saga",
+      "name": "redux-saga",
+      "version": "1.4.2",
+      "singleton": true,
+      "requiredVersion": "^1.4.2",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "content.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
       "id": "content:yup",
       "name": "yup",
       "version": "1.7.1",
@@ -1629,13 +1729,13 @@
     },
     {
       "federationContainerName": "auth",
-      "moduleName": "api",
+      "moduleName": "redux",
       "alias": "auth",
       "entry": "https://prediction3ddotcom.github.io/TradeWize.Public/bundle_tradewize/auth/ios/auth.container.js.bundle"
     },
     {
       "federationContainerName": "auth",
-      "moduleName": "redux",
+      "moduleName": "api",
       "alias": "auth",
       "entry": "https://prediction3ddotcom.github.io/TradeWize.Public/bundle_tradewize/auth/ios/auth.container.js.bundle"
     }
@@ -1647,7 +1747,7 @@
       "assets": {
         "js": {
           "sync": [
-            "vendors-node_modules_react-native-async-storage_async-storage_src_index_ts-node_modules_react-4a0548.chunk.bundle",
+            "vendors-Auth_node_modules_react-native-async-storage_async-storage_src_index_ts-Auth_node_mod-613147.chunk.bundle",
             "__federation_expose_App.chunk.bundle"
           ],
           "async": []

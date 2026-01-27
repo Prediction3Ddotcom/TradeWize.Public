@@ -128,7 +128,7 @@
     {
       "id": "auth:@react-native-community/datetimepicker",
       "name": "@react-native-community/datetimepicker",
-      "version": "8.5.0",
+      "version": "8.4.4",
       "singleton": true,
       "requiredVersion": "^8.5.0",
       "assets": {
@@ -563,9 +563,9 @@
     {
       "id": "auth:react-native-date-picker",
       "name": "react-native-date-picker",
-      "version": "5.0.12",
+      "version": "5.0.13",
       "singleton": true,
-      "requiredVersion": "^5.0.12",
+      "requiredVersion": "^5.0.13",
       "assets": {
         "js": {
           "async": [],

@@ -149,7 +149,7 @@
       "shareScope": "default",
       "eager": true,
       "name": "@react-native-community/datetimepicker",
-      "version": "8.5.0",
+      "version": "8.4.4",
       "id": "auth:@react-native-community/datetimepicker",
       "assets": {
         "js": {
@@ -645,11 +645,11 @@
     },
     {
       "singleton": true,
-      "requiredVersion": "^5.0.12",
+      "requiredVersion": "^5.0.13",
       "shareScope": "default",
       "eager": true,
       "name": "react-native-date-picker",
-      "version": "5.0.12",
+      "version": "5.0.13",
       "id": "auth:react-native-date-picker",
       "assets": {
         "js": {
@@ -736,8 +736,8 @@
         }
       },
       "usedIn": [
-        "./SelectBottomModal",
-        "./ConfirmModal"
+        "./ConfirmModal",
+        "./SelectBottomModal"
       ]
     },
     {
@@ -928,11 +928,11 @@
         }
       },
       "usedIn": [
-        "./CustomModal",
-        "./AlertModal",
         "./ConfirmModal",
+        "./AlertModal",
         "./SelectBottomModal",
-        "./SelectedLangue"
+        "./SelectedLangue",
+        "./CustomModal"
       ]
     },
     {
@@ -1618,7 +1618,6 @@
         }
       },
       "usedIn": [
-        "./WellComeScreen",
         "./LoadingOverlay",
         "./AlertModal",
         "./ConfirmModal",
@@ -1626,7 +1625,8 @@
         "./SelectedLangue",
         "./CustomModal",
         "./LoginScreen",
-        "./RegisterScreen"
+        "./RegisterScreen",
+        "./WellComeScreen"
       ]
     },
     {
@@ -1651,7 +1651,7 @@
         }
       },
       "usedIn": [
-        "./WellComeScreen",
+        "./RegisterScreen",
         "./LoadingOverlay",
         "./ConfirmModal",
         "./SelectBottomModal",
@@ -1659,7 +1659,7 @@
         "./CustomModal",
         "./AuthProvider",
         "./LoginScreen",
-        "./RegisterScreen"
+        "./WellComeScreen"
       ]
     },
     {
@@ -1684,9 +1684,8 @@
         }
       },
       "usedIn": [
-        "./WellComeScreen",
-        "./App",
         "./LoadingOverlay",
+        "./App",
         "./AlertModal",
         "./ConfirmModal",
         "./SelectBottomModal",
@@ -1694,7 +1693,8 @@
         "./CustomModal",
         "./AuthProvider",
         "./LoginScreen",
-        "./RegisterScreen"
+        "./RegisterScreen",
+        "./WellComeScreen"
       ]
     },
     {
