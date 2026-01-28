@@ -47,8 +47,8 @@
         }
       },
       "usedIn": [
-        "./RegisterScreen",
-        "./LoginScreen"
+        "./LoginScreen",
+        "./RegisterScreen"
       ]
     },
     {
@@ -622,6 +622,29 @@
     },
     {
       "singleton": true,
+      "requiredVersion": "^1.12.0",
+      "shareScope": "default",
+      "eager": true,
+      "name": "react-native-compressor",
+      "version": "1.12.0",
+      "id": "auth:react-native-compressor",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "auth.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
       "requiredVersion": "^2.2.0",
       "shareScope": "default",
       "eager": true,
@@ -928,10 +951,10 @@
         }
       },
       "usedIn": [
-        "./SelectedLangue",
+        "./SelectBottomModal",
         "./AlertModal",
         "./ConfirmModal",
-        "./SelectBottomModal",
+        "./SelectedLangue",
         "./CustomModal"
       ]
     },
@@ -1618,11 +1641,11 @@
         }
       },
       "usedIn": [
-        "./SelectedLangue",
         "./LoadingOverlay",
         "./AlertModal",
         "./ConfirmModal",
         "./SelectBottomModal",
+        "./SelectedLangue",
         "./CustomModal",
         "./LoginScreen",
         "./RegisterScreen",
@@ -1651,12 +1674,12 @@
         }
       },
       "usedIn": [
-        "./SelectedLangue",
+        "./AuthProvider",
         "./LoadingOverlay",
         "./ConfirmModal",
         "./SelectBottomModal",
+        "./SelectedLangue",
         "./CustomModal",
-        "./AuthProvider",
         "./LoginScreen",
         "./RegisterScreen",
         "./WellComeScreen"
@@ -1684,6 +1707,7 @@
         }
       },
       "usedIn": [
+        "./AuthProvider",
         "./App",
         "./LoadingOverlay",
         "./AlertModal",
@@ -1691,7 +1715,6 @@
         "./SelectBottomModal",
         "./SelectedLangue",
         "./CustomModal",
-        "./AuthProvider",
         "./LoginScreen",
         "./RegisterScreen",
         "./WellComeScreen"

@@ -1980,8 +1980,11 @@
         "src/helper/registerTest.ts",
         "src/hooks/referFriend.ts",
         "src/hooks/useAccount.ts",
+        "src/hooks/useApp.ts",
         "src/hooks/useBankInfo.ts",
         "src/hooks/useCompany.ts",
+        "src/hooks/useFeedback.ts",
+        "src/hooks/useFeedbackAdd.ts",
         "src/hooks/useHome.ts",
         "src/hooks/useJobBoard.ts",
         "src/hooks/useMessage.ts",
@@ -2003,6 +2006,7 @@
         "src/screens/Contract/components/Canvas/index.tsx",
         "src/screens/Contract/components/ContractsToSign/index.tsx",
         "src/screens/Contract/index.tsx",
+        "src/screens/FeedbackListScreen/components/CardItem/index.tsx",
         "src/screens/Home/components/DueVideo/index.tsx",
         "src/screens/Home/components/ImportantThings/index.tsx",
         "src/screens/JobBoard/components/Filter/index.tsx",
@@ -2026,7 +2030,6 @@
         "src/screens/SystemQualityGuide/index.tsx",
         "src/screens/TakeTheTest/components/Item.tsx",
         "src/screens/TakeTheTest/index.tsx",
-        "src/screens/UserProfile/components/ModalChangeAvatar/index.tsx",
         "src/screens/UserProfile/index.tsx"
       ],
       "entry": "https://prediction3ddotcom.github.io/TradeWize.Public/bundle_tradewize/auth/android/auth.container.js.bundle"

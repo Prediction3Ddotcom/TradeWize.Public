@@ -47,8 +47,8 @@
         }
       },
       "usedIn": [
-        "./RegisterScreen",
-        "./LoginScreen"
+        "./LoginScreen",
+        "./RegisterScreen"
       ]
     },
     {
@@ -359,8 +359,8 @@
         }
       },
       "usedIn": [
-        "./WellComeScreen",
-        "./AuthProvider"
+        "./AuthProvider",
+        "./WellComeScreen"
       ]
     },
     {
@@ -605,6 +605,29 @@
       "name": "react-native-circular-progress",
       "version": "1.4.1",
       "id": "auth:react-native-circular-progress",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "auth.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.12.0",
+      "shareScope": "default",
+      "eager": true,
+      "name": "react-native-compressor",
+      "version": "1.12.0",
+      "id": "auth:react-native-compressor",
       "assets": {
         "js": {
           "async": [],
@@ -1072,9 +1095,9 @@
         }
       },
       "usedIn": [
+        "./WellComeScreen",
         "./SelectBottomModal",
-        "./LoginScreen",
-        "./WellComeScreen"
+        "./LoginScreen"
       ]
     },
     {
@@ -1618,6 +1641,7 @@
         }
       },
       "usedIn": [
+        "./WellComeScreen",
         "./LoadingOverlay",
         "./AlertModal",
         "./ConfirmModal",
@@ -1625,8 +1649,7 @@
         "./SelectedLangue",
         "./CustomModal",
         "./LoginScreen",
-        "./RegisterScreen",
-        "./WellComeScreen"
+        "./RegisterScreen"
       ]
     },
     {
@@ -1651,12 +1674,12 @@
         }
       },
       "usedIn": [
-        "./SelectBottomModal",
+        "./AuthProvider",
         "./LoadingOverlay",
         "./ConfirmModal",
+        "./SelectBottomModal",
         "./SelectedLangue",
         "./CustomModal",
-        "./AuthProvider",
         "./LoginScreen",
         "./RegisterScreen",
         "./WellComeScreen"
