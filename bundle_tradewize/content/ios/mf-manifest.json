@@ -461,26 +461,6 @@
       }
     },
     {
-      "id": "content:react-native-auto-skeleton",
-      "name": "react-native-auto-skeleton",
-      "version": "0.1.30",
-      "singleton": true,
-      "requiredVersion": "^undefined",
-      "assets": {
-        "js": {
-          "async": [],
-          "sync": [
-            "content.container.js.bundle",
-            "index.bundle"
-          ]
-        },
-        "css": {
-          "async": [],
-          "sync": []
-        }
-      }
-    },
-    {
       "id": "content:react-native-background-timer",
       "name": "react-native-background-timer",
       "version": "2.4.1",

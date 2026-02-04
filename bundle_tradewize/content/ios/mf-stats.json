@@ -518,29 +518,6 @@
     },
     {
       "singleton": true,
-      "requiredVersion": "^undefined",
-      "shareScope": "default",
-      "eager": true,
-      "name": "react-native-auto-skeleton",
-      "version": "0.1.30",
-      "id": "content:react-native-auto-skeleton",
-      "assets": {
-        "js": {
-          "async": [],
-          "sync": [
-            "content.container.js.bundle",
-            "index.bundle"
-          ]
-        },
-        "css": {
-          "async": [],
-          "sync": []
-        }
-      },
-      "usedIn": []
-    },
-    {
-      "singleton": true,
       "requiredVersion": "^2.4.1",
       "shareScope": "default",
       "eager": true,
@@ -1998,12 +1975,15 @@
         "src/screens/MyBudget/index.tsx",
         "src/screens/MyJobScreen/components/CardItem/components/ActionButtons.tsx",
         "src/screens/MyJobScreen/index.tsx",
+        "src/screens/NetworkScreen/components/userCard/index.tsx",
         "src/screens/PaymentInfoW9/components/ssn/index.tsx",
         "src/screens/PaymentInfoW9/index.tsx",
         "src/screens/PaymentMethod/index.tsx",
         "src/screens/ReferFriend/index.tsx",
         "src/screens/RegisterCompanyTestScreen/components/NecessaryTools.tsx",
         "src/screens/RegisterCompanyTestScreen/components/Question.tsx",
+        "src/screens/ReviewScreen/components/InputReview/index.tsx",
+        "src/screens/ReviewScreen/index.tsx",
         "src/screens/SystemQualityGuide/components/CardItemVideo.tsx",
         "src/screens/SystemQualityGuide/components/Quanlity/index.tsx",
         "src/screens/SystemQualityGuide/components/System/index.tsx",
