@@ -1724,19 +1724,19 @@
       "federationContainerName": "auth",
       "moduleName": "AuthProvider",
       "alias": "auth",
-      "entry": "https://prediction3ddotcom.github.io/TradeWize.Public/bundle_tradewize/auth/android/auth.container.js.bundle"
+      "entry": "http://localhost:9003/android/mf-manifest.json"
     },
     {
       "federationContainerName": "auth",
       "moduleName": "redux",
       "alias": "auth",
-      "entry": "https://prediction3ddotcom.github.io/TradeWize.Public/bundle_tradewize/auth/android/auth.container.js.bundle"
+      "entry": "http://localhost:9003/android/mf-manifest.json"
     },
     {
       "federationContainerName": "auth",
       "moduleName": "api",
       "alias": "auth",
-      "entry": "https://prediction3ddotcom.github.io/TradeWize.Public/bundle_tradewize/auth/android/auth.container.js.bundle"
+      "entry": "http://localhost:9003/android/mf-manifest.json"
     }
   ],
   "exposes": [
@@ -1746,7 +1746,7 @@
       "assets": {
         "js": {
           "sync": [
-            "vendors-Auth_node_modules_react-native-async-storage_async-storage_src_index_ts-Auth_node_mod-613147.chunk.bundle",
+            "vendors-Auth_node_modules_react-native-async-storage_async-storage_src_index_ts-Auth_node_mod-fc67c8.chunk.bundle",
             "__federation_expose_App.chunk.bundle"
           ],
           "async": []
