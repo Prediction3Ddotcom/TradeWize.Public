@@ -1644,19 +1644,19 @@
       "federationContainerName": "auth",
       "moduleName": "AuthProvider",
       "alias": "auth",
-      "entry": "https://prediction3ddotcom.github.io/TradeWize.Public/bundle_tradewize/auth/android/auth.container.js.bundle"
+      "entry": "https://prediction3ddotcom.github.io/TradeWize.Public/bundle_tradewize/auth/b1/android/auth.container.js.bundle"
     },
     {
       "federationContainerName": "auth",
       "moduleName": "redux",
       "alias": "auth",
-      "entry": "https://prediction3ddotcom.github.io/TradeWize.Public/bundle_tradewize/auth/android/auth.container.js.bundle"
+      "entry": "https://prediction3ddotcom.github.io/TradeWize.Public/bundle_tradewize/auth/b1/android/auth.container.js.bundle"
     },
     {
       "federationContainerName": "auth",
       "moduleName": "api",
       "alias": "auth",
-      "entry": "https://prediction3ddotcom.github.io/TradeWize.Public/bundle_tradewize/auth/android/auth.container.js.bundle"
+      "entry": "https://prediction3ddotcom.github.io/TradeWize.Public/bundle_tradewize/auth/b1/android/auth.container.js.bundle"
     }
   ],
   "exposes": [
