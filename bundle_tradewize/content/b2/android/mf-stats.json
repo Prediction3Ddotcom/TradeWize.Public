@@ -1850,7 +1850,7 @@
       "usedIn": [
         "App.tsx"
       ],
-      "entry": "https://prediction3ddotcom.github.io/TradeWize.Public/bundle_tradewize/auth/b2/android/auth.container.js.bundle"
+      "entry": "https://prediction3ddotcom.github.io/TradeWize.Public/bundle_tradewize/auth/b1/android/auth.container.js.bundle"
     },
     {
       "alias": "auth",
@@ -1938,7 +1938,7 @@
         "src/screens/UserProfile/index.tsx",
         "src/screens/YourLocation/index.tsx"
       ],
-      "entry": "https://prediction3ddotcom.github.io/TradeWize.Public/bundle_tradewize/auth/b2/android/auth.container.js.bundle"
+      "entry": "https://prediction3ddotcom.github.io/TradeWize.Public/bundle_tradewize/auth/b1/android/auth.container.js.bundle"
     },
     {
       "alias": "auth",
@@ -1966,7 +1966,7 @@
         "src/screens/YourLocation/index.tsx",
         "src/utils/index.tsx"
       ],
-      "entry": "https://prediction3ddotcom.github.io/TradeWize.Public/bundle_tradewize/auth/b2/android/auth.container.js.bundle"
+      "entry": "https://prediction3ddotcom.github.io/TradeWize.Public/bundle_tradewize/auth/b1/android/auth.container.js.bundle"
     }
   ],
   "exposes": [
