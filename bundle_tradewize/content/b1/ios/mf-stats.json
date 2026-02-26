@@ -50,29 +50,6 @@
     },
     {
       "singleton": true,
-      "requiredVersion": "^4.1.1",
-      "shareScope": "default",
-      "eager": true,
-      "name": "@expo/react-native-action-sheet",
-      "version": "4.1.1",
-      "id": "content:@expo/react-native-action-sheet",
-      "assets": {
-        "js": {
-          "async": [],
-          "sync": [
-            "content.container.js.bundle",
-            "index.bundle"
-          ]
-        },
-        "css": {
-          "async": [],
-          "sync": []
-        }
-      },
-      "usedIn": []
-    },
-    {
-      "singleton": true,
       "requiredVersion": "^undefined",
       "shareScope": "default",
       "eager": true,
@@ -102,29 +79,6 @@
       "name": "@hortau/react-native-wheel-picker-android",
       "version": "4.4.0",
       "id": "content:@hortau/react-native-wheel-picker-android",
-      "assets": {
-        "js": {
-          "async": [],
-          "sync": [
-            "content.container.js.bundle",
-            "index.bundle"
-          ]
-        },
-        "css": {
-          "async": [],
-          "sync": []
-        }
-      },
-      "usedIn": []
-    },
-    {
-      "singleton": true,
-      "requiredVersion": "^4.4.1",
-      "shareScope": "default",
-      "eager": true,
-      "name": "@react-native-community/blur",
-      "version": "4.4.1",
-      "id": "content:@react-native-community/blur",
       "assets": {
         "js": {
           "async": [],
@@ -518,12 +472,12 @@
     },
     {
       "singleton": true,
-      "requiredVersion": "^undefined",
+      "requiredVersion": "^2.4.1",
       "shareScope": "default",
       "eager": true,
-      "name": "react-native-auto-skeleton",
-      "version": "0.1.30",
-      "id": "content:react-native-auto-skeleton",
+      "name": "react-native-background-timer",
+      "version": "2.4.1",
+      "id": "content:react-native-background-timer",
       "assets": {
         "js": {
           "async": [],
@@ -541,12 +495,12 @@
     },
     {
       "singleton": true,
-      "requiredVersion": "^2.4.1",
+      "requiredVersion": "^4.19.0",
       "shareScope": "default",
       "eager": true,
-      "name": "react-native-background-timer",
-      "version": "2.4.1",
-      "id": "content:react-native-background-timer",
+      "name": "react-native-big-calendar",
+      "version": "4.19.0",
+      "id": "content:react-native-big-calendar",
       "assets": {
         "js": {
           "async": [],
@@ -633,58 +587,12 @@
     },
     {
       "singleton": true,
-      "requiredVersion": "^1.4.1",
-      "shareScope": "default",
-      "eager": true,
-      "name": "react-native-circular-progress",
-      "version": "1.4.1",
-      "id": "content:react-native-circular-progress",
-      "assets": {
-        "js": {
-          "async": [],
-          "sync": [
-            "content.container.js.bundle",
-            "index.bundle"
-          ]
-        },
-        "css": {
-          "async": [],
-          "sync": []
-        }
-      },
-      "usedIn": []
-    },
-    {
-      "singleton": true,
       "requiredVersion": "^1.12.0",
       "shareScope": "default",
       "eager": true,
       "name": "react-native-compressor",
       "version": "1.12.0",
       "id": "content:react-native-compressor",
-      "assets": {
-        "js": {
-          "async": [],
-          "sync": [
-            "content.container.js.bundle",
-            "index.bundle"
-          ]
-        },
-        "css": {
-          "async": [],
-          "sync": []
-        }
-      },
-      "usedIn": []
-    },
-    {
-      "singleton": true,
-      "requiredVersion": "^2.2.0",
-      "shareScope": "default",
-      "eager": true,
-      "name": "react-native-create-thumbnail",
-      "version": "2.2.0",
-      "id": "content:react-native-create-thumbnail",
       "assets": {
         "js": {
           "async": [],
@@ -961,7 +869,7 @@
       "shareScope": "default",
       "eager": true,
       "name": "react-native-keyboard-controller",
-      "version": "1.19.5",
+      "version": "1.20.2",
       "id": "content:react-native-keyboard-controller",
       "assets": {
         "js": {
@@ -1051,6 +959,29 @@
     },
     {
       "singleton": true,
+      "requiredVersion": "^1.7.0",
+      "shareScope": "default",
+      "eager": true,
+      "name": "react-native-orientation-locker",
+      "version": "1.7.0",
+      "id": "content:react-native-orientation-locker",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "content.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
       "requiredVersion": "^1.8.5",
       "shareScope": "default",
       "eager": true,
@@ -1103,29 +1034,6 @@
       "name": "react-native-paper",
       "version": "5.14.5",
       "id": "content:react-native-paper",
-      "assets": {
-        "js": {
-          "async": [],
-          "sync": [
-            "content.container.js.bundle",
-            "index.bundle"
-          ]
-        },
-        "css": {
-          "async": [],
-          "sync": []
-        }
-      },
-      "usedIn": []
-    },
-    {
-      "singleton": true,
-      "requiredVersion": "^0.0.22",
-      "shareScope": "default",
-      "eager": true,
-      "name": "react-native-parsed-text",
-      "version": "0.0.22",
-      "id": "content:react-native-parsed-text",
       "assets": {
         "js": {
           "async": [],
@@ -1335,29 +1243,6 @@
       "name": "react-native-video",
       "version": "6.18.0",
       "id": "content:react-native-video",
-      "assets": {
-        "js": {
-          "async": [],
-          "sync": [
-            "content.container.js.bundle",
-            "index.bundle"
-          ]
-        },
-        "css": {
-          "async": [],
-          "sync": []
-        }
-      },
-      "usedIn": []
-    },
-    {
-      "singleton": true,
-      "requiredVersion": "^4.7.3",
-      "shareScope": "default",
-      "eager": true,
-      "name": "react-native-vision-camera",
-      "version": "4.7.3",
-      "id": "content:react-native-vision-camera",
       "assets": {
         "js": {
           "async": [],
@@ -1960,54 +1845,78 @@
         "src/helper/registerTest.ts",
         "src/hooks/referFriend.ts",
         "src/hooks/useAccount.ts",
+        "src/hooks/useApp.ts",
         "src/hooks/useBankInfo.ts",
         "src/hooks/useCompany.ts",
+        "src/hooks/useFeedback.ts",
+        "src/hooks/useFeedbackAdd.ts",
         "src/hooks/useHome.ts",
         "src/hooks/useJobBoard.ts",
+        "src/hooks/useJobReadyChecklist.ts",
+        "src/hooks/useJobStartChecklist.ts",
+        "src/hooks/useMaterialLeft.ts",
         "src/hooks/useMessage.ts",
         "src/hooks/useNetwork.ts",
+        "src/hooks/useOtherCrewMembers.ts",
+        "src/hooks/useReferFriendJobDetail.ts",
         "src/hooks/useRegisterCompanyTestScreen.ts",
         "src/hooks/useRoleType.ts",
+        "src/hooks/useTabNotification.ts",
         "src/hooks/useTheTest.ts",
         "src/hooks/useTraining.ts",
         "src/i18n/languageManager.ts",
         "src/screens/Account/model.ts",
+        "src/screens/JobDetailScreen/helper.ts",
+        "src/screens/MyJobScreen/helper.ts",
         "src/services/ChatSocketService.ts",
         "src/services/LocationService.ts",
+        "src/services/NavigationService.ts",
         "src/components/RoleTypeItem/index.tsx",
         "src/helper/index.tsx",
         "src/navigation/BottomTabNavigator.tsx",
+        "src/navigation/MainNavigator.tsx",
         "src/screens/Account/Components/SestionCard.tsx",
         "src/screens/Account/index.tsx",
         "src/screens/ChangePassword/index.tsx",
         "src/screens/Contract/components/Canvas/index.tsx",
         "src/screens/Contract/components/ContractsToSign/index.tsx",
         "src/screens/Contract/index.tsx",
+        "src/screens/FeedbackListScreen/components/CardItem/index.tsx",
         "src/screens/Home/components/DueVideo/index.tsx",
         "src/screens/Home/components/ImportantThings/index.tsx",
+        "src/screens/Home/components/JobsToday/index.tsx",
         "src/screens/JobBoard/components/Filter/index.tsx",
         "src/screens/JobBoard/components/Header/index.tsx",
         "src/screens/JobBoard/components/JobItemCard/index.tsx",
         "src/screens/JobBoard/index.tsx",
         "src/screens/JobDetailScreen/components/materials/index.tsx",
+        "src/screens/JobReadyChecklist/index.tsx",
         "src/screens/ListMemberJobsBoard/index.tsx",
         "src/screens/MyBudget/index.tsx",
         "src/screens/MyJobScreen/components/CardItem/components/ActionButtons.tsx",
         "src/screens/MyJobScreen/index.tsx",
+        "src/screens/NetworkScreen/components/userCard/index.tsx",
+        "src/screens/NotificationScreen/Components/ItemNotification/index.tsx",
+        "src/screens/NotificationScreen/Components/TabBar/index.tsx",
+        "src/screens/NotificationScreen/index.tsx",
         "src/screens/PaymentInfoW9/components/ssn/index.tsx",
         "src/screens/PaymentInfoW9/index.tsx",
         "src/screens/PaymentMethod/index.tsx",
         "src/screens/ReferFriend/index.tsx",
+        "src/screens/ReferalCompleteJobDetail/index.tsx",
         "src/screens/RegisterCompanyTestScreen/components/NecessaryTools.tsx",
         "src/screens/RegisterCompanyTestScreen/components/Question.tsx",
+        "src/screens/ReviewScreen/components/InputReview/index.tsx",
+        "src/screens/ReviewScreen/index.tsx",
         "src/screens/SystemQualityGuide/components/CardItemVideo.tsx",
         "src/screens/SystemQualityGuide/components/Quanlity/index.tsx",
         "src/screens/SystemQualityGuide/components/System/index.tsx",
         "src/screens/SystemQualityGuide/index.tsx",
         "src/screens/TakeTheTest/components/Item.tsx",
         "src/screens/TakeTheTest/index.tsx",
-        "src/screens/UserProfile/components/ModalChangeAvatar/index.tsx",
-        "src/screens/UserProfile/index.tsx"
+        "src/screens/ToolsNeededScreen/index.tsx",
+        "src/screens/UserProfile/index.tsx",
+        "src/screens/YourLocation/index.tsx"
       ],
       "entry": "https://prediction3ddotcom.github.io/TradeWize.Public/bundle_tradewize/auth/ios/auth.container.js.bundle"
     },
@@ -2017,17 +1926,24 @@
       "federationContainerName": "auth",
       "moduleName": "api",
       "usedIn": [
-        "src/helper/AccountScreen.helper.ts",
         "src/helper/Message.helper.ts",
         "src/hooks/useDuevideo.ts",
+        "src/hooks/useMaterialLeft.ts",
+        "src/screens/InstallationProgressScreen/useInstallationProgress.ts",
+        "src/screens/JobDetailScreen/helper.ts",
+        "src/screens/MyJobScreen/helper.ts",
+        "src/screens/ToolsNeededScreen/helper.ts",
         "src/services/LocationService.ts",
         "src/components/ChatContainer/index.tsx",
         "src/screens/ChangePassword/index.tsx",
+        "src/screens/Home/components/JobsToday/index.tsx",
         "src/screens/LeaderBoard/Components/ListItem.tsx",
         "src/screens/LeaderBoard/Components/MyScore.tsx",
         "src/screens/LeaderBoard/index.tsx",
         "src/screens/MyBudget/index.tsx",
+        "src/screens/MyJobScreen/components/CardItem/components/ActionButtons.tsx",
         "src/screens/PaymentMethod/index.tsx",
+        "src/screens/YourLocation/index.tsx",
         "src/utils/index.tsx"
       ],
       "entry": "https://prediction3ddotcom.github.io/TradeWize.Public/bundle_tradewize/auth/ios/auth.container.js.bundle"
@@ -2049,7 +1965,7 @@
       "assets": {
         "js": {
           "sync": [
-            "vendors-Auth_node_modules_react-native-async-storage_async-storage_src_index_ts-Auth_node_mod-613147.chunk.bundle",
+            "vendors-Auth_node_modules_react-native-async-storage_async-storage_src_index_ts-Auth_node_mod-175d4f.chunk.bundle",
             "__federation_expose_App.chunk.bundle"
           ],
           "async": []

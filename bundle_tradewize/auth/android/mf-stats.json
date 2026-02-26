@@ -53,29 +53,6 @@
     },
     {
       "singleton": true,
-      "requiredVersion": "^4.1.1",
-      "shareScope": "default",
-      "eager": true,
-      "name": "@expo/react-native-action-sheet",
-      "version": "4.1.1",
-      "id": "auth:@expo/react-native-action-sheet",
-      "assets": {
-        "js": {
-          "async": [],
-          "sync": [
-            "auth.container.js.bundle",
-            "index.bundle"
-          ]
-        },
-        "css": {
-          "async": [],
-          "sync": []
-        }
-      },
-      "usedIn": []
-    },
-    {
-      "singleton": true,
       "requiredVersion": "^2.0.0",
       "shareScope": "default",
       "eager": true,
@@ -105,29 +82,6 @@
       "name": "@hortau/react-native-wheel-picker-android",
       "version": "4.4.0",
       "id": "auth:@hortau/react-native-wheel-picker-android",
-      "assets": {
-        "js": {
-          "async": [],
-          "sync": [
-            "auth.container.js.bundle",
-            "index.bundle"
-          ]
-        },
-        "css": {
-          "async": [],
-          "sync": []
-        }
-      },
-      "usedIn": []
-    },
-    {
-      "singleton": true,
-      "requiredVersion": "^4.4.1",
-      "shareScope": "default",
-      "eager": true,
-      "name": "@react-native-community/blur",
-      "version": "4.4.1",
-      "id": "auth:@react-native-community/blur",
       "assets": {
         "js": {
           "async": [],
@@ -359,8 +313,8 @@
         }
       },
       "usedIn": [
-        "./WellComeScreen",
-        "./AuthProvider"
+        "./AuthProvider",
+        "./WellComeScreen"
       ]
     },
     {
@@ -599,58 +553,12 @@
     },
     {
       "singleton": true,
-      "requiredVersion": "^1.4.1",
-      "shareScope": "default",
-      "eager": true,
-      "name": "react-native-circular-progress",
-      "version": "1.4.1",
-      "id": "auth:react-native-circular-progress",
-      "assets": {
-        "js": {
-          "async": [],
-          "sync": [
-            "auth.container.js.bundle",
-            "index.bundle"
-          ]
-        },
-        "css": {
-          "async": [],
-          "sync": []
-        }
-      },
-      "usedIn": []
-    },
-    {
-      "singleton": true,
       "requiredVersion": "^1.12.0",
       "shareScope": "default",
       "eager": true,
       "name": "react-native-compressor",
       "version": "1.12.0",
       "id": "auth:react-native-compressor",
-      "assets": {
-        "js": {
-          "async": [],
-          "sync": [
-            "auth.container.js.bundle",
-            "index.bundle"
-          ]
-        },
-        "css": {
-          "async": [],
-          "sync": []
-        }
-      },
-      "usedIn": []
-    },
-    {
-      "singleton": true,
-      "requiredVersion": "^2.2.0",
-      "shareScope": "default",
-      "eager": true,
-      "name": "react-native-create-thumbnail",
-      "version": "2.2.0",
-      "id": "auth:react-native-create-thumbnail",
       "assets": {
         "js": {
           "async": [],
@@ -716,29 +624,6 @@
     },
     {
       "singleton": true,
-      "requiredVersion": "^8.6.3",
-      "shareScope": "default",
-      "eager": true,
-      "name": "react-native-fast-image",
-      "version": "8.6.3",
-      "id": "auth:react-native-fast-image",
-      "assets": {
-        "js": {
-          "async": [],
-          "sync": [
-            "auth.container.js.bundle",
-            "index.bundle"
-          ]
-        },
-        "css": {
-          "async": [],
-          "sync": []
-        }
-      },
-      "usedIn": []
-    },
-    {
-      "singleton": true,
       "requiredVersion": "^0.1.1",
       "shareScope": "default",
       "eager": true,
@@ -759,8 +644,8 @@
         }
       },
       "usedIn": [
-        "./ConfirmModal",
-        "./SelectBottomModal"
+        "./SelectBottomModal",
+        "./ConfirmModal"
       ]
     },
     {
@@ -857,29 +742,6 @@
     },
     {
       "singleton": true,
-      "requiredVersion": "^0.2.2",
-      "shareScope": "default",
-      "eager": true,
-      "name": "react-native-image-viewing",
-      "version": "0.2.2",
-      "id": "auth:react-native-image-viewing",
-      "assets": {
-        "js": {
-          "async": [],
-          "sync": [
-            "auth.container.js.bundle",
-            "index.bundle"
-          ]
-        },
-        "css": {
-          "async": [],
-          "sync": []
-        }
-      },
-      "usedIn": []
-    },
-    {
-      "singleton": true,
       "requiredVersion": "^1.19.5",
       "shareScope": "default",
       "eager": true,
@@ -951,11 +813,11 @@
         }
       },
       "usedIn": [
-        "./CustomModal",
+        "./SelectedLangue",
         "./AlertModal",
         "./ConfirmModal",
         "./SelectBottomModal",
-        "./SelectedLangue"
+        "./CustomModal"
       ]
     },
     {
@@ -989,29 +851,6 @@
       "name": "react-native-pager-view",
       "version": "6.9.1",
       "id": "auth:react-native-pager-view",
-      "assets": {
-        "js": {
-          "async": [],
-          "sync": [
-            "auth.container.js.bundle",
-            "index.bundle"
-          ]
-        },
-        "css": {
-          "async": [],
-          "sync": []
-        }
-      },
-      "usedIn": []
-    },
-    {
-      "singleton": true,
-      "requiredVersion": "^0.0.22",
-      "shareScope": "default",
-      "eager": true,
-      "name": "react-native-parsed-text",
-      "version": "0.0.22",
-      "id": "auth:react-native-parsed-text",
       "assets": {
         "js": {
           "async": [],
@@ -1145,8 +984,8 @@
         }
       },
       "usedIn": [
-        "./AlertModal",
         "./SelectBottomModal",
+        "./AlertModal",
         "./LoginScreen"
       ]
     },
@@ -1181,29 +1020,6 @@
       "name": "react-native-video",
       "version": "6.18.0",
       "id": "auth:react-native-video",
-      "assets": {
-        "js": {
-          "async": [],
-          "sync": [
-            "auth.container.js.bundle",
-            "index.bundle"
-          ]
-        },
-        "css": {
-          "async": [],
-          "sync": []
-        }
-      },
-      "usedIn": []
-    },
-    {
-      "singleton": true,
-      "requiredVersion": "^4.7.3",
-      "shareScope": "default",
-      "eager": true,
-      "name": "react-native-vision-camera",
-      "version": "4.7.3",
-      "id": "auth:react-native-vision-camera",
       "assets": {
         "js": {
           "async": [],
@@ -1641,12 +1457,12 @@
         }
       },
       "usedIn": [
-        "./CustomModal",
+        "./SelectedLangue",
         "./LoadingOverlay",
         "./AlertModal",
         "./ConfirmModal",
         "./SelectBottomModal",
-        "./SelectedLangue",
+        "./CustomModal",
         "./LoginScreen",
         "./RegisterScreen",
         "./WellComeScreen"
@@ -1674,12 +1490,12 @@
         }
       },
       "usedIn": [
-        "./CustomModal",
+        "./AuthProvider",
         "./LoadingOverlay",
         "./ConfirmModal",
         "./SelectBottomModal",
         "./SelectedLangue",
-        "./AuthProvider",
+        "./CustomModal",
         "./LoginScreen",
         "./RegisterScreen",
         "./WellComeScreen"
@@ -1707,14 +1523,14 @@
         }
       },
       "usedIn": [
-        "./CustomModal",
+        "./AuthProvider",
         "./App",
         "./LoadingOverlay",
         "./AlertModal",
         "./ConfirmModal",
         "./SelectBottomModal",
         "./SelectedLangue",
-        "./AuthProvider",
+        "./CustomModal",
         "./LoginScreen",
         "./RegisterScreen",
         "./WellComeScreen"
@@ -2154,8 +1970,8 @@
       "requires": [
         "react-native",
         "react",
-        "dayjs",
         "react-native-safe-area-context",
+        "dayjs",
         "react-redux",
         "react-native-linear-gradient"
       ],

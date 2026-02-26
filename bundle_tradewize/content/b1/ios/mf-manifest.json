@@ -46,26 +46,6 @@
       }
     },
     {
-      "id": "content:@expo/react-native-action-sheet",
-      "name": "@expo/react-native-action-sheet",
-      "version": "4.1.1",
-      "singleton": true,
-      "requiredVersion": "^4.1.1",
-      "assets": {
-        "js": {
-          "async": [],
-          "sync": [
-            "content.container.js.bundle",
-            "index.bundle"
-          ]
-        },
-        "css": {
-          "async": [],
-          "sync": []
-        }
-      }
-    },
-    {
       "id": "content:@gorhom/bottom-sheet",
       "name": "@gorhom/bottom-sheet",
       "version": "5.2.8",
@@ -91,26 +71,6 @@
       "version": "4.4.0",
       "singleton": true,
       "requiredVersion": "^4.4.0",
-      "assets": {
-        "js": {
-          "async": [],
-          "sync": [
-            "content.container.js.bundle",
-            "index.bundle"
-          ]
-        },
-        "css": {
-          "async": [],
-          "sync": []
-        }
-      }
-    },
-    {
-      "id": "content:@react-native-community/blur",
-      "name": "@react-native-community/blur",
-      "version": "4.4.1",
-      "singleton": true,
-      "requiredVersion": "^4.4.1",
       "assets": {
         "js": {
           "async": [],
@@ -461,11 +421,11 @@
       }
     },
     {
-      "id": "content:react-native-auto-skeleton",
-      "name": "react-native-auto-skeleton",
-      "version": "0.1.30",
+      "id": "content:react-native-background-timer",
+      "name": "react-native-background-timer",
+      "version": "2.4.1",
       "singleton": true,
-      "requiredVersion": "^undefined",
+      "requiredVersion": "^2.4.1",
       "assets": {
         "js": {
           "async": [],
@@ -481,11 +441,11 @@
       }
     },
     {
-      "id": "content:react-native-background-timer",
-      "name": "react-native-background-timer",
-      "version": "2.4.1",
+      "id": "content:react-native-big-calendar",
+      "name": "react-native-big-calendar",
+      "version": "4.19.0",
       "singleton": true,
-      "requiredVersion": "^2.4.1",
+      "requiredVersion": "^4.19.0",
       "assets": {
         "js": {
           "async": [],
@@ -561,51 +521,11 @@
       }
     },
     {
-      "id": "content:react-native-circular-progress",
-      "name": "react-native-circular-progress",
-      "version": "1.4.1",
-      "singleton": true,
-      "requiredVersion": "^1.4.1",
-      "assets": {
-        "js": {
-          "async": [],
-          "sync": [
-            "content.container.js.bundle",
-            "index.bundle"
-          ]
-        },
-        "css": {
-          "async": [],
-          "sync": []
-        }
-      }
-    },
-    {
       "id": "content:react-native-compressor",
       "name": "react-native-compressor",
       "version": "1.12.0",
       "singleton": true,
       "requiredVersion": "^1.12.0",
-      "assets": {
-        "js": {
-          "async": [],
-          "sync": [
-            "content.container.js.bundle",
-            "index.bundle"
-          ]
-        },
-        "css": {
-          "async": [],
-          "sync": []
-        }
-      }
-    },
-    {
-      "id": "content:react-native-create-thumbnail",
-      "name": "react-native-create-thumbnail",
-      "version": "2.2.0",
-      "singleton": true,
-      "requiredVersion": "^2.2.0",
       "assets": {
         "js": {
           "async": [],
@@ -843,7 +763,7 @@
     {
       "id": "content:react-native-keyboard-controller",
       "name": "react-native-keyboard-controller",
-      "version": "1.19.5",
+      "version": "1.20.2",
       "singleton": true,
       "requiredVersion": "^1.20.2",
       "assets": {
@@ -921,6 +841,26 @@
       }
     },
     {
+      "id": "content:react-native-orientation-locker",
+      "name": "react-native-orientation-locker",
+      "version": "1.7.0",
+      "singleton": true,
+      "requiredVersion": "^1.7.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "content.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
       "id": "content:react-native-otp-entry",
       "name": "react-native-otp-entry",
       "version": "1.8.5",
@@ -966,26 +906,6 @@
       "version": "5.14.5",
       "singleton": true,
       "requiredVersion": "^5.14.5",
-      "assets": {
-        "js": {
-          "async": [],
-          "sync": [
-            "content.container.js.bundle",
-            "index.bundle"
-          ]
-        },
-        "css": {
-          "async": [],
-          "sync": []
-        }
-      }
-    },
-    {
-      "id": "content:react-native-parsed-text",
-      "name": "react-native-parsed-text",
-      "version": "0.0.22",
-      "singleton": true,
-      "requiredVersion": "^0.0.22",
       "assets": {
         "js": {
           "async": [],
@@ -1166,26 +1086,6 @@
       "version": "6.18.0",
       "singleton": true,
       "requiredVersion": "^6.18.0",
-      "assets": {
-        "js": {
-          "async": [],
-          "sync": [
-            "content.container.js.bundle",
-            "index.bundle"
-          ]
-        },
-        "css": {
-          "async": [],
-          "sync": []
-        }
-      }
-    },
-    {
-      "id": "content:react-native-vision-camera",
-      "name": "react-native-vision-camera",
-      "version": "4.7.3",
-      "singleton": true,
-      "requiredVersion": "^4.7.3",
       "assets": {
         "js": {
           "async": [],
@@ -1747,7 +1647,7 @@
       "assets": {
         "js": {
           "sync": [
-            "vendors-Auth_node_modules_react-native-async-storage_async-storage_src_index_ts-Auth_node_mod-613147.chunk.bundle",
+            "vendors-Auth_node_modules_react-native-async-storage_async-storage_src_index_ts-Auth_node_mod-175d4f.chunk.bundle",
             "__federation_expose_App.chunk.bundle"
           ],
           "async": []
