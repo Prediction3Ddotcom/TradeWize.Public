@@ -50,6 +50,29 @@
     },
     {
       "singleton": true,
+      "requiredVersion": "^4.1.1",
+      "shareScope": "default",
+      "eager": true,
+      "name": "@expo/react-native-action-sheet",
+      "version": "4.1.1",
+      "id": "content:@expo/react-native-action-sheet",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "content.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
       "requiredVersion": "^undefined",
       "shareScope": "default",
       "eager": true,
@@ -96,11 +119,34 @@
     },
     {
       "singleton": true,
+      "requiredVersion": "^4.4.1",
+      "shareScope": "default",
+      "eager": true,
+      "name": "@react-native-community/blur",
+      "version": "4.4.1",
+      "id": "content:@react-native-community/blur",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "content.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
       "requiredVersion": "^8.5.1",
       "shareScope": "default",
       "eager": true,
       "name": "@react-native-community/datetimepicker",
-      "version": "8.4.4",
+      "version": "8.5.1",
       "id": "content:@react-native-community/datetimepicker",
       "assets": {
         "js": {
@@ -361,7 +407,7 @@
       "shareScope": "default",
       "eager": true,
       "name": "i18next",
-      "version": "25.6.3",
+      "version": "25.7.3",
       "id": "content:i18next",
       "assets": {
         "js": {
@@ -384,7 +430,7 @@
       "shareScope": "default",
       "eager": true,
       "name": "lodash",
-      "version": "4.17.21",
+      "version": "4.17.23",
       "id": "content:lodash",
       "assets": {
         "js": {
@@ -453,7 +499,7 @@
       "shareScope": "default",
       "eager": true,
       "name": "react-i18next",
-      "version": "16.3.4",
+      "version": "16.5.0",
       "id": "content:react-i18next",
       "assets": {
         "js": {
@@ -587,12 +633,58 @@
     },
     {
       "singleton": true,
+      "requiredVersion": "^1.4.1",
+      "shareScope": "default",
+      "eager": true,
+      "name": "react-native-circular-progress",
+      "version": "1.4.1",
+      "id": "content:react-native-circular-progress",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "content.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
       "requiredVersion": "^1.12.0",
       "shareScope": "default",
       "eager": true,
       "name": "react-native-compressor",
       "version": "1.12.0",
       "id": "content:react-native-compressor",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "content.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^2.2.0",
+      "shareScope": "default",
+      "eager": true,
+      "name": "react-native-create-thumbnail",
+      "version": "2.2.0",
+      "id": "content:react-native-create-thumbnail",
       "assets": {
         "js": {
           "async": [],
@@ -1051,12 +1143,58 @@
     },
     {
       "singleton": true,
+      "requiredVersion": "^0.0.22",
+      "shareScope": "default",
+      "eager": true,
+      "name": "react-native-parsed-text",
+      "version": "0.0.22",
+      "id": "content:react-native-parsed-text",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "content.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
       "requiredVersion": "^7.0.3",
       "shareScope": "default",
       "eager": true,
       "name": "react-native-pdf",
       "version": "7.0.3",
       "id": "content:react-native-pdf",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "content.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^5.4.4",
+      "shareScope": "default",
+      "eager": true,
+      "name": "react-native-permissions",
+      "version": "5.4.4",
+      "id": "content:react-native-permissions",
       "assets": {
         "js": {
           "async": [],
@@ -1195,7 +1333,7 @@
       "shareScope": "default",
       "eager": true,
       "name": "react-native-svg",
-      "version": "15.15.0",
+      "version": "15.15.1",
       "id": "content:react-native-svg",
       "assets": {
         "js": {
@@ -1243,6 +1381,29 @@
       "name": "react-native-video",
       "version": "6.18.0",
       "id": "content:react-native-video",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "content.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^4.7.3",
+      "shareScope": "default",
+      "eager": true,
+      "name": "react-native-vision-camera",
+      "version": "4.7.3",
+      "id": "content:react-native-vision-camera",
       "assets": {
         "js": {
           "async": [],
@@ -1854,7 +2015,6 @@
         "src/hooks/useJobBoard.ts",
         "src/hooks/useJobReadyChecklist.ts",
         "src/hooks/useJobStartChecklist.ts",
-        "src/hooks/useMaterialLeft.ts",
         "src/hooks/useMessage.ts",
         "src/hooks/useNetwork.ts",
         "src/hooks/useOtherCrewMembers.ts",
@@ -1864,8 +2024,10 @@
         "src/hooks/useTabNotification.ts",
         "src/hooks/useTheTest.ts",
         "src/hooks/useTraining.ts",
+        "src/hooks/useVerifyMaterialVPO.ts",
         "src/i18n/languageManager.ts",
         "src/screens/Account/model.ts",
+        "src/screens/InspectionRequests/useInspectionRequests.ts",
         "src/screens/JobDetailScreen/helper.ts",
         "src/screens/MyJobScreen/helper.ts",
         "src/services/ChatSocketService.ts",
@@ -1928,7 +2090,7 @@
       "usedIn": [
         "src/helper/Message.helper.ts",
         "src/hooks/useDuevideo.ts",
-        "src/hooks/useMaterialLeft.ts",
+        "src/screens/InspectionRequests/useInspectionRequests.ts",
         "src/screens/InstallationProgressScreen/useInstallationProgress.ts",
         "src/screens/JobDetailScreen/helper.ts",
         "src/screens/MyJobScreen/helper.ts",
@@ -1965,7 +2127,7 @@
       "assets": {
         "js": {
           "sync": [
-            "vendors-Auth_node_modules_react-native-async-storage_async-storage_src_index_ts-Auth_node_mod-175d4f.chunk.bundle",
+            "vendors-node_modules_react-native-async-storage_async-storage_src_index_ts-node_modules_react-fafa36.chunk.bundle",
             "__federation_expose_App.chunk.bundle"
           ],
           "async": []

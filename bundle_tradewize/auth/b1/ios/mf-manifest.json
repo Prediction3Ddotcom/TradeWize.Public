@@ -46,9 +46,29 @@
       }
     },
     {
+      "id": "auth:@expo/react-native-action-sheet",
+      "name": "@expo/react-native-action-sheet",
+      "version": "4.1.1",
+      "singleton": true,
+      "requiredVersion": "^4.1.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "auth.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
       "id": "auth:@freakycoder/react-native-bounceable",
       "name": "@freakycoder/react-native-bounceable",
-      "version": "0.2.4",
+      "version": "2.0.0",
       "singleton": true,
       "requiredVersion": "^2.0.0",
       "assets": {
@@ -86,9 +106,29 @@
       }
     },
     {
+      "id": "auth:@react-native-community/blur",
+      "name": "@react-native-community/blur",
+      "version": "4.4.1",
+      "singleton": true,
+      "requiredVersion": "^4.4.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "auth.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
       "id": "auth:@react-native-community/datetimepicker",
       "name": "@react-native-community/datetimepicker",
-      "version": "8.4.4",
+      "version": "8.5.0",
       "singleton": true,
       "requiredVersion": "^8.5.0",
       "assets": {
@@ -323,7 +363,7 @@
     {
       "id": "auth:lodash",
       "name": "lodash",
-      "version": "4.17.21",
+      "version": "4.17.23",
       "singleton": true,
       "requiredVersion": "^4.17.23",
       "assets": {
@@ -481,11 +521,51 @@
       }
     },
     {
+      "id": "auth:react-native-circular-progress",
+      "name": "react-native-circular-progress",
+      "version": "1.4.1",
+      "singleton": true,
+      "requiredVersion": "^1.4.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "auth.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
       "id": "auth:react-native-compressor",
       "name": "react-native-compressor",
       "version": "1.12.0",
       "singleton": true,
       "requiredVersion": "^1.12.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "auth.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "auth:react-native-create-thumbnail",
+      "name": "react-native-create-thumbnail",
+      "version": "2.2.0",
+      "singleton": true,
+      "requiredVersion": "^2.2.0",
       "assets": {
         "js": {
           "async": [],
@@ -526,6 +606,26 @@
       "version": "14.1.1",
       "singleton": true,
       "requiredVersion": "^14.1.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "auth.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "auth:react-native-fast-image",
+      "name": "react-native-fast-image",
+      "version": "8.6.3",
+      "singleton": true,
+      "requiredVersion": "^8.6.3",
       "assets": {
         "js": {
           "async": [],
@@ -641,6 +741,26 @@
       }
     },
     {
+      "id": "auth:react-native-image-viewing",
+      "name": "react-native-image-viewing",
+      "version": "0.2.2",
+      "singleton": true,
+      "requiredVersion": "^0.2.2",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "auth.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
       "id": "auth:react-native-keyboard-controller",
       "name": "react-native-keyboard-controller",
       "version": "1.19.5",
@@ -741,11 +861,51 @@
       }
     },
     {
+      "id": "auth:react-native-parsed-text",
+      "name": "react-native-parsed-text",
+      "version": "0.0.22",
+      "singleton": true,
+      "requiredVersion": "^0.0.22",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "auth.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
       "id": "auth:react-native-pdf",
       "name": "react-native-pdf",
       "version": "7.0.3",
       "singleton": true,
       "requiredVersion": "^7.0.3",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "auth.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "auth:react-native-permissions",
+      "name": "react-native-permissions",
+      "version": "5.4.4",
+      "singleton": true,
+      "requiredVersion": "^5.4.4",
       "assets": {
         "js": {
           "async": [],
@@ -866,6 +1026,26 @@
       "version": "6.18.0",
       "singleton": true,
       "requiredVersion": "^6.18.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "auth.container.js.bundle",
+            "index.bundle"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "auth:react-native-vision-camera",
+      "name": "react-native-vision-camera",
+      "version": "4.7.3",
+      "singleton": true,
+      "requiredVersion": "^4.7.3",
       "assets": {
         "js": {
           "async": [],
@@ -1370,7 +1550,7 @@
         "js": {
           "sync": [
             "vendors-node_modules_moment_locale_af_js-node_modules_moment_locale_ar-dz_js-node_modules_mom-e6626f.chunk.bundle",
-            "vendors-node_modules_react-native-async-storage_async-storage_src_index_ts-node_modules_react-fd3b0c.chunk.bundle",
+            "vendors-node_modules_react-native-async-storage_async-storage_src_index_ts-node_modules_react-a7b29a.chunk.bundle",
             "src_redux_features_app_actions_ts-src_theme_colors_ts-node_modules_moment_locale_sync_recursive_.chunk.bundle",
             "src_assets_svg_index_ts.chunk.bundle",
             "src_hooks_useAppTranslation_ts.chunk.bundle",
@@ -1393,7 +1573,7 @@
         "js": {
           "sync": [
             "vendors-node_modules_moment_locale_af_js-node_modules_moment_locale_ar-dz_js-node_modules_mom-e6626f.chunk.bundle",
-            "vendors-node_modules_react-native-async-storage_async-storage_src_index_ts-node_modules_react-fd3b0c.chunk.bundle",
+            "vendors-node_modules_react-native-async-storage_async-storage_src_index_ts-node_modules_react-a7b29a.chunk.bundle",
             "src_redux_features_app_actions_ts-src_theme_colors_ts-node_modules_moment_locale_sync_recursive_.chunk.bundle",
             "src_assets_svg_index_ts.chunk.bundle",
             "src_hooks_useAppTranslation_ts.chunk.bundle",
@@ -1431,7 +1611,7 @@
         "js": {
           "sync": [
             "vendors-node_modules_moment_locale_af_js-node_modules_moment_locale_ar-dz_js-node_modules_mom-e6626f.chunk.bundle",
-            "vendors-node_modules_react-native-async-storage_async-storage_src_index_ts-node_modules_react-fd3b0c.chunk.bundle",
+            "vendors-node_modules_react-native-async-storage_async-storage_src_index_ts-node_modules_react-a7b29a.chunk.bundle",
             "src_redux_features_app_actions_ts-src_theme_colors_ts-node_modules_moment_locale_sync_recursive_.chunk.bundle",
             "src_assets_svg_index_ts.chunk.bundle",
             "src_hooks_useAppTranslation_ts.chunk.bundle",
@@ -1464,7 +1644,7 @@
         "js": {
           "sync": [
             "vendors-node_modules_moment_locale_af_js-node_modules_moment_locale_ar-dz_js-node_modules_mom-e6626f.chunk.bundle",
-            "vendors-node_modules_react-native-async-storage_async-storage_src_index_ts-node_modules_react-fd3b0c.chunk.bundle",
+            "vendors-node_modules_react-native-async-storage_async-storage_src_index_ts-node_modules_react-a7b29a.chunk.bundle",
             "src_redux_features_app_actions_ts-src_theme_colors_ts-node_modules_moment_locale_sync_recursive_.chunk.bundle",
             "src_assets_svg_index_ts.chunk.bundle",
             "src_hooks_useAppTranslation_ts.chunk.bundle",
@@ -1487,7 +1667,7 @@
         "js": {
           "sync": [
             "vendors-node_modules_moment_locale_af_js-node_modules_moment_locale_ar-dz_js-node_modules_mom-e6626f.chunk.bundle",
-            "vendors-node_modules_react-native-async-storage_async-storage_src_index_ts-node_modules_react-fd3b0c.chunk.bundle",
+            "vendors-node_modules_react-native-async-storage_async-storage_src_index_ts-node_modules_react-a7b29a.chunk.bundle",
             "src_redux_features_app_actions_ts-src_theme_colors_ts-node_modules_moment_locale_sync_recursive_.chunk.bundle",
             "src_assets_svg_index_ts.chunk.bundle",
             "src_hooks_useAppTranslation_ts.chunk.bundle",
@@ -1515,7 +1695,7 @@
         "js": {
           "sync": [
             "vendors-node_modules_moment_locale_af_js-node_modules_moment_locale_ar-dz_js-node_modules_mom-e6626f.chunk.bundle",
-            "vendors-node_modules_react-native-async-storage_async-storage_src_index_ts-node_modules_react-fd3b0c.chunk.bundle",
+            "vendors-node_modules_react-native-async-storage_async-storage_src_index_ts-node_modules_react-a7b29a.chunk.bundle",
             "vendors-node_modules_react-navigation_material-top-tabs_lib_module_index_js.chunk.bundle",
             "src_redux_features_app_actions_ts-src_theme_colors_ts-node_modules_moment_locale_sync_recursive_.chunk.bundle",
             "src_assets_svg_index_ts.chunk.bundle",
@@ -1582,7 +1762,7 @@
         "js": {
           "sync": [
             "vendors-node_modules_moment_locale_af_js-node_modules_moment_locale_ar-dz_js-node_modules_mom-e6626f.chunk.bundle",
-            "vendors-node_modules_react-native-async-storage_async-storage_src_index_ts-node_modules_react-fd3b0c.chunk.bundle",
+            "vendors-node_modules_react-native-async-storage_async-storage_src_index_ts-node_modules_react-a7b29a.chunk.bundle",
             "vendors-node_modules_react-navigation_material-top-tabs_lib_module_index_js.chunk.bundle",
             "vendors-node_modules_react-navigation_native-stack_lib_module_index_js.chunk.bundle",
             "src_redux_features_app_actions_ts-src_theme_colors_ts-node_modules_moment_locale_sync_recursive_.chunk.bundle",
@@ -1610,7 +1790,7 @@
         "js": {
           "sync": [
             "vendors-node_modules_moment_locale_af_js-node_modules_moment_locale_ar-dz_js-node_modules_mom-e6626f.chunk.bundle",
-            "vendors-node_modules_react-native-async-storage_async-storage_src_index_ts-node_modules_react-fd3b0c.chunk.bundle",
+            "vendors-node_modules_react-native-async-storage_async-storage_src_index_ts-node_modules_react-a7b29a.chunk.bundle",
             "src_redux_features_app_actions_ts-src_theme_colors_ts-node_modules_moment_locale_sync_recursive_.chunk.bundle",
             "src_assets_svg_index_ts.chunk.bundle",
             "src_hooks_useAppTranslation_ts.chunk.bundle",
@@ -1670,7 +1850,7 @@
         "js": {
           "sync": [
             "vendors-node_modules_moment_locale_af_js-node_modules_moment_locale_ar-dz_js-node_modules_mom-e6626f.chunk.bundle",
-            "vendors-node_modules_react-native-async-storage_async-storage_src_index_ts-node_modules_react-fd3b0c.chunk.bundle",
+            "vendors-node_modules_react-native-async-storage_async-storage_src_index_ts-node_modules_react-a7b29a.chunk.bundle",
             "src_redux_features_app_actions_ts-src_theme_colors_ts-node_modules_moment_locale_sync_recursive_.chunk.bundle",
             "src_assets_svg_index_ts.chunk.bundle",
             "src_hooks_useAppTranslation_ts.chunk.bundle",
