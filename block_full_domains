@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "blockedDomains": [
+    "gmail.cm",
+    "gmail.con",
+    "gmail.cmo",
+    "gmail.om",
+    "hotmail.con",
+    "outlook.con",
+    "live.con",
+    "yahooo.com",
+    "gmial.com",
+    "gmai.com"
+  ]
+}
